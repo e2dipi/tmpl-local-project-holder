@@ -1,0 +1,43 @@
+# Project's Root Folder
+
+<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="font-size: 95%; text-align: justify;">
+
+!!!Abstract
+    <i>This template provides a folder hierarchy for holding one or more projects sharing common resources.  Its versatile structure is suitable for all sorts of projects, regardless of their size, complexity, or nature.</i>
+    </div>
+</div>
+</div>
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
+<details open style="margin: 14pt 0pt 24pt 10pt">
+<summary style="margin-left: -8pt; font-weight: bold; font-size: larger; font-variant: small-caps">
+<span style="margin-left: 3pt">Table of contents<span></summary>
+
+<!-- code_chunk_output -->
+
+- [Overview](#overview)
+  - [The *workspaces* folder](#the-workspaces-folder)
+
+<!-- /code_chunk_output -->
+
+</details>
+
+## Overview
+
+This template provides a folder hierarchy for holding one or more projects sharing common
+resources.  Its versatile structure is suitable for all sorts of projects, regardless of their size,
+complexity, or nature. It is not meant to be used as a repository template, but rather as a template
+for a local folder structure that will itself contain one or more repositories. Note that it is not to be
+confused with a mono-repo either since its root folders are not meant to be versioned. The
+contents of the `workspace(s)` folder, however, *may* be versioned by itself or contain multiple
+subfolders, each of which being a mono-repo, a multi-repo or a simple folder.
+
+### The *workspaces* folder
+
+The `workspaces` folder is the environment where development happens. It contains all the material
+needed to develop, test, and build the project. Depending on the project's nature, it may consist
+of one or more sub-folders, each containing a different workspace that may or may not be related to
+the others besides being part of the same project's folder hierarchy.<br/>
+*More info [here][workspaces-gitkeep].*
+
+[workspaces-gitkeep]: ./workspace(s)/.gitkeep
