@@ -1,0 +1,18 @@
+# Project's backups
+
+<div style="
+    font-size: normal;
+    margin: 0 15% 5ex 10%;
+    min-width: 38em; max-width: 43em;"
+>
+<div style="font-size: 95%; text-align: justify;">
+
+!!!Abstract
+    <i>This directory hosts the project's <b><code>archives</code></b> and
+    <b><code>backups</code></b>, which range from the near-realtime backups to the project's
+    releases' arhives. Temporary backups made by users should also be stored here, directly at the
+    root of the folder.
+</i>
+
+</div>
+</div>
