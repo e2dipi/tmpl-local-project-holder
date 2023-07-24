@@ -1,0 +1,10 @@
+# Working Environment
+
+!!!Abstract
+    <i>This folde rhosts the project's <b><code>working environment</code></b>. Depending on the
+     project's nature,it may hosts either a set of source files, a repository and/or a collection of
+     subfolders containing subprojects. Note that in the case where this folder contains a single
+     project, then it should be renamed in its singular form, which is <code>workspace<br/> instead of
+     <code>workpaces</code>.&nbsp;</i>
+
+<!-- ROADMAP Implement specific templates  for varous types of subprojects and lembed them here as GitHub Submodules [subprojects] -->
