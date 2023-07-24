@@ -1,0 +1,11 @@
+# Deployment's environment
+
+<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="font-size: 95%; text-align: justify;">
+
+!!!Abstract
+    <i>This directory hosts the project's <b><code>deployment</code></b> environment. It provides
+    everything needed to deploy the project to the different environments it is susceptible to be
+    deployed to.</i>
+
+</div></div>
