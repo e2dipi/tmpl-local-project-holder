@@ -1,0 +1,16 @@
+# User-Interface (UI) Assets
+
+<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="font-size: 95%; text-align: justify;">
+
+!!!Abstract
+    <i>This folder hosts all assets that relate to the <b><code>user interface</code></b>, which
+    can be described as all the graphical elements that display in the projects without needing any
+    specific plugin, that require no further processing at build-time, and that functional elements rather
+    than illustrations of the project's contents. Typical examples of such assets include
+    <code>icons</code>, <code>buttons</code>, <code>logos</code>, <code>profile pics</code>,
+    <code>wallpapers</code>, etc...
+</i>
+
+</div>
+</div>
