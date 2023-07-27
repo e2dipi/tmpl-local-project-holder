@@ -12,6 +12,7 @@
 <!-- code_chunk_output -->
 
 - [Overview](#overview)
+- [What's a workspaces](#whats-a-workspaces)
 
 <!-- /code_chunk_output -->
 
@@ -20,3 +21,7 @@
 ## Overview
 
 @import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce01-overview.inc.md"
+
+## What's a workspaces
+
+@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce02-ws-intro.inc.md"
