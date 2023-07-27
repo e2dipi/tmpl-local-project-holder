@@ -13,6 +13,7 @@
 
 - [Overview](#overview)
 - [What's a workspaces](#whats-a-workspaces)
+- [Creating and saving workspaces](#creating-and-saving-workspaces)
 
 <!-- /code_chunk_output -->
 
@@ -25,3 +26,7 @@
 ## What's a workspaces
 
 @import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce02-ws-intro.inc.md"
+
+## Creating and saving workspaces
+
+@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce03-ws-create.inc.md"
