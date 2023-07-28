@@ -10,6 +10,7 @@
 <!-- code_chunk_output -->
 
 - [Todo Tree Overview](#todo-tree-overview)
+- [Todo Tree's Tag Categories](#todo-trees-tag-categories)
 
 <!-- /code_chunk_output -->
 
@@ -18,3 +19,7 @@
 ## Todo Tree Overview
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt01-overview.inc.md"
+
+## Todo Tree's Tag Categories
+
+@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt02-categories.inc.md"
