@@ -11,6 +11,7 @@
 
 - [Todo Tree Overview](#todo-tree-overview)
 - [Todo Tree's Tag Categories](#todo-trees-tag-categories)
+- [Issues Tag Category](#issues-tag-category)
 
 <!-- /code_chunk_output -->
 
@@ -23,3 +24,7 @@
 ## Todo Tree's Tag Categories
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt02-categories.inc.md"
+
+## Issues Tag Category
+
+@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt03-issues.inc.md"
