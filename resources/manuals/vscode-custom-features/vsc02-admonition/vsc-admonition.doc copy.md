@@ -10,18 +10,19 @@
 
 <!-- code_chunk_output -->
 
-- [Admonitions Overview](#admonitions-overview)
+- [Admonitions' Overview](#admonitions-overview)
 - [Creating Admonitions](#creating-admonitions)
-- [Default Types Of Admonitions](#default-types-of-admonitions)
+- [The Default Types Of Admonitions](#the-default-types-of-admonitions)
 - [Customizing Admonitions](#customizing-admonitions)
   - [Transpiled HTML](#transpiled-html)
   - [Custom Types Of Admonitions](#custom-types-of-admonitions)
+  - [Customizing Admonitions' Styles](#customizing-admonitions-styles)
 
 <!-- /code_chunk_output -->
 
 </details>
 
-## Admonitions Overview
+## Admonitions' Overview
 
 @import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad01-overview.inc.md"
 
@@ -29,7 +30,7 @@
 
 @import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad02-syntax.inc.md"
 
-## Default Types Of Admonitions
+## The Default Types Of Admonitions
 
 @import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad03-types.inc.md"
 
@@ -44,3 +45,7 @@
 ### Custom Types Of Admonitions
 
 @import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad06-customize-type.inc.md"
+
+### Customizing Admonitions' Styles
+
+@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad07-customize-css.inc.md"
