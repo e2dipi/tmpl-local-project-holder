@@ -11,6 +11,7 @@
 <!-- code_chunk_output -->
 
 - [Admonitions Overview](#admonitions-overview)
+- [Creating Admonitions](#creating-admonitions)
 
 <!-- /code_chunk_output -->
 
@@ -19,3 +20,7 @@
 ## Admonitions Overview
 
 @import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad01-overview.inc.md"
+
+## Creating Admonitions
+
+@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad02-syntax.inc.md"
