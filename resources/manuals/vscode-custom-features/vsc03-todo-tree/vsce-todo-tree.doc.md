@@ -15,6 +15,7 @@
 - [Alerts Tag Category](#alerts-tag-category)
 - [Records Tag Category](#records-tag-category)
 - [Hunches Tag Category](#hunches-tag-category)
+- [Markers Tag Category](#markers-tag-category)
 
 <!-- /code_chunk_output -->
 
@@ -43,3 +44,7 @@
 ## Hunches Tag Category
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt06-hunches.inc.md"
+
+## Markers Tag Category
+
+@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt07-markers.inc.md"
