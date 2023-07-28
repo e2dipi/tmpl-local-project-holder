@@ -14,6 +14,7 @@
 - [Issues Tag Category](#issues-tag-category)
 - [Alerts Tag Category](#alerts-tag-category)
 - [Records Tag Category](#records-tag-category)
+- [Hunches Tag Category](#hunches-tag-category)
 
 <!-- /code_chunk_output -->
 
@@ -38,3 +39,7 @@
 ## Records Tag Category
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt05-records.inc.md"
+
+## Hunches Tag Category
+
+@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt06-hunches.inc.md"
