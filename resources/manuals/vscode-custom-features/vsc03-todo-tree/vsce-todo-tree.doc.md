@@ -13,6 +13,7 @@
 - [Todo Tree's Tag Categories](#todo-trees-tag-categories)
 - [Issues Tag Category](#issues-tag-category)
 - [Alerts Tag Category](#alerts-tag-category)
+- [Records Tag Category](#records-tag-category)
 
 <!-- /code_chunk_output -->
 
@@ -33,3 +34,7 @@
 ## Alerts Tag Category
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt04-alerts.inc.md"
+
+## Records Tag Category
+
+@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt05-records.inc.md"
