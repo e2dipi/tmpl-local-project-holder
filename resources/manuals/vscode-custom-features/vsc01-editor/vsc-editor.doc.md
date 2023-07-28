@@ -1,4 +1,4 @@
-# Generalities on the Visual Studio Code editor
+# VSCode's Editor
 
 @import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce00-abstract.inc.md"
 
@@ -11,22 +11,27 @@
 
 <!-- code_chunk_output -->
 
-- [Overview](#overview)
-- [What's a workspaces](#whats-a-workspaces)
-- [Creating and saving workspaces](#creating-and-saving-workspaces)
+- [About This Documentation](#about-this-documentation)
+- [VSCode's Editor Overview](#vscodes-editor-overview)
+  - [VSCode's Workspaces](#vscodes-workspaces)
+  - [VSCode Configuration](#vscode-configuration)
 
 <!-- /code_chunk_output -->
 
 </details>
 
-## Overview
+## About This Documentation
 
 @import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce01-overview.inc.md"
 
-## What's a workspaces
+## VSCode's Editor Overview
+
+### VSCode's Workspaces
 
 @import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce02-ws-intro.inc.md"
 
-## Creating and saving workspaces
-
 @import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce03-ws-create.inc.md"
+
+### VSCode Configuration
+
+@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce04-config-overview.inc.md"
