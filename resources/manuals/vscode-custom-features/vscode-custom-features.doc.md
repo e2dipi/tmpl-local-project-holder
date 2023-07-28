@@ -25,14 +25,14 @@
 - [The Todo-Tree Extension](#the-todo-tree-extension)
   - [Todo-Tree Overview](#todo-tree-overview)
   - [Todo-Tree's Tag Categories](#todo-trees-tag-categories)
-  - [Todo-Tree's Usage](#todo-trees-usage)
-  - [Issues Tag Category](#issues-tag-category)
-  - [Alerts Tag Category](#alerts-tag-category)
-  - [Records Tag Category](#records-tag-category)
-  - [Hunches Tag Category](#hunches-tag-category)
-  - [Markers Tag Category](#markers-tag-category)
-  - [Helpers Tag Category](#helpers-tag-category)
-  - [Dividers Tag Category](#dividers-tag-category)
+  - [Todo-Tree's Tags Description](#todo-trees-tags-description)
+    - [Issues Tag Category](#issues-tag-category)
+    - [Alerts Tag Category](#alerts-tag-category)
+    - [Records Tag Category](#records-tag-category)
+    - [Hunches Tag Category](#hunches-tag-category)
+    - [Markers Tag Category](#markers-tag-category)
+    - [Helpers Tag Category](#helpers-tag-category)
+    - [Dividers Tag Category](#dividers-tag-category)
 
 <!-- /code_chunk_output -->
 
@@ -106,32 +106,32 @@
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt02-categories.inc.md"
 
-### Todo-Tree's Usage
+### Todo-Tree's Tags Description
 
-### Issues Tag Category
+#### Issues Tag Category
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt03-issues.inc.md"
 
-### Alerts Tag Category
+#### Alerts Tag Category
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt04-alerts.inc.md"
 
-### Records Tag Category
+#### Records Tag Category
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt05-records.inc.md"
 
-### Hunches Tag Category
+#### Hunches Tag Category
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt06-hunches.inc.md"
 
-### Markers Tag Category
+#### Markers Tag Category
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt07-markers.inc.md"
 
-### Helpers Tag Category
+#### Helpers Tag Category
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt08-helpers.inc.md"
 
-### Dividers Tag Category
+#### Dividers Tag Category
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt09-dividers.inc.md"
