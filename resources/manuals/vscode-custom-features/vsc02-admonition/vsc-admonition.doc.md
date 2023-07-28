@@ -14,6 +14,7 @@
 - [Creating Admonitions](#creating-admonitions)
 - [Default Types Of Admonitions](#default-types-of-admonitions)
 - [Customizing Admonitions](#customizing-admonitions)
+  - [Transpiled HTML](#transpiled-html)
 
 <!-- /code_chunk_output -->
 
@@ -34,3 +35,7 @@
 ## Customizing Admonitions
 
 @import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad04-customize-intro.inc.md"
+
+### Transpiled HTML
+
+@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad05-customize-html.inc.md"
