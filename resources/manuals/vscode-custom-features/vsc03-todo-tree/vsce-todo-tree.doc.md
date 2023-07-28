@@ -1,4 +1,4 @@
-# The Todo Tree Extension
+# The Todo-Tree Extension
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt00-abstract.inc.md"
 
@@ -9,8 +9,8 @@
 
 <!-- code_chunk_output -->
 
-- [Todo Tree Overview](#todo-tree-overview)
-- [Todo Tree's Tag Categories](#todo-trees-tag-categories)
+- [Todo-Tree Overview](#todo-tree-overview)
+- [Todo-Tree's Tag Categories](#todo-trees-tag-categories)
 - [Issues Tag Category](#issues-tag-category)
 - [Alerts Tag Category](#alerts-tag-category)
 - [Records Tag Category](#records-tag-category)
@@ -23,11 +23,11 @@
 
 </details>
 
-## Todo Tree Overview
+## Todo-Tree Overview
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt01-overview.inc.md"
 
-## Todo Tree's Tag Categories
+## Todo-Tree's Tag Categories
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt02-categories.inc.md"
 
