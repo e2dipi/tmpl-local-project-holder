@@ -12,6 +12,7 @@
 
 - [Admonitions Overview](#admonitions-overview)
 - [Creating Admonitions](#creating-admonitions)
+- [The Default Types Of Admonitions](#the-default-types-of-admonitions)
 
 <!-- /code_chunk_output -->
 
@@ -24,3 +25,7 @@
 ## Creating Admonitions
 
 @import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad02-syntax.inc.md"
+
+## The Default Types Of Admonitions
+
+@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad03-types.inc.md"
