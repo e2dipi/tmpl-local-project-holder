@@ -17,6 +17,7 @@
 - [Hunches Tag Category](#hunches-tag-category)
 - [Markers Tag Category](#markers-tag-category)
 - [Helpers Tag Category](#helpers-tag-category)
+- [Dividers Tag Category](#dividers-tag-category)
 
 <!-- /code_chunk_output -->
 
@@ -53,3 +54,7 @@
 ## Helpers Tag Category
 
 @import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt08-helpers.inc.md"
+
+## Dividers Tag Category
+
+@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt09-dividers.inc.md"
