@@ -16,6 +16,7 @@
 - [Customizing Admonitions](#customizing-admonitions)
   - [Transpiled HTML](#transpiled-html)
   - [Custom Types Of Admonitions](#custom-types-of-admonitions)
+  - [Customizing Admonitions' Styles](#customizing-admonitions-styles)
 
 <!-- /code_chunk_output -->
 
@@ -44,3 +45,7 @@
 ### Custom Types Of Admonitions
 
 @import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad06-customize-type.inc.md"
+
+### Customizing Admonitions' Styles
+
+@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad07-customize-css.inc.md"
