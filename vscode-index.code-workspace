@@ -48,7 +48,8 @@
     "conventionalCommits.editor.keepAfterSave": false,
     "conventionalCommits.scopes": [
       "repo",
-      "filesystem"
+      "filesystem",
+      "dev"
     ],
     "diffEditor.codeLens": true,
     "editor.acceptSuggestionOnEnter": "off",
@@ -156,8 +157,6 @@
     "local-history.path": "${workspaceFolder: 0}/.bak/",
     "local-history.saveDelay": 30,
     "local-history.treeLocation": "explorer",
-    "markdown.extension.print.imgToBase64": true,
-    "markdown.extension.tableFormatter.normalizeIndentation": true,
     "markdownlint.config": {
       "MD033": false
     },
@@ -209,6 +208,9 @@
       "user-interface": "Interface",
       "tools-and-utils": "Utils",
       "vscode-custom-features": "Docs",
+      "vsc01-editor": "Docs",
+      "vsc02-admonition": "Docs",
+      "vsc03-todo-tree": "Docs",
       "vscode-editor": "Docs",
       "workspace": "Project",
       "workspace(s)": "Project",
