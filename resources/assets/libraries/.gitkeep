@@ -1,0 +1,13 @@
+# Libraries Assets
+
+<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="font-size: 95%; text-align: justify;">
+
+!!!Abstract
+    <i>This folder hoststhe <b><code>libraries</code></b> assets, which include the reusable codes
+     like, typically, <code>frameworks</code>, <code>packages</code> and, of course,
+      <code>libraries</code> that rprovide functionalities to the executable codes like the scrips to be
+      found in the <code>exec</code> folder.
+</i>
+
+</div></div>
