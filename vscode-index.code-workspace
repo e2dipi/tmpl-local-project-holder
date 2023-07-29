@@ -471,7 +471,7 @@
         "type": "whole-line"
       },
       "REVIEW": {
-        "icon": "eye",
+        "icon": "code-review",
         "iconColour": "#ffd700",
         "opacity": 1,
         "type": "text-and-comment"
