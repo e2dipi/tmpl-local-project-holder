@@ -21,6 +21,7 @@
 - [The *deploy* folder](#the-deploy-folder)
 - [The *resources* folder](#the-resources-folder)
 - [The *workspaces* folder](#the-workspaces-folder)
+- [The Full Folder Hierarchy](#the-full-folder-hierarchy)
 
 <!-- /code_chunk_output -->
 
@@ -103,6 +104,51 @@ needed to develop, test, and build the project. Depending on the project's natur
 of one or more sub-folders, each containing a different workspace that may or may not be related to
 the others besides being part of the same project's folder hierarchy.<br/>
 *More info [here][workspaces-gitkeep].*
+
+## The Full Folder Hierarchy
+
+The deeper into the folder hierarchy, the more project-specific the structure becomes. The overall tree, however, shouldn't be subject to major changes from one project to another. The folders to be found on its first two levels, in particular, should be generic enough to be used as is for any project. Changes, if any, should be limited to the third level and below, or consist of the deletion of folders that  are not needeed for the project at hand.
+
+The *folder hierarchy*, thus omitting the files and, in particular, the `.gitkkep` ones that *every* non-documentation folder contains, is as follows:
+
+<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+
+``` tree
+
+
+   .                                 ROOT FOLDER (Project's name)
+   |                                 ´´´´´´´´´´´´´´´´´´´´´´´´´´´´
+   ├─ .bak                            # The project's backups and archives
+   |  ├── .history                      # Local-history extension folder
+   |  └── archives                      # The project's main archives
+   |
+   ├─ admin                           # The administrative environment
+   |  ├── audits                        # Autits scripts and reports
+   |  ├── guidelines                    # Development best practices and conventions
+   |  └── todo&notes                    # User's personal nores and todo lists
+   |
+   ├─ deploy                          # The deployment environment
+   |  ├── .cmds                         # Common commands and scripts
+   |  ├── .config                       # Common configuration parameterrs
+   |  ├── .source                       # The sourcefiles to be deployed (typically a release)
+   |  ├── archives                      # An archive containing a copy of every deployed version
+   |  ├── new-release@rel               # An env. for deploying a new release to the @rel targer
+   |  └── production@host               # Mimics an env. for deploying to a remote production host
+   |
+   ├─ resources                       # The user's personal development's resources
+   |  ├── assets                        # A library of assets or assets' generators
+   |  ├── manuals                       # Stores useful info including mans, tutos and refs
+   |  ├── templates                     # Hosts templates, models, snippets, etc...
+   |  ├── useful-tools                  # The user's personal tools, utilities and scripts
+   |  └── worth-keeping                 # Set aside code fragments, staged devs, worhy ideas, etc...
+   |
+   └─ workspace(s)                    # The user's personal development's resources
+      ├── a-subprojetc                  # A library of assets or assets' generators
+      └── another-subproject            # A library of assets or assets' generators
+
+```
+
+</div>
 
 [bak-gitkeep]: ./.bak/.gitkeep
 [admin-gitkeep]: ./admin/.gitkeep
