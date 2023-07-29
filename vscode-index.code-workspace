@@ -50,8 +50,12 @@
       "repo",
       "filesystem",
       "dev",
+<<<<<<< HEAD
       "deploy",
       "@rel"
+=======
+      "deploy"
+>>>>>>> deploy-folder
     ],
     "diffEditor.codeLens": true,
     "editor.acceptSuggestionOnEnter": "off",
