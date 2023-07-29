@@ -7,6 +7,13 @@
 #   Regarding this particular file, we want every folder containing a `.gitkeep` file to be
 #   synced, including VSCode's `.history` folder. We also want to synced the
 # -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+### Excluded template folders ###
+# Only the folder structure must be synced, i.e. the `.gitkeep` files are re-enabled at the end
+##
+# Excluded root folders
+.bak
+@rel
+# -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 ### Template A ###
 # Explain template A (with subgroups)
 ##
@@ -19,7 +26,7 @@
 #FooBarBaz-A.2.1
 #FooBarBaz-A.2.2
 #FooBarBaz-A.2.3
-# -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+# -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 ### Template B ###
 # Explain template 2 (without subgroups)
 #FooBarBaz-B.1
