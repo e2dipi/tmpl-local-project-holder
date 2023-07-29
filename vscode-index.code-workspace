@@ -1,0 +1,655 @@
+{
+  "extensions": {
+    "recommendations": [
+      "zainchen.json",
+      "znck.grammarly",
+      "pkief.material-icon-theme",
+      "gruntfuggly.todo-tree",
+      "xyz.local-history",
+      "mohsen1.prettify-json",
+      "eamodio.gitlens",
+      "davidanson.vscode-markdownlint",
+      "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+      "naumovs.color-highlight",
+      "anseki.vscode-color",
+      "zhuangtongfa.material-theme",
+      "ms-vscode.powershell",
+      "github.copilot",
+      "vivaxy.vscode-conventional-commits",
+      "shd101wyy.markdown-preview-enhanced"
+    ]
+  },
+  "folders": [
+    {
+      "name": "ROOT",
+      "path": "."
+    },
+    {
+      "name": "A Subproject",
+      "path": "./workspace(s)/a-subproject"
+    },
+    {
+      "name": "Another Subproject",
+      "path": "./workspace(s)/another-subproject"
+    }
+  ],
+  "settings": {
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+      "editor.wordWrap": "bounded"
+    },
+    "breadcrumbs.filePath": "on",
+    "breadcrumbs.icons": false,
+    "breadcrumbs.showArrays": true,
+    "breadcrumbs.symbolPath": "on",
+    "breadcrumbs.symbolSortOrder": "position",
+    "conventionalCommits.editor.keepAfterSave": false,
+    "conventionalCommits.scopes": [
+      "repo",
+      "filesystem",
+      "dev",
+<<<<<<< HEAD
+      "deploy",
+      "@rel"
+=======
+      "deploy"
+>>>>>>> deploy-folder
+    ],
+    "diffEditor.codeLens": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.cursorSurroundingLines": 2,
+    "editor.cursorSurroundingLinesStyle": "all",
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.detectIndentation": true,
+    "editor.find.autoFindInSelection": "never",
+    "editor.fontFamily": "Comfortaa, 'Noto Sans Modi', Roboto, Arial, 'Gil Sans', Verdana",
+    "editor.fontSize": 14,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.guides.bracketPairs": false,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.hover.sticky": true,
+    "editor.indentSize": "tabSize",
+    "editor.inlayHints.fontSize": 0,
+    "editor.inlayHints.padding": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.autohide": false,
+    "editor.minimap.maxColumn": 80,
+    "editor.padding.bottom": 10,
+    "editor.padding.top": 0,
+    "editor.parameterHints.cycle": true,
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on"
+    },
+    "editor.quickSuggestionsDelay": 10,
+    "editor.renderLineHighlight": "line",
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyTabStops": true,
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 2,
+    "editor.useTabStops": false,
+    "editor.wordWrap": "bounded",
+    "editor.wrappingIndent": "deepIndent",
+    "editor.wrappingStrategy": "advanced",
+    "files.associations": {
+      "*.gitkeep": "markdown"
+    },
+    "files.autoGuessEncoding": false,
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveDelay": 3000,
+    "files.defaultLanguage": "${activeEditorLanguage}",
+    "files.insertFinalNewline": true,
+    "files.participants.timeout": 30000,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.watcherExclude": {
+      "**/!*.*": true,
+      "**/!*/*/**": true,
+      "**/*.{7z,arc,arcs,aux,bbl,bck,dep,deps,dpl,dply,ext,exts": true,
+      "**/*.{gz,gzip,his,lock,log,min.js,out,temp,tmp,toc,zip}": true,
+      "**/.history": true,
+      "**/.history/*/**": true,
+      "**/{7z,arc,arcs,aux,bbl,bck,dep,deps,dpl,dply,ext,exts}*/**": true,
+      "**/{@dist,#,##,archive,archives,backup,backups}/*/**": true,
+      "**/{bower_components,dependency,dependencies,deploy}/*/**": true,
+      "**/{extern,external,release,releases,rls,temporary}/*/**": true,
+      "**/{external,local,node,other,private}_modules/*/**": true,
+      "**/{gz,gzip,his,lock,log,min.js,out,temp,tmp,toc,zip}*/**": true,
+      "**/{vendor,vendors,xternal}/*/**": true,
+      "**/{worthy-fragments,vendor,vendors,xternal}_modules/*/**": true
+    },
+    "git.enableCommitSigning": true,
+    "html.format.wrapLineLength": 80,
+    "javascript.suggestionActions.enabled": false,
+    "json.format.enable": true,
+    "json.schemas": [],
+    "json.validate.enable": true,
+    "local-history.absolute": false,
+    "local-history.dateLocale": "en-CH",
+    "local-history.daysLimit": 30,
+    "local-history.enabled": 2,
+    "local-history.exclude": [
+      "**/!*.*",
+      "**/!*/*/**",
+      "**/*.{7z,arc,arcs,aux,bbl,bck,dep,deps,dpl,dply,ext,exts}",
+      "**/*.{arc,arcs,archive,archives,backup,backups,bck}/*/**",
+      "**/*.{dep,deps,extern,external,vendor,vendors,xternal}/*/**",
+      "**/*.{gz,gzip,his,lock,log,min.js,out,temp,tmp,toc,zip}",
+      "**/*{arc,arcs,archive,archives,backup,backups,bck}/*/**",
+      "**/*{dep,deps,vendor,vendors,xternal}/*/**",
+      "**/.history",
+      "**/.history/*/**",
+      "**/{7z,arc,arcs,aux,bbl,bck,dep,deps,dpl,dply,ext,exts}*/**",
+      "**/{@dist,#,##,archive,archives,backup,backups}/*/**",
+      "**/{bower_components,dependency,dependencies,deploy}/*/**",
+      "**/{extern,external,release,releases,rls,temporary}/*/**",
+      "**/{external,local,node,other,private}_modules/*/**",
+      "**/{gz,gzip,his,lock,log,min.js,out,temp,tmp,toc,zip}*/**",
+      "**/{vendor,vendors,xternal}/*/**",
+      "**/{worthy-fragments,vendor,vendors,xternal}_modules/*/**"
+    ],
+    "local-history.maxDisplay": 25,
+    "local-history.path": "${workspaceFolder: 0}/.bak/",
+    "local-history.saveDelay": 30,
+    "local-history.treeLocation": "explorer",
+    "markdownlint.config": {
+      "MD033": false
+    },
+    "material-icon-theme.activeIconPack": "none",
+    "material-icon-theme.files.associations": {
+      "*.code-workspace": "VScode",
+      ".gitkeep": "Markdown"
+    },
+    "material-icon-theme.folders.associations": {
+      ".arc": "Archive",
+      ".archives": "Archive",
+      ".bak": "Archive",
+      ".cmds": "Scripts",
+      ".config": "Config",
+      ".history": "Archive",
+      ".scripts": "Scripts",
+      ".source": "Dist",
+      ".sources": "Dist",
+      "@rel": "Dist",
+      "a-subproject": "Project",
+      "about-gitignore": "Docs",
+      "adm": "Log",
+      "admonition": "Docs",
+      "another-subproject": "Git",
+      "assets": "Graphql",
+      "audits": "Test",
+      "build&deploy": "Docs",
+      "commands": "Scripts",
+      "css": "Font",
+      "deploy": "Shared",
+      "e2d2ipi": "Home",
+      "git-branching": "Rules",
+      "guidelines": "Rules",
+      "execs": "Scripts",
+      "handling-archives": "Rules",
+      "images": "Images",
+      "libraries": "Lib",
+      "manuals": "Docs",
+      "multimedia": "Animation",
+      "new-release@rel": "Environment",
+      "octicons": "Svg",
+      "production@host": "Environment",
+      "resources": "Resource",
+      "templates": "Template",
+      "to-download": "Download",
+      "todo&notes": "Tasks",
+      "todo-tree": "Docs",
+      "tutorials&refs": "Docs",
+      "user-interface": "Interface",
+      "tools-and-utils": "Utils",
+      "vscode-custom-features": "Docs",
+      "vsc01-editor": "Docs",
+      "vsc02-admonition": "Docs",
+      "vsc03-todo-tree": "Docs",
+      "vscode-editor": "Docs",
+      "workspace": "Project",
+      "workspace(s)": "Project",
+      "workspaces": "Project",
+      "worthy-fragments": "Components",
+      "targ-env$": "Shared"
+    },
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "material-icon-theme.opacity": 1,
+    "material-icon-theme.saturation": 1,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.output.wordWrap": true,
+    "npm.enableRunFromFolder": true,
+    "npm.scriptExplorerExclude": [
+      "_.*"
+    ],
+    "search.collapseResults": "auto",
+    "search.exclude": {
+      "**/!*.*": true,
+      "**/!*/*/**": true,
+      "**/*.{7z,arc,arcs,aux,bbl,bck,dep,deps,dpl,dply,ext,exts}": true,
+      "**/*.{arc,arcs,archive,archives,backup,backups,bck}/*/**": true,
+      "**/*.{dep,deps,extern,external,vendor,vendors,xternal}/*/**": true,
+      "**/*.{gz,gzip,his,lock,log,min.js,out,temp,tmp,toc,zip}": true,
+      "**/*{arc,arcs,archive,archives,backup,backups,bck}/*/**": true,
+      "**/*{vendor,vendors,xternal}/*/**": true,
+      "**/.history": true,
+      "**/.history/*/**": true,
+      "**/{7z,arc,arcs,aux,bbl,bck,dep,deps,dpl,dply,ext,exts}*/**": true,
+      "**/{@dist,#,##,archive,archives,backup,backups}/*/**": true,
+      "**/{bower_components,dependency,dependencies,deploy}/*/**": true,
+      "**/{extern,external,release,releases,rls,temporary}/*/**": true,
+      "**/{external,local,node,other,private}_modules/*/**": true,
+      "**/{gz,gzip,his,lock,log,min.js,out,temp,tmp,toc,zip}*/**": true,
+      "**/{vendor,vendors,xternal}/*/**": true,
+      "**/{worthy-fragments,vendor,vendors,xternal}_modules/*/**": true
+    },
+    "sortJSON.contextMenu": {
+      "sortJSONAlphaNum": false,
+      "sortJSONAlphaNumReverse": false,
+      "sortJSONKeyLength": false,
+      "sortJSONKeyLengthReverse": false,
+      "sortJSONType": false,
+      "sortJSONTypeReverse": false,
+      "sortJSONValues": false,
+      "sortJSONValuesReverse": false
+    },
+    "terminal.integrated.fontFamily": "Consolas, Monospace, Inconsolata",
+    "terminal.integrated.tabStopWidth": 2,
+    "todo-tree.filtering.excludeGlobs": [
+      " EXCLUDED FILES' EXTENSIONS  (todo-tree filter)                      ",
+      " ``````````````````````````                                          ",
+      "**/*.{lock,log,aux,bbl,min.js}",
+      "                                                                      ",
+      " EXCLUDED FOLDERS  (todo-tree filter)                                 ",
+      " ````````````````                                                     ",
+      "**/.git/*/**",
+      "**/.history/*/**",
+      "**/.vscode/*/**",
+      "**/.bak/*/**",
+      "**/arc/*/**",
+      "**/archive/*/**",
+      "**/archives/*/**",
+      "**/backup/*/**",
+      "**/backups/*/**",
+      "**/bower_components/*/**",
+      "**/deploy/*/**",
+      "**/exts/*/**",
+      "**/node_modules/*/**",
+      "**/releases/*/**",
+      "**/worthy-fragments/*/**",
+      "                                                                      ",
+      " EXCLUDED FILES   (todo-tree filter)                                  ",
+      " ``````````````                                                       ",
+      "**/*LICENSE*",
+      "**/*README*"
+    ],
+    "todo-tree.filtering.includeHiddenFiles": true,
+    "todo-tree.filtering.passGlobsToRipgrep": true,
+    "todo-tree.filtering.scopes": [
+      {
+        "includeGlobs": [
+          "${workspaceFolder}/**"
+        ],
+        "name": "Workspace"
+      },
+      {
+        "includeGlobs": [
+          "${workspaceFolder}/source-files/**"
+        ],
+        "name": "source-files"
+      }
+    ],
+    "todo-tree.general.debug": false,
+    "todo-tree.general.exportPath": "${workspaceFolder}/admin/todo&notes/todo-tree-%Y%m%d-%H%M.txt",
+    "todo-tree.general.showActivityBarBadge": true,
+    "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+    "todo-tree.general.statusBar": "tags",
+    "todo-tree.general.tags": [
+      "BUG",
+      "FIXME",
+      "FINISH",
+      "CHECK",
+      "REVIEW",
+      "TEMP",
+      "IDEA",
+      "IMPROVE",
+      "LEARN",
+      "ROADMAP",
+      "NOTE",
+      "CAUTION",
+      "LINK",
+      "@@",
+      "EDIT",
+      "OPTION",
+      "TEST",
+      "TODO",
+      "PART",
+      "CHAPTER",
+      "SECTION",
+      "SUBSECTION",
+      "BLOCK",
+      "ITEM"
+    ],
+    "todo-tree.highlights.backgroundColourScheme": [
+      "Red",
+      "OrangeRed",
+      "Tomato",
+      "Orange",
+      "Yellow",
+      "Magenta",
+      "DarkSlateBlue",
+      "DarkSlateBlue",
+      "DarkSlateBlue",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "Purple",
+      "none",
+      "GoldenRod",
+      "Blue",
+      "DarkSlateGrey",
+      "Olive",
+      "DarkOliveGreen",
+      "DarkGreen",
+      "none",
+      "none"
+    ],
+    "todo-tree.highlights.customHighlight": {
+      "@@": {
+        "icon": "typography",
+        "iconColour": "#ff1493",
+        "opacity": 0,
+        "type": "tag",
+        "type_": "capture-groups:2,3"
+      },
+      "BLOCK": {
+        "icon": "three-bars",
+        "iconColour": "#90ee90",
+        "opacity": 0,
+        "type": "text-and-comment"
+      },
+      "BUG": {
+        "icon": "bug",
+        "iconColour": "#ff0000",
+        "opacity": 1,
+        "type": "text-and-comment"
+      },
+      "CHAPTER": {
+        "icon": "book",
+        "iconColour": "#808000",
+        "opacity": 1,
+        "type": "line"
+      },
+      "CAUTION": {
+        "icon": "alert",
+        "iconColour": "#DA70D6",
+        "opacity": 0,
+        "type": "text-and-comment"
+      },
+      "CHECK": {
+        "icon": "checklist",
+        "iconColour": "#ffa500",
+        "opacity": 1,
+        "type": "text-and-comment"
+      },
+      "EDIT": {
+        "icon": "pencil",
+        "iconColour": "#800080",
+        "opacity": 1,
+        "type": "whole-line"
+      },
+      "FINISH": {
+        "icon": "alert",
+        "iconColour": "#FF6347",
+        "opacity": 1,
+        "type": "text-and-comment"
+      },
+      "FIXME": {
+        "icon": "tools",
+        "iconColour": "#ff4500",
+        "opacity": 1,
+        "type": "text-and-comment"
+      },
+      "IDEA": {
+        "icon": "light-bulb",
+        "iconColour": "#483d8a",
+        "opacity": 1,
+        "type": "text-and-comment"
+      },
+      "IMPROVE": {
+        "icon": "graph",
+        "iconColour": "#483d8a",
+        "opacity": 1,
+        "type": "text-and-comment"
+      },
+      "ITEM": {
+        "icon": "triangle-right",
+        "iconColour": "#32cd32",
+        "opacity": 0,
+        "type": "text-and-comment"
+      },
+      "LEARN": {
+        "icon": "mortar-board",
+        "iconColour": "#7461db",
+        "opacity": 1,
+        "type": "tag"
+      },
+      "LINK": {
+        "icon": "link",
+        "iconColour": "#9370db",
+        "opacity": 0,
+        "type": "tag-and-subTag"
+      },
+      "NOTE": {
+        "icon": "info",
+        "iconColour": "#a97eff",
+        "type": "text-and-comment"
+      },
+      "OPTION": {
+        "icon": "share-android",
+        "iconColour": "#800080",
+        "opacity": 0,
+        "type": "text-and-comment"
+      },
+      "PART": {
+        "iconColour": "#63a4a4",
+        "opacity": 1,
+        "type": "whole-line"
+      },
+      "REVIEW": {
+        "icon": "eye",
+        "iconColour": "#ffd700",
+        "opacity": 1,
+        "type": "text-and-comment"
+      },
+      "ROADMAP": {
+        "icon": "milestone",
+        "iconColour": "#ffb6c1",
+        "opacity": 0,
+        "type": "text-and-comment"
+      },
+      "SECTION": {
+        "icon": "rows",
+        "iconColour": "#556b2f",
+        "opacity": 1,
+        "type": "text-and-comment"
+      },
+      "SUBSECTION": {
+        "icon": "bookmark",
+        "iconColour": "#006400",
+        "opacity": 1,
+        "type": "text-and-comment"
+      },
+      "TEMP": {
+        "foreground": "#000000",
+        "icon": "clock",
+        "iconColour": "#daa520",
+        "type": "text-and-comment"
+      },
+      "TEST": {
+        "icon": "tools",
+        "iconColour": "#0000ff",
+        "opacity": 1,
+        "type": "text-and-comment"
+      },
+      "TODO": {
+        "icon": "flame",
+        "iconColour": "#0000ff",
+        "opacity": 1,
+        "type": "text-and-comment"
+      }
+    },
+    "todo-tree.highlights.defaultHighlight": {
+      "background": "#0000ff",
+      "foreground": "#ffffff",
+      "icon": "check-circle",
+      "iconColour": "#ffffff",
+      "opacity": 0,
+      "type": "text-and-comment"
+    },
+    "todo-tree.highlights.enabled": true,
+    "todo-tree.highlights.foregroundColourScheme": [
+      "White",
+      "White",
+      "White",
+      "White",
+      "White",
+      "White",
+      "White",
+      "White",
+      "LightPink",
+      "MediumPurple",
+      "LightSkyBlue",
+      "Orchid",
+      "DeepPink",
+      "White",
+      "Purple",
+      "White",
+      "White",
+      "White",
+      "White",
+      "White",
+      "White",
+      "White",
+      "LightGreen",
+      "LimeGreen"
+    ],
+    "todo-tree.highlights.useColourScheme": true,
+    "todo-tree.regex.enableMultiLine": false,
+    "todo-tree.regex.regex": "((?:#|//|/\\*|- |<!--).*?|^)($TAGS)([aA-zZ\\[\\]0-9\\-_~]{3,}|.*?(?:-->|[^\\*]*?\\*/|$))",
+    "todo-tree.regex.regexCaseSensitive": true,
+    "todo-tree.regex.subTagRegex": "(?:[- ])?(?:(?:^| )\\[)([aA-zZ0-9\\-\\._]*?)(?:\\]|\\..*?\\])(?:[- >\\t\\]]*)?",
+    "todo-tree.tree.buttons.export": true,
+    "todo-tree.tree.buttons.filter": true,
+    "todo-tree.tree.buttons.groupBySubTag": true,
+    "todo-tree.tree.buttons.groupByTag": true,
+    "todo-tree.tree.buttons.scanMode": true,
+    "todo-tree.tree.disableCompactFolders": true,
+    "todo-tree.tree.expanded": true,
+    "todo-tree.tree.filterCaseSensitive": true,
+    "todo-tree.tree.flat": true,
+    "todo-tree.tree.groupedBySubTag": true,
+    "todo-tree.tree.groupedByTag": false,
+    "todo-tree.tree.hideTreeWhenEmpty": false,
+    "todo-tree.tree.labelFormat": "${subtag} - ${tag} ${after}",
+    "todo-tree.tree.scanMode": "workspace",
+    "todo-tree.tree.showBadges": true,
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.tree.showCurrentScanMode": true,
+    "todo-tree.tree.sortTagsOnlyViewAlphabetically": false,
+    "todo-tree.tree.tagsOnly": true,
+    "todo-tree.tree.tooltipFormat": "${filename}\t(line ${line})\n\r${filepath}\n\r---\n\r${tag} ${after}\n\rsubtag: ${subtag}",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.editor.sharedViewState": true,
+    "workbench.editor.showIcons": true,
+    "workbench.editor.untitled.labelFormat": "content",
+    "workbench.editorLargeFileConfirmation": 2048,
+    "workbench.experimental.cloudChanges.autoStore": "off",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.list.scrollByPage": true,
+    "workbench.list.smoothScrolling": true,
+    "workbench.localHistory.enabled": true,
+    "workbench.localHistory.exclude": {
+      "**/!*.*": true,
+      "**/!*/*/**": true,
+      "**/*.{7z,arc,arcs,aux,bbl,bck,dep,deps,dpl,dply,ext,exts}": true,
+      "**/*.{arc,arcs,archive,archives,backup,backups,bck}/*/**": true,
+      "**/*.{dep,deps,extern,external,vendor,vendors,xternal}/*/**": true,
+      "**/*.{gz,gzip,his,lock,log,min.js,out,temp,tmp,toc,zip}": true,
+      "**/*{arc,arcs,archive,archives,backup,backups,bck}/*/**": true,
+      "**/*{dep,deps,vendor,vendors,xternal}/*/**": true,
+      "**/.history": true,
+      "**/.history/*/**": true,
+      "**/{7z,arc,arcs,aux,bbl,bck,dep,deps,dpl,dply,ext,exts}*/**": true,
+      "**/{@dist,#,##,archive,archives,backup,backups}/*/**": true,
+      "**/{bower_components,dependency,dependencies,deploy}/*/**": true,
+      "**/{extern,external,release,releases,rls,temporary}/*/**": true,
+      "**/{external,local,node,other,private}_modules/*/**": true,
+      "**/{gz,gzip,his,lock,log,min.js,out,temp,tmp,toc,zip}*/**": true,
+      "**/{vendor,vendors,xternal}/*/**": true,
+      "**/{worthy-fragments,vendor,vendors,xternal}_modules/*/**": true
+    },
+    "workbench.localHistory.maxFileEntries": 25,
+    "workbench.localHistory.maxFileSize": 1024,
+    "workbench.localHistory.mergeWindow": 120,
+    "workbench.settings.openDefaultSettings": false,
+    "workbench.startupEditor": "readme",
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "onHover",
+    "markdown-preview-enhanced.breakOnSingleNewLine": false,
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+    "markdown-preview-enhanced.enableHTML5Embed": true,
+    "markdown-preview-enhanced.enableTypographer": true,
+    "markdown-preview-enhanced.mermaidTheme": "default",
+    "markdown-preview-enhanced.previewTheme": "monokai.css",
+    "markdown-preview-enhanced.revealjsTheme": "black.css",
+    "markdown-preview-enhanced.codeBlockTheme": "auto.css",
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-preview-enhanced.enableScriptExecution": true,
+    "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
+    "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
+    "markdown-preview-enhanced.printBackground": true,
+    "markdown-preview-enhanced.mathBlockDelimiters": [
+      [
+        "$$",
+        "$$"
+      ],
+      [
+        "\\[",
+        "\\]"
+      ]
+    ],
+    "markdown-preview-enhanced.mathInlineDelimiters": [
+      [
+        "$",
+        "$"
+      ],
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "markdown-preview-enhanced.imageFolderPath": "./assets/images/",
+    "todo-tree.filtering.ignoreGitSubmodules": false,
+    "todo-tree.general.automaticGitRefreshInterval": 300,
+    "todo-tree.general.periodicRefreshInterval": 5
+  }
+}

@@ -10,10 +10,11 @@ environment.
 
 <div class="tag-table helpers">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TAG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;TAG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 :-----:|:----|:----|
 <a href="https://primer.style/design/foundations/icons/link-16"  target="_blank"><img class="link-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/link.svg" alt="link.svg" title="link-icon: link.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=LightSkyBlue" title="LightSkyBlue"><tag class="link-tag">LINK</tag></a> | Serves as shortcut to an editable region within, typically, templates |
 <a href="https://primer.style/design/foundations/icons/info-16"  target="_blank"><img class="note-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/info.svg" alt="info.svg" title="note-icon: info.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=MediumPurple" title="MediumPurple"><tag class="note-tag">NOTE</tag></a>  | A general note or comment calling for no action of any kind     |
+<a href="https://primer.style/design/foundations/icons/info-16"  target="_blank"><img class="caution-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/alert.svg" alt="flame.svg" title="note-icon: alert.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=Indigo" title="Indigo"><tag class="caution-tag">CAUTION</tag></a>  | A general note or comment calling for no action of any kind     |
 
 </div>
 
@@ -31,6 +32,13 @@ div.tag-table tag {
 div.tag-table img {
   height: 24px;
   margin-top: 8px;
+}
+.caution-tag {
+ color: rgb(218, 112, 214);
+ background-color: none;
+}
+.caution-icon {
+  filter: invert(58%) sepia(9%) saturate(6697%) hue-rotate(279deg) brightness(110%) contrast(71%);
 }
 .link-tag {
  color: rgb(135, 206, 250);

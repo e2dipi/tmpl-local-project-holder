@@ -8,11 +8,11 @@ the heart of every development phase, it should vanish completely when approachi
 
 <div class="tag-table records">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TAG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;TAG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 :-----:|:----|:----|
-<a href="https://primer.style/design/foundations/icons/tools-16"  target="_blank"><img class="test-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/tools.svg" alt="tools.svg" title="test-icon: tools.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=Blue" title="Blue"><tag class="test-tag">TEST</tag></a>  | Documents a non-critical task that still needs to be done. |
+<a href="https://primer.style/design/foundations/icons/tools-16"  target="_blank"><img class="test-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/eye.svg" alt="eye.svg" title="test-icon: eye.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=Blue" title="Blue"><tag class="test-tag">TEST</tag></a>  | Documents a non-critical task that still needs to be done. |
 <a href="https://primer.style/design/foundations/icons/flame-16"  target="_blank"><img class="todo-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/flame.svg" alt="flame.svg" title="todo-icon: flame.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=Blue" title="Blue"><tag class="todo-tag">TODO</tag></a>  | Documents a non-critical task that still needs to be done. |
-<a href="https://primer.style/design/foundations/icons/thumbsup-16"  target="_blank"><img class="finish-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/thumbsup.svg" alt="thumbsup.svg" title="finish-icon: thumbsup.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=Blue" title="Blue"><tag class="finish-tag">FINISH</tag></a>  | Documents a non-critical task that still needs to be done. |
+<a href="https://primer.style/design/foundations/icons/mortar-board-16"  target="_blank"><img class="learn-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/mortar-board.svg" alt="mortar-board.svg" title="learn-icon: mortar-board.svg"/></a> | &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=DarkSlateBlue" title="DarkSlateBlue"><tag class="learn-tag">LEARN</tag></a>  | A topic of interest that should be studied, an article to read, etc ... |
 
 </div>
 <style>
@@ -30,15 +30,15 @@ div.tag-table img {
   height: 24px;
   margin-top: 8px;
 }
-.finish-tag {
- color: rgb(255, 0, 0);
+.learn-tag {
+ color: rgb(255, 255, 0);
  background-color: rgb(0, 0, 255);
 }
-.finish-icon {
+.learn-icon {
   filter: invert(23%) sepia(69%) saturate(6642%) hue-rotate(229deg) brightness(95%) contrast(97%);
 }
 .test-tag {
- color: rgb(255, 255, 255);
+ color: rgb(255, 0, 0);
  background-color:  rgb(0, 0, 255);
 }
 .test-icon {
