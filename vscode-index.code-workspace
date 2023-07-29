@@ -211,8 +211,8 @@
       "todo&notes": "Tasks",
       "todo-tree": "Docs",
       "tutorials&refs": "Docs",
+      "useful-tools": "Utils",
       "user-interface": "Interface",
-      "tools-and-utils": "Utils",
       "vscode-custom-features": "Docs",
       "vsc01-editor": "Docs",
       "vsc02-admonition": "Docs",
@@ -221,7 +221,7 @@
       "workspace": "Project",
       "workspace(s)": "Project",
       "workspaces": "Project",
-      "worthy-fragments": "Components",
+      "worth-keeping": "Custom",
       "targ-env$": "Shared"
     },
     "material-icon-theme.folders.theme": "specific",
