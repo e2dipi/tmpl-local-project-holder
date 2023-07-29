@@ -1,4 +1,4 @@
-<!-- NOTE. This file should be hard-linked into each <envrionment-name>@location folder -->
+<!-- CAUTION This file is shared among all specific deployment environment [hardlinks] -->
 # Target Specific Deployment Environment
 
 <div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
