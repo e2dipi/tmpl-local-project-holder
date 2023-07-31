@@ -35,6 +35,8 @@ development or that may serve to generate one.
 The assets folder is organized in subfolders that group assets by their nature. The tree below shows the assets folder's structure and broefly describes each subfolder's content. For more details on each type of asset, please refer to the `.gitkeep` file of the corresponding subfolder.
 
 ```tree
+
+
   .                        ASSETS FOLDER
   |                       ´´´´´´´´´´´´´
   ├── css                   # Styling assets and fonts
@@ -46,3 +48,5 @@ The assets folder is organized in subfolders that group assets by their nature. 
   |   └── videos              # Video and animation-like assets
   ├── to-download           # Files that are provided as downloadable content
   └── user-interface        # UI-related assets like icons, logos and wallpapers
+
+```
