@@ -1,8 +1,47 @@
 # User's Templates
 
-<div style="margin: 0 auto 5ex auto; max-width: 550px">
+<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <h4 style='margin:12pt 0 5pt 0; text-align:center;'>Abstract</h4><i>This folder holds the <b><code>user's templates</code></b>, which include files and folders templates, snippets, and every document serving as a basis for creating new files, folders, modules, classes, etc.
+    <i>This folder holds the <b><code>user's templates</code></b>, which include files and folders
+    templates, snippets, and every document serving as a basis for creating new files, folders,
+    modules, classes, etc.</i>
 
 </div>
+</div>
+
+## Overview
+
+This directory contains the user's templates, which are files and folders templates,
+snippets, and every document serving as a basis for creating new files, folders, modules,
+classes, etc.
+
+Note that the `.gitkeep` files to be found in the templates, if any, contain a generic
+description of the purpose of the corresponding folder in the context in which it is
+meant to be used. While designed to addapt to most situations, these descriptions may
+need to be updated on a per-project basis in order to correctly reflect the actual purpose
+of the folder in the context of the project at hand.
+
+In order to keep the' `.gitkeep` files clean from any comment on the changes mentioned
+above and on how the templates should be used, theses informations are provided in the
+present document which therefore needs to be updated every time a template is added,
+removed, or modified.
+
+## Assets folder
+
+The `assets` folder is a template folder that contains a generic folder hierarchy for holding assets. It
+was designed to be adapted to a wide range of projects without having to add any folder to its root.
+The motivation behind it is to unify the assets folder's structure across projects in order to make it
+easier to navigate through them and to facilitate the sharing between projects, as much at the level
+of the assets themselves as at the level of the tools used to manage them.
+
+While extending the root level wirh additional folders or renaming the existing ones is strongly
+discouraged, removing folders that are not needed in order to narrow down its structure to the
+project's needs is perfectly fine. Having to do so is actually expected to be the norm rather than the
+exception, and is recommended even if this then requires to update the tree's description in the
+root-level `.gitkeep` file. Provided, of course, that you're using it, VSCode's
+[Todo-Tree extension](/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsce-todo-tree.doc.md)
+should warn you about something needing an `EDIT` to be needed whenever the `assets` folder is copied outside of the present `templates` folder.
+
+As a final note, let's point our the `resources/assets`, which is built on the same model as this one, is not a template folder and should not be used as such. It is meant to hold default assets polentially useful to any project and the `.gitkeep` files that it contains are not suitable for describing the role of assets' folders in another context. The shortcut consisting in copying both the content and the container at the same time from the `resources` folder should therefore be avoided even if it is tempting to do so.
