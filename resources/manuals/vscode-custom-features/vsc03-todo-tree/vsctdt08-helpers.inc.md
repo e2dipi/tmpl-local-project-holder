@@ -12,9 +12,9 @@ environment.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;TAG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 :-----:|:----|:----|
-<a href="https://primer.style/design/foundations/icons/link-16"  target="_blank"><img class="link-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/link.svg" alt="link.svg" title="link-icon: link.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=LightSkyBlue" title="LightSkyBlue"><tag class="link-tag">LINK</tag></a> | Serves as shortcut to an editable region within, typically, templates |
-<a href="https://primer.style/design/foundations/icons/info-16"  target="_blank"><img class="note-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/info.svg" alt="info.svg" title="note-icon: info.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=MediumPurple" title="MediumPurple"><tag class="note-tag">NOTE</tag></a>  | A general note or comment calling for no action of any kind     |
-<a href="https://primer.style/design/foundations/icons/info-16"  target="_blank"><img class="caution-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/alert.svg" alt="flame.svg" title="note-icon: alert.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=Indigo" title="Indigo"><tag class="caution-tag">CAUTION</tag></a>  | A general note or comment calling for no action of any kind     |
+<a href="https://primer.style/design/foundations/icons/link-16"  target="_blank"><img class="link-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/images/link.svg" alt="link.svg" title="link-icon: link.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=LightSkyBlue" title="LightSkyBlue"><tag class="link-tag">LINK</tag></a> | Serves as shortcut to an editable region within, typically, templates |
+<a href="https://primer.style/design/foundations/icons/info-16"  target="_blank"><img class="note-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/images/info.svg" alt="info.svg" title="note-icon: info.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=LightSkyBlue" title="LightSkyBlue"><tag class="note-tag">NOTE</tag></a>  | A general note or comment calling for no action of any kind     |
+<a href="https://primer.style/design/foundations/icons/info-16"  target="_blank"><img class="caution-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/images/alert.svg" alt="flame.svg" title="note-icon: alert.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=Indigo" title="Indigo"><tag class="caution-tag">CAUTION</tag></a>  | A general note or comment calling for no action of any kind     |
 
 </div>
 
@@ -34,26 +34,26 @@ div.tag-table img {
   margin-top: 8px;
 }
 .caution-tag {
- color: rgb(218, 112, 214);
- background-color: none;
+ color: rgb(255, 69, 0);
+ background-color: rgb(135, 206, 250);
 }
 .caution-icon {
-  filter: invert(58%) sepia(9%) saturate(6697%) hue-rotate(279deg) brightness(110%) contrast(71%);
+  filter: invert(77%) sepia(10%) saturate(1769%) hue-rotate(171deg) brightness(99%) contrast(98%);
 }
 .link-tag {
  color: rgb(135, 206, 250);
  background-color: none;
 }
 .link-icon {
-  filter: invert(74%) sepia(26%) saturate(1056%) hue-rotate(177deg) brightness(104%) contrast(96%);
+  filter: invert(77%) sepia(10%) saturate(1769%) hue-rotate(171deg) brightness(99%) contrast(98%);
 }
 
 .note-tag {
- color: rgb(147, 112, 219);
+ color: rgb(135, 206, 250);
  background-color: none;
 }
 .note-icon {
-  filter: invert(69%) sepia(31%) saturate(7437%) hue-rotate(219deg) brightness(86%) contrast(99%);
+  filter: invert(77%) sepia(10%) saturate(1769%) hue-rotate(171deg) brightness(99%) contrast(98%);
 }
 
 </style>

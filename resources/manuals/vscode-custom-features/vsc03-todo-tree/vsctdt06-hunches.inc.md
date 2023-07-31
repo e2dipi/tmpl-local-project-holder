@@ -11,9 +11,9 @@ whenever the tree is generated from outside the development environment.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;TAG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 :-----:|:----|:----|
-<a href="https://primer.style/design/foundations/icons/light-bulb-16"  target="_blank"><img class="idea-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/light-bulb.svg" alt="light-bulb.svg" title="idea-icon: light-bulb.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=DarkSlateBlue" title="DarkSlateBlue"><tag class="idea-tag">IDEA</tag></a>  | Keeps track of a suggestion seemingly worth a consideration.     |
-<a href="https://primer.style/design/foundations/icons/graph-16"  target="_blank"><img class="improve-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/graph.svg" alt="graph.svg" title="improve-icon: graph.svg"/></a> | &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=DarkSlateBlue" title="DarkSlateBlue"><tag class="improve-tag">IMPROVE</tag></a>  | To Be Done: something that has not even been started yet |
-<a href="https://primer.style/design/foundations/icons/milestone-16"  target="_blank"><img class="roadmap-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/icons/octicons/milestone.svg" alt="milestone.svg" title="roadmap-icon: milestone.svg"/></a> | &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=XXX" title="XXX"><tag class="roadmap-tag">ROADMAP</tag></a>  | To Be Done: something that has not even been started yet |
+<a href="https://primer.style/design/foundations/icons/light-bulb-16"  target="_blank"><img class="idea-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/images/light-bulb.svg" alt="light-bulb.svg" title="idea-icon: light-bulb.svg"/></a>| &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=MediumPurple" title="MediumPurple"><tag class="idea-tag">IDEA</tag></a>  | Keeps track of a suggestion seemingly worth a consideration.     |
+<a href="https://primer.style/design/foundations/icons/mortar-board-16"  target="_blank"><img class="learn-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/images/mortar-board.svg" alt="mortar-board.svg" title="learn-icon: mortar-board.svg"/></a> | &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=MediumPurple" title="MediumPurple"><tag class="learn-tag">LEARN</tag></a>  | A topic of interest that should be studied, an article to read, etc ... |
+<a href="https://primer.style/design/foundations/icons/milestone-16"  target="_blank"><img class="roadmap-icon" src="/resources/manuals/vscode-custom-features/vsc03-todo-tree/assets/images/milestone.svg" alt="milestone.svg" title="roadmap-icon: milestone.svg"/></a> | &nbsp;<a href="https://www.w3schools.com/colors/color_tryit.asp?color=MediumPurple" title="MediumPurple"><tag class="roadmap-tag">ROADMAP</tag></a>  | To Be Done: something that has not even been started yet |
 </div>
 
 <style>
@@ -32,25 +32,25 @@ div.tag-table img {
   margin-top: 8px;
 }
 .idea-tag {
- color: rgb(255, 255, 255);
- background-color: rgb(72, 61, 139);
+ color: rgb(147, 112, 219);
+ background-color: transparent;
 }
 .idea-icon {
-  filter: invert(24%) sepia(96%) saturate(1262%) hue-rotate(228deg) brightness(84%) contrast(84%);
+  filter: invert(23%) sepia(51%) saturate(1455%) hue-rotate(221deg) brightness(88%) contrast(89%);
 }
-.improve-tag {
- color: rgb(255, 255, 255);
- background-color: rgb(72, 61, 139);
+.learn-tag {
+ color: rgb(147, 112, 219);
+ background-color: transparent;
 }
-.improve-icon {
-  filter: invert(24%) sepia(96%) saturate(1262%) hue-rotate(228deg) brightness(84%) contrast(84%);
+.learn-icon {
+  filter: invert(23%) sepia(51%) saturate(1455%) hue-rotate(221deg) brightness(88%) contrast(89%);
 }
 .roadmap-tag {
- color: rgb(255, 255, 255);
- background-color: rgb(72, 61, 139);
+ color: rgb(147, 112, 219);
+ background-color: transparent;
 }
 .roadmap-icon {
-  filter: invert(24%) sepia(96%) saturate(1262%) hue-rotate(228deg) brightness(84%) contrast(84%);
+  filter: invert(23%) sepia(51%) saturate(1455%) hue-rotate(221deg) brightness(88%) contrast(89%);
 }
 </style>
 <!-- markdownlint-enable MD041-->
