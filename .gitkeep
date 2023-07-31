@@ -122,6 +122,9 @@ The *folder hierarchy*, thus omitting the files and, in particular, the `.gitkke
    |  ├── .history                      # Local-history extension folder
    |  └── archives                      # The project's main archives
    |
+   ├─ @rel                            # Stores and exposes the main releases
+   |  └── archives                      # Archives the project's main releases
+   |
    ├─ admin                           # The administrative environment
    |  ├── audits                        # Autits scripts and reports
    |  ├── guidelines                    # Development best practices and conventions
