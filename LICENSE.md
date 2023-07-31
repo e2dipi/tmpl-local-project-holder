@@ -1,5 +1,5 @@
 The MIT License (MIT)
-=====================
+==================
 
 Copyright ©2023,  [Stefano Picozzi](https://github.com/e2d2ipi)
 
