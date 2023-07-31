@@ -4,8 +4,8 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder exposes the project's and its subproject's latest
-    <b><code>releases</code></b> to the local system and keeps an archive of all
+    <i>This folder exposes the project's and its subproject's
+    <b><code>distributions</code></b> to the local system and keeps an archive of all
     the past releases.</i>
 
 </div>
@@ -13,7 +13,7 @@
 
 ## Overview
 
-This folders is meant to expose the latest releases of the project and its subprojects to
+This folders is meant to expose the distributions of the project and its subprojects to
 the local system. It is worth pointing out that the exposure it provides should be
 considered strictly transient. Indeed, not only are distributions passing by definition but,
 in order not to crowd the *working space* folder too much,  projects that are not
