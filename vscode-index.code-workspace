@@ -46,17 +46,6 @@
     "breadcrumbs.symbolPath": "on",
     "breadcrumbs.symbolSortOrder": "position",
     "conventionalCommits.editor.keepAfterSave": false,
-    "conventionalCommits.scopes": [
-      "repo",
-      "filesystem",
-      "dev",
-<<<<<<< HEAD
-      "deploy",
-      "@rel"
-=======
-      "deploy"
->>>>>>> deploy-folder
-    ],
     "diffEditor.codeLens": true,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.cursorBlinking": "smooth",
@@ -122,12 +111,12 @@
       "**/.history/*/**": true,
       "**/{7z,arc,arcs,aux,bbl,bck,dep,deps,dpl,dply,ext,exts}*/**": true,
       "**/{@dist,#,##,archive,archives,backup,backups}/*/**": true,
-      "**/{bower_components,dependency,dependencies,deploy}/*/**": true,
+      "**/{bower_components,dependency,dependencies}/*/**": true,
       "**/{extern,external,release,releases,rls,temporary}/*/**": true,
       "**/{external,local,node,other,private}_modules/*/**": true,
       "**/{gz,gzip,his,lock,log,min.js,out,temp,tmp,toc,zip}*/**": true,
       "**/{vendor,vendors,xternal}/*/**": true,
-      "**/{worthy-fragments,vendor,vendors,xternal}_modules/*/**": true
+      "**/{vendor,vendors,xternal}_modules/*/**": true
     },
     "git.enableCommitSigning": true,
     "html.format.wrapLineLength": 80,
@@ -268,32 +257,16 @@
     "terminal.integrated.fontFamily": "Consolas, Monospace, Inconsolata",
     "terminal.integrated.tabStopWidth": 2,
     "todo-tree.filtering.excludeGlobs": [
-      " EXCLUDED FILES' EXTENSIONS  (todo-tree filter)                      ",
-      " ``````````````````````````                                          ",
       "**/*.{lock,log,aux,bbl,min.js}",
-      "                                                                      ",
-      " EXCLUDED FOLDERS  (todo-tree filter)                                 ",
-      " ````````````````                                                     ",
-      "**/.git/*/**",
-      "**/.history/*/**",
-      "**/.vscode/*/**",
-      "**/.bak/*/**",
-      "**/arc/*/**",
-      "**/archive/*/**",
-      "**/archives/*/**",
-      "**/backup/*/**",
-      "**/backups/*/**",
-      "**/bower_components/*/**",
-      "**/deploy/*/**",
-      "**/exts/*/**",
-      "**/node_modules/*/**",
-      "**/releases/*/**",
-      "**/worthy-fragments/*/**",
-      "                                                                      ",
-      " EXCLUDED FILES   (todo-tree filter)                                  ",
-      " ``````````````                                                       ",
-      "**/*LICENSE*",
-      "**/*README*"
+      ".bak/*/**",
+      ".git/*/**",
+      ".history/*/**",
+      "@rel/*/**",
+      "archives/*/**",
+      "resources/templates/*/**",
+      "CHANGELOG*",
+      "LICENSE*",
+      "README_template.md"
     ],
     "todo-tree.filtering.includeHiddenFiles": true,
     "todo-tree.filtering.passGlobsToRipgrep": true,
@@ -348,18 +321,18 @@
       "Tomato",
       "Orange",
       "Yellow",
-      "Magenta",
-      "DarkSlateBlue",
-      "DarkSlateBlue",
-      "DarkSlateBlue",
+      "GoldenRod",
+      "none",
+      "Blue",
       "none",
       "none",
       "none",
+      "LightSkyBlue",
       "none",
       "none",
       "Purple",
       "none",
-      "GoldenRod",
+      "Blue",
       "Blue",
       "DarkSlateGrey",
       "Olive",
@@ -386,7 +359,7 @@
         "icon": "bug",
         "iconColour": "#ff0000",
         "opacity": 1,
-        "type": "text-and-comment"
+        "type": "whole-line"
       },
       "CHAPTER": {
         "icon": "book",
@@ -396,9 +369,9 @@
       },
       "CAUTION": {
         "icon": "alert",
-        "iconColour": "#DA70D6",
+        "iconColour": "#87CEFA",
         "opacity": 0,
-        "type": "text-and-comment"
+        "type": "line"
       },
       "CHECK": {
         "icon": "checklist",
@@ -413,7 +386,7 @@
         "type": "whole-line"
       },
       "FINISH": {
-        "icon": "alert",
+        "icon": "kebab-horizontal",
         "iconColour": "#FF6347",
         "opacity": 1,
         "type": "text-and-comment"
@@ -427,12 +400,12 @@
       "IDEA": {
         "icon": "light-bulb",
         "iconColour": "#483d8a",
-        "opacity": 1,
+        "opacity": 0,
         "type": "text-and-comment"
       },
       "IMPROVE": {
         "icon": "graph",
-        "iconColour": "#483d8a",
+        "iconColour": "#0000ff",
         "opacity": 1,
         "type": "text-and-comment"
       },
@@ -444,13 +417,13 @@
       },
       "LEARN": {
         "icon": "mortar-board",
-        "iconColour": "#7461db",
-        "opacity": 1,
-        "type": "tag"
+        "iconColour": "#483d8a",
+        "opacity": 0,
+        "type": "text-and-comment"
       },
       "LINK": {
         "icon": "link",
-        "iconColour": "#9370db",
+        "iconColour": "#87CEFA",
         "opacity": 0,
         "type": "tag-and-subTag"
       },
@@ -478,7 +451,7 @@
       },
       "ROADMAP": {
         "icon": "milestone",
-        "iconColour": "#ffb6c1",
+        "iconColour": "#483d8a",
         "opacity": 0,
         "type": "text-and-comment"
       },
@@ -496,7 +469,7 @@
       },
       "TEMP": {
         "foreground": "#000000",
-        "icon": "clock",
+        "icon": "hourglass",
         "iconColour": "#daa520",
         "type": "text-and-comment"
       },
@@ -526,21 +499,21 @@
       "White",
       "White",
       "White",
+      "Black",
+      "Black",
       "White",
-      "White",
-      "White",
-      "White",
-      "White",
-      "LightPink",
+      "MediumPurple",
+      "Yellow",
+      "MediumPurple",
       "MediumPurple",
       "LightSkyBlue",
-      "Orchid",
+      "OrangeRed",
+      "LightSkyBlue",
       "DeepPink",
+      "white",
       "White",
-      "Purple",
-      "White",
-      "White",
-      "White",
+      "Red",
+      "Orange",
       "White",
       "White",
       "White",
@@ -571,7 +544,7 @@
     "todo-tree.tree.showCountsInTree": true,
     "todo-tree.tree.showCurrentScanMode": true,
     "todo-tree.tree.sortTagsOnlyViewAlphabetically": false,
-    "todo-tree.tree.tagsOnly": true,
+    "todo-tree.tree.tagsOnly": false,
     "todo-tree.tree.tooltipFormat": "${filename}\t(line ${line})\n\r${filepath}\n\r---\n\r${tag} ${after}\n\rsubtag: ${subtag}",
     "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.commandPalette.experimental.suggestCommands": true,
@@ -604,8 +577,8 @@
       "**/{extern,external,release,releases,rls,temporary}/*/**": true,
       "**/{external,local,node,other,private}_modules/*/**": true,
       "**/{gz,gzip,his,lock,log,min.js,out,temp,tmp,toc,zip}*/**": true,
-      "**/{vendor,vendors,xternal}/*/**": true,
-      "**/{worthy-fragments,vendor,vendors,xternal}_modules/*/**": true
+      "**/{vendor,vendors,xterna,worth-keepingl}/*/**": true,
+      "**/{vendor,vendors,xternal}_modules/*/**": true
     },
     "workbench.localHistory.maxFileEntries": 25,
     "workbench.localHistory.maxFileSize": 1024,
