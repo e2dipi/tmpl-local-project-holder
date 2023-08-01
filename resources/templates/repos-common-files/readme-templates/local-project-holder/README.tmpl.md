@@ -1,4 +1,4 @@
-# README - @@PROJECT_NAME
+# README - @@PROJECT_NAME@@
 
 ---
 
@@ -16,9 +16,9 @@
   font-variant: small-caps;"
 >Abstract</div>
 <div style="text-align: justify">
-<i>@@PROJECT_ABSTRACT
+<i>@@PROJECT_ABSTRACT@@
 
-This folder is not meant to be a versioned repository, but rather as a local folder structure that will
+This folder is not meant to be a versioned repository, but rather a local folder structure that will
 itself contain one or more repositories. Note that it is not to be confused with a mono-repo either
 since its root folders are not meant to be versioned. The contents of the `workspace(s)` folder,
 however, *may* be versioned by itself or contain multiple subfolders, each of which being a
@@ -30,11 +30,6 @@ mono-repo, a multi-repo or a simple folder.</i>
     margin-bottom: 5ex;"
 >
 
-[![GitHub issues](https://img.shields.io/github/issues/e2d2ipi/tmpl-projects-root-folder.svg)](https://github.com/e2d2ipi/tmpl-projects-root-folder/issues)
-[![GitHub forks](https://img.shields.io/github/forks/e2d2ipi/tmpl-projects-root-folder.svg)](https://github.com/e2d2ipi/tmpl-projects-root-folder/network)
-[![GitHub stars](https://img.shields.io/github/stars/e2d2ipi/tmpl-projects-root-folder.svg)](https://github.com/e2d2ipi/tmpl-projects-root-folder/stargazers)
-[![GitHub license](https://img.shields.io/github/license/e2d2ipi/tmpl-projects-root-folder.svg)](https://github.com/e2d2ipi/tmpl-projects-root-folder/blob/main/LICENSE.md)
-
 </div>
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
@@ -44,20 +39,20 @@ mono-repo, a multi-repo or a simple folder.</i>
 
 <!-- code_chunk_output -->
 
-- [Project's Description](#projects-description)
-- [Project's Shell Structure](#projects-shell-structure)
-- [Project's Roadmap and TODOs](#projects-roadmap-and-todos)
-- [Projects' Authors and Acknowledgment](#projects-authors-and-acknowledgment)
+- [Description](#description)
+- [Folders Hierarchy](#folders-hierarchy)
+- [Project's Roadmap](#projects-roadmap)
+- [Project's Contributors](#projects-contributors)
 
 <!-- /code_chunk_output -->
 
 </detail>
 
-## Project's Description
+## Description
 
-@@POJECT_DESCRIPTION
+@@POJECT_DESCRIPTION@@
 
-## Project's Shell Structure
+## Folders Hierarchy
 
 Each folder of the template that was used to instantiate this project contains a `.gitkeep` file
 containing a description of its purpose. In addition, the folder `resources/manuals` contain several
@@ -76,24 +71,19 @@ folders have been removed, the following tree shows the structure of the templat
    |                               ``````````````````````
    ├── .bak                        # Project's Backup and Archives
    |   ├── .history                  # Continous backups
-   |   ├── archive                   # The project's main archives
-   |   └── ...                       # Temporary backups
+   |   └── archives                  # The project's main archives
    |
    ├── deploy                       # Deployment Environement(s)
-   |   ├── ...                        # Sufolders and files ...
-   |   └── .gitkeep                   # Describres the deploy folder purpose
+   |   └── ...                        # Sufolders and files ...
    |
    ├── @rel                         # Exposes the (sub)project(s) latest release(s)
-   |   ├── ...                        # Sufolders and files ...
-   |   └── .gitkeep                   # Describres the deploy folder purpose
+   |   └── ...                        # Sufolders and files ...
    |
    ├── resources                    # Project's Resources
-   |   ├── ...                        # Sufolders and files ...
-   |   └── .gitkeep                   # Describres the resources folder purpose
+   |   └── ...                        # Sufolders and files ...
    |
    ├── workspace(s)                 # Project's Workspace(s)
-   |   ├── ...                        # Sufolders and files ...
-   |   └── .gitkeep                   # Describres the workspace(s) folder purpose
+   |   └── ...                        # Sufolders and files ...
    |
    └── .gitkeep                     # Describres the template's core structure
 
@@ -101,7 +91,7 @@ folders have been removed, the following tree shows the structure of the templat
 
 </div>
 
-## Project's Roadmap and TODOs
+## Project's Roadmap
 
 Planned features and improvements as well as known issues and other topics of interest concerning
 this template's development status and roadmap are embedded in its `.gitkeep` files in the form of
@@ -118,12 +108,12 @@ that this project contains.
 
 For the record, let's list here the most important entries anyway:
 
-- [ ]  @@ROADMAP_ENTRY_1, if applies
-- [ ]  @@ROADMAP_ENTRY_2, if applies
+- [ ]  @@ROADMAP_ENTRY_1@@, if applies
+- [ ]  @@ROADMAP_ENTRY_2@@, if applies
 - [ ]  etc ...
 
-## Projects' Authors and Acknowledgment
+## Project's Contributors
 
-- **@@AUTHOR_NAME** - *Initial work* - [@@USER_NAME](https://github.com/@@USER_NAME)
+- **@@AUTHOR_NAME@@** - *Initial work* - [@@USER_NAME@@](https://github.com/@@USER_NAME@@)
 
-<!-- CHECK Make sure that all @@-Tags  were either replaced or deleted with their associated contents. Delete this comment only once this is done! [template]  -->
+<!-- EDIT Make sure that all @@TO-BE-REPLACED@@  were either replaced or deleted with their associated contents. Delete this comment only once this is done! [template]  -->
