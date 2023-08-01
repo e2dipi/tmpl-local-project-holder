@@ -21,7 +21,7 @@
 - [Directories: assets folder](#directories-assets-folder)
 - [Open Source Licenses](#open-source-licenses)
 - [Readme files](#readme-files)
-- [Repositories' Common Files](#repositories-common-files)
+- [Repositories' Seeding Files](#repositories-seeding-files)
 
 <!-- /code_chunk_output -->
 
@@ -81,12 +81,9 @@ template in order to match the project's context. In addition, a comment designe
 VSCode's Todo-Tree extension as an `EDIT` entry is placed at the end of the file, in order to remind
 the user to edit the template.
 
-## Repositories' Common Files
+## Repositories' Seeding Files
 
-This folder contains templates for the files commonly found in `repositories` like `.gitattributes`,
-`.gitignore`, `CHANGELOG.md` etc... as  as well as for files that are specific to GitHub like
-`CONTRIBUTING.md`, `SECURITY.md` and various templates for issues and pull requests.  The
-needed replacements, if any, are indicated by placeholders as all-capitals words surrounded by a
-pair of double `@` symbols, like`@@PLACEHOLDER@@`. For detailed information about open
-source licenses including how to choose one, or for additional templates, please refer to the
-[Choose a License](https://choosealicense.com/) website.
+This folder contains templates for the files commonly found in `repositories`, namely
+`SECURITY.md`, `CHANGELOG.md`,  `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md`.
+The needed replacements, if any, are indicated by placeholders as all-capitals words surrounded by
+a pair of double `@` symbols, like`@@PLACEHOLDER@@`.
