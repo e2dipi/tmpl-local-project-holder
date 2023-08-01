@@ -1,0 +1,14 @@
+# Executable Assets
+
+<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="font-size: 95%; text-align: justify;">
+
+!!!Abstract
+    <i>This folder hosts <b><code>executables</code></b>. These are typically coding assets like
+    <code>scripts</code> that get included in the project at build time. Unlike
+    <code>libraries</code> which are passive pieces of code used by others,
+    <code>executables</code> perform a specific task.
+</i>
+
+</div>
+</div>
