@@ -141,36 +141,5 @@ $RECYCLE.BIN/
 ### .bak folder ###
 # Only the folder structure must be synced, i.e. the `.gitkeep` files
 ##
-# Root level
-!.bak/
-.bak/*
-!.bak/.gitkeep
-##
-# .history subfolder
-!.bak/.history/
-.bak/.history/*
-!.bak/.history/.gitkeep
-##
-# archives subfolder
-!.bak/archives/
-.bak/archives/*
-!.bak/archives/.gitkeep
-# -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
-### deploy folder ###
-# Only the folder structure must be synced, i.e. the `.gitkeep` files
-##
-# archives subfolder at root level
-!deploy/archives/
-deploy/archives/*
-!deploy/archives/.gitkeep
-##
-# archives within deployment-environment@location folders
-!deploy/*@*/archives/
-deploy/*@*/archives/*
-!deploy/*@*/archives/.gitkeep
-##
-# targ-env$ subfolders within deployment-environment@location folders
-!deploy/*@*/targ-env$/
-deploy/*@*/targ-env$/*
-!deploy/*@*/targ-env$/.gitkeep
+.gitkeep
 #_______________________________________________________________________________
