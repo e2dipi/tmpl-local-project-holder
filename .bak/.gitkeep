@@ -13,7 +13,7 @@
     releases' arhives. Temporary backups made by users should also be stored here, directly at the
     root of the folder. Note that this folder's content is subject to the archives' naming scheme
     described in
-    <a href="../admin/guidelines/handling-archives/handling-archives.md">
+    <a href="/admin/guidelines/handling-archives/handling-archives.md">
         "Handling Archive"
     </a>.
 </i>
@@ -76,7 +76,7 @@ to follow. The conventions it is based on are discussed in details in a dedicate
     <div style="margin: 2ex 0 2ex 0">
         The naming scheme to use for *archives* is discussed in the following document:<br/>
         <div style="text-align: center">
-        <a href="../admin/guidelines/handling-archives/handling-archives.md">
+        <a href="/admin/guidelines/handling-archives/handling-archives.md">
             Handling Archive
         </a>
 
