@@ -141,5 +141,5 @@ $RECYCLE.BIN/
 ### .bak folder ###
 # Only the folder structure must be synced, i.e. the `.gitkeep` files
 ##
-.gitkeep
+!.gitkeep
 #_______________________________________________________________________________
