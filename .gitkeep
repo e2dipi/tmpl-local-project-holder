@@ -5,9 +5,9 @@
 
 !!!Abstract
     <i>This template provides a folder hierarchy for holding one or more projects sharing common resources.  Its versatile structure is suitable for all sorts of projects, regardless of their size, complexity, or nature.</i>
-    </div>
-</div>
-</div>
+
+</div></div>
+
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 <details open style="margin: 14pt 0pt 24pt 10pt">
 <summary style="margin-left: -8pt; font-weight: bold; font-size: larger; font-variant: small-caps">
