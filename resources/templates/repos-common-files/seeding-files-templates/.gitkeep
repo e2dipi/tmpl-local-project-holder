@@ -1,0 +1,11 @@
+# Templates for repositories' standard elements
+
+<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="font-size: 95%; text-align: justify;">
+
+!!!Abstract
+    <i>This folder contains templates for the files commonly found in
+    <b><code>repositories</code></b>, namely <code>SECURITY.md</code>,
+    <code>CODE_OF_CONDUCT.md</code> and <code>CHANGELOG.md</code>. The needed replacements, if any, are indicated by placeholders as all-capitals words surrounded by a pair of double `@` symbols, like`@@PLACEHOLDER@@`.
+</div>
+</div>
