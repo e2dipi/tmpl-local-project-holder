@@ -36,6 +36,7 @@ contents of the <code style="font-style: normal">/workspace(s)</code> folder, ho
 
 </div>
 <div>
+
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 <details open style="margin: 14pt 0pt 24pt 10pt">
 <summary style="margin-left: -8pt; font-weight: bold; font-size: larger; font-variant: small-caps">
@@ -43,18 +44,19 @@ contents of the <code style="font-style: normal">/workspace(s)</code> folder, ho
 
 <!-- code_chunk_output -->
 
-- [Installation](#installation)
-- [Structure and Contents](#structure-and-contents)
+- [Install](#install)
+- [Contents](#contents)
+- [Highlights](#highlights)
 - [Roadmap](#roadmap)
-- [Authors and acknowledgment](#authors-and-acknowledgment)
-- [License](#license)
+- [Contributors](#contributors)
+- [Project's License](#projects-license)
 
 <!-- /code_chunk_output -->
 
 </detail>
 </div>
 
-## Installation
+## Install
 
 As it is not meant to be used as a repository, this template is not saved as a *GitHub template* and,
  therefore, cannot be used to [instantiate a new repository](https://tinyurl.com/z427byf6).
@@ -84,74 +86,77 @@ As it is not meant to be used as a repository, this template is not saved as a *
   </li>
 </ol>
 
-## Structure and Contents
+## Contents
 
 Each folder of the template contains a `.gitkeep` file containing a description of its purpose. In
 addition, the folder `resources/manuals` contain several documents describing in more detail certain
 aspects of the template and its usage, and suggesting some best practices and conventions.
 
-As a quick overview, and a reference of the template's structure once the unnecessary files and
- folders have been removed, the following tree shows the structure of the template:
-
 <div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
 
-```tree
+``` tree
 
 
-   .                               PROJECT'S ROOT FOLDER
-   |                               ``````````````````````
-   ├── .bak                        # Project's Backup and Archives
-   |   ├── .history                  # Continous backups
-   |   ├── archive                   # The project's main archives
-   |   └── ...                       # Temporary backups
+   .                                 ROOT FOLDER (Project's name)
+   |                                 ´´´´´´´´´´´´´´´´´´´´´´´´´´´´
+   ├─ .bak                            # The project's backups and archives
+   |  ├── .history                      # Local-history extension folder
+   |  └── archives                      # The project's main archives
    |
-   ├── deploy                       # Deployment Environement(s)
-   |   ├── ...                        # Sufolders and files ...
-   |   └── .gitkeep                   # Describres the deploy folder purpose
+   ├─ @rel                            # Stores and exposes the main releases
+   |  └── archives                      # Archives the project's main releases
    |
-   ├── @rel                         # Exposes the (sub)project(s) latest release(s)
-   |   ├── ...                        # Sufolders and files ...
-   |   └── .gitkeep                   # Describres the deploy folder purpose
+   ├─ admin                           # The administrative environment
+   |  ├── audits                        # Autits scripts and reports
+   |  ├── guidelines                    # Development best practices and conventions
+   |  └── todo&notes                    # User's personal nores and todo lists
    |
-   ├── resources                    # Project's Resources
-   |   ├── ...                        # Sufolders and files ...
-   |   └── .gitkeep                   # Describres the resources folder purpose
+   ├─ deploy                          # The deployment environment
+   |  ├── .cmds                         # Common commands and scripts
+   |  ├── .config                       # Common configuration parameterrs
+   |  ├── .source                       # The sourcefiles to be deployed (typically a release)
+   |  ├── archives                      # An archive containing a copy of every deployed version
+   |  ├── new-release@rel               # An env. for deploying a new release to the @rel targer
+   |  └── production@host               # Mimics an env. for deploying to a remote production host
    |
-   ├── workspace(s)                 # Project's Workspace(s)
-   |   ├── ...                        # Sufolders and files ...
-   |   └── .gitkeep                   # Describres the workspace(s) folder purpose
+   ├─ resources                       # The user's personal development's resources
+   |  ├── assets                        # A library of assets or assets' generators
+   |  ├── manuals                       # Stores useful info including mans, tutos and refs
+   |  ├── templates                     # Hosts templates, models, snippets, etc...
+   |  ├── useful-tools                  # The user's personal tools, utilities and scripts
+   |  └── worth-keeping                 # Set aside code fragments, staged devs, worhy ideas, etc...
    |
-   └── .gitkeep                     # Describres the template's core structure
+   └─ workspace(s)                    # The user's personal development's resources
+      ├── a-subprojetc                  # A library of assets or assets' generators
+      └── another-subproject            # A library of assets or assets' generators
 
 ```
 
 </div>
 
-### Highlights
+## Highlights
 
 Note that not all the folders come empty past their `.gitkeep` file. Some of them contain additional
 information that is worth mentioning here:
 
-- Default assets are provided in the `resources/assets` folder. There are two sets, each of which is
-  located in a subfolder of the `user-interface` assets folder:
-    1. The [e2d2ipi logos](resources/assets/user-interface/e2d2ipi/) are available in various shapes
-        and colors, including ready-to-use *favicons* bundles.
-    2. The full collection of [Octicons](resources/assets/user-interface/octicons/), which are available
-        in `SVG`` format.
+- Various templates including seeding files and structured directories are provided in the
+  `resources/templates` folder, including a `README` template to be used for instances of the present model. A brief description of each of them is available in the latter folder's
+  `.gitkeep` file.
+  <br/>[Click to open](/resources/templates/.gitkeep)
 
-- Various manuals about VSCode and some of its extensions are provided in the
+- Manuals about VSCode and some of its extensions are provided in the
   `resources/manuals` folder. They are available in *Markdown* format to be read in *VSCode* itself,
   using the *Markdown Preview Enhanced* extension. Alternatively, they can be read and converted
-  to *HTML* or *PDF* using that same extension or any other dedicated tool.
+  to *HTML* or *PDF* using that same extension.
+  <br/>[Click to open](/resources/manuals/vscode-custom-features/vscode-custom-features.doc.md)
 
 - Guidelines and best practices are provided in the `resources/guidelines` folder. As the manuals
 above, they are available in *Markdown* format and, thus, can be either read in *VSCode* or
 converted to another format. At the time of writing, two guidelines are provided:
-    1. A detailed discussion on how archives should be handled and, in particular, on how they should
-        be named and organized is available
-        [here](admin/guidelines/handling-archives/handling-archives.md).
-    2. A brief presentation of the recommended Git Branching Model to be used. The corresponding
-        document is available [here](admin/guidelines/git-branching/git-branching-model.md).
+<br/>1. &nbsp;A detailed discussion on how archives should be named and organized.
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Click to open](/admin/guidelines/handling-archives/handling-archives.md)
+<br/>2. &nbsp;A brief presentation of the recommended Git Branching Model to be used.
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Click to open](/admin/guidelines/git-branching/git-branching-model.md).
 
 ## Roadmap
 
@@ -174,14 +179,11 @@ For the record, let's list here the most important entries anyway:
 [GitHub Submodules](https://tinyurl.com/2tykz6wr) in the [workspace(s)](workspace(s)/.gitkeep)
 folder.
 
-## Authors and acknowledgment
+## Contributors
 
 - [S. Picozzi](https://github.com/e2d2ipi) &nbsp;-&nbsp; *Initial work*
 
-## License
+## Project's License
 
 This project is licensed under the **MIT License** &nbsp;-&nbsp; *see the
-file [LICENSE.md](./LICENSE.md) for details.*
-
-<!-- CHECK Make sure that all @@-Tags  were either replaced or deleted with their
-associated contents. Delete this comment only once this is done! [template]  -->
+file [LICENSE](./LICENSE) for details.*
