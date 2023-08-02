@@ -117,8 +117,8 @@ values that these elements may take on in a given context:
 
 |  Token  | syntax| Typical use cases |
 | :------- | :----------: | :---------- |
-| **`tag`** | `_X.Y.Z` | Archives or backups referred to by a *tag* in the commit tree. |
-| **`vers`** | `vX.Y.Z` |  Archives containing the full project and corresponding to a release. |
+| **`tag`** | `bX.Y.Z[<a-z>]` | Backups containing a rollback point referred to by a *tag* in the commit tree. |
+| **`vers`** | `vX.Y.Z` |  Archives containing the full project and corresponding to a versionned release. |
 | **`date`** | `YYMMDD` |  Archives matching none of the above like, typically, partial archives or backups. |
 
 ### Formatting Version Numbers
@@ -130,8 +130,11 @@ three integers separated by a dot (`.`) and prefixed by a lower-case `v`.
 <div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
 
 !!!Tip Semantic Versioning
-    `vX.Y.Z` where `X`, `Y`, and `Z` are integers corresponding to the `<major>`, `<minor>` and `<patch>` versions, respectively:
-    <div style="text-align: center; margin-bottom:1.5ex;font-weight: bold; font-size: larger"><code>v2.7.18</code></div>
+    `vX.Y.Z` where `X`, `Y`, and `Z` are integers corresponding to the `<major>`, `<minor>` and
+    `<patch>` versions, respectively:
+    <div style="text-align: center; margin-bottom:1.5ex;font-weight: bold; font-size: larger">
+        <code>v2.7.18</code>
+    </div>
 
 </div>
 
@@ -183,17 +186,18 @@ and archives, such as <i>rollback points</i>.
 </div>
 
 The syntax to be used for such tags is similar to the one used for version numbers, except that the
-leading `v` is replaced by an `r` standing for "*rollback*" and that a suffix is added to the version
+leading `v` is replaced by a `b` standing for "roll**b**ack" and that a suffix is added to the version
 number to avoid collisions in the case where several archives are tagged with the same version
 number.
 
 <div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
 
 !!!Tip Formatting Rollback Tags
-    Rollback tags are of formatted using the version number, prefixed by an `r` and followed by a
-    counter in the form of a lower-case letter. In other words, they are of the form `rX.Y.Z<a-z>`. The
-    following example corresponds to the 2nd rollback point of version `v2.7.18`:
-    <div style="text-align: center; margin-bottom:1.5ex;font-weight: bold; font-size: larger"><code>r2.7.18b</code>
+    Rollback tags are of formatted using the version number, prefixed by an `b` and followed by a
+    counter in the form of a lower-case letter. In other words, they are of the form `bX.Y.Z[<a-z>]`. The
+    following example corresponds to the 3rd rollback point of version `v2.7.18`:
+    <div style="text-align: center; margin-bottom:1.5ex;font-weight: bold; font-size: larger">
+        <code>b2.7.18c</code>
     </div>
 
 </div>
@@ -211,7 +215,8 @@ documentation, the resources, or the administrative information.
     The date format to be used is `yymmdd`, where `yy` is the year, `mm` the month, and `dd` the day
     of the month, each represented by two digits. For example, the following date corresponds to the
     *18th of July 2023*:
-    <div style="text-align: center; margin-bottom:1.5ex;font-weight: bold; font-size: larger"><code>230718</code>
+    <div style="text-align: center; margin-bottom:1.5ex;font-weight: bold; font-size: larger">
+        <code>230718</code>
     </div>
 
 </div>
