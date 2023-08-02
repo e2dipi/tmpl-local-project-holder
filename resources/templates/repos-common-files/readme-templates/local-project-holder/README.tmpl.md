@@ -15,14 +15,14 @@
   margin: 0 0 .75ex 0;
   font-variant: small-caps;"
 >Abstract</div>
-<div style="text-align: justify">
-<i>@@PROJECT_ABSTRACT@@
+<div style="text-align: justify; font-style: italic">
+@@PROJECT_ABSTRACT@@
 
 This folder is not meant to be a versioned repository, but rather a local folder structure that will
 itself contain one or more repositories. Note that it is not to be confused with a mono-repo either
 since its root folders are not meant to be versioned. The contents of the `workspace(s)` folder,
 however, *may* be versioned by itself or contain multiple subfolders, each of which being a
-mono-repo, a multi-repo or a simple folder.</i>
+mono-repo, a multi-repo or a simple folder.
 </div></div></div>
 <div style="
    width: 100%;
@@ -114,6 +114,6 @@ For the record, let's list here the most important entries anyway:
 
 ## Project's Contributors
 
-- **@@AUTHOR_NAME@@** - *Initial work* - [@@USER_NAME@@](https://github.com/@@USER_NAME@@)
+- **@@AUTHOR_NAME@@** - *Initial work* - [@@USER@@](https://github.com/@@USER@@)
 
 <!-- EDIT Make sure that all @@TO-BE-REPLACED@@  were either replaced or deleted with their associated contents. Delete this comment only once this is done! [template]  -->

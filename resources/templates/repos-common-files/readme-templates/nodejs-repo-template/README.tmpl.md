@@ -1,24 +1,82 @@
-# GitHub Templates
+# README - GitHub Templates
 
-This template stores different shelves to choose from according to the type of project. Common features  promote certain coherence and structural uniformity across developments of different natures, while third-party tools enforce specific best practices and automate certain tasks
+---
 
-[![GitHub issues](https://img.shields.io/github/issues/e2d2ipi/github-templates.svg)](https://github.com/e2d2ipi/github-templates/issues)
-[![GitHub forks](https://img.shields.io/github/forks/e2d2ipi/github-templates.svg)](https://github.com/e2d2ipi/github-templates/network)
-[![GitHub stars](https://img.shields.io/github/stars/e2d2ipi/github-templates.svg)](https://github.com/e2d2ipi/github-templates/stargazers)
-[![GitHub license](https://img.shields.io/github/license/e2d2ipi/github-templates.svg)](https://github.com/e2d2ipi/github-templates/blob/main/LICENSE.md)
+<div style="
+    font-size: normal;
+    margin: 0 auto 5ex auto;
+    width: 40em;"
+>
+<div style="font-size: 95%; text-align: justify;">
+<div style="
+  font-size:135%;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 0 .75ex 0;
+  font-variant: small-caps;"
+>Abstract</div>
+<div style="text-align: justify; font-style: italic">
 
-## Available Templates
+@@PROJECT_ABSTRACT@@
 
-Each template is stored in its own, auto-sufficient, folder as a direct child of [src](spec/). More may come in the future, but in the state of the templates to choose from are the following:
+</div>
+<div style="
+   width: 100%;
+   text-align: center;
+   margin-top: 5ex;
+    margin-bottom: 5ex;"
+>
 
-- **[no-code](./src/no-code/)** for projects involving no code at all
-- **[no-code-drive](./src/no-code-drive/)** adds sync
-- **[code-agnostic](./src/code-agnostic/)** for coding projects for which no specific template was yet created
-- **[gas-clasp](./src/gas-clasp/)** for [Google Apps Script (GAS)](https://developers.google.com/apps-script) projects developed outside the drive
-- **[javascript](./src/javascript/)** for JS/ES/Node.js projects that do not need to be transpiled
-- **[typescript](./src/typescript/)** for Typescript projects
-- **[gas-modules](./src/gas-modules/)** for [GAS](https://developers.google.com/apps-script) projects developed using modules (typically Node.js)
-- **[gas-typescript](./src/gas-typescript/)** for [GAS](https://developers.google.com/apps-script) projects developed using modules (typically Node.js)
+[![GitHub issues](https://img.shields.io/github/issues/@@USER@@/@@REPO@@.svg)](https://github.com/@@USER@@/@@REPO@@/issues)
+[![GitHub forks](https://img.shields.io/github/forks/@@USER@@/@@REPO@@.svg)](https://github.com/@@USER@@/@@REPO@@/network)
+[![GitHub stars](https://img.shields.io/github/stars/@@USER@@/@@REPO@@.svg)](https://github.com/@@USER@@/@@REPO@@/stargazers)
+[![GitHub license](https://img.shields.io/github/license/@@USER@@/@@REPO@@.svg)](https://github.com/@@USER@@/@@REPO@@/blob/main/LICENSE.md)
+
+</div>
+</div></div>
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
+<details open style="margin: 14pt 0pt 24pt 10pt">
+<summary style="margin-left: -8pt; font-weight: bold; font-size: larger; font-variant: small-caps">
+<span style="margin-left: 3pt">Table of contents<span></summary>
+
+<!-- code_chunk_output -->
+
+- [Description](#description)
+- [Why use a template ... even for small projects](#why-use-a-template--even-for-small-projects)
+- [How do these templates help you with this](#how-do-these-templates-help-you-with-this)
+  - [Quality and Efficiency](#quality-and-efficiency)
+  - [Documentation](#documentation)
+  - [Consistency](#consistency)
+  - [Security](#security)
+  - [Ethics](#ethics)
+  - [FOSS](#foss)
+- [Installation](#installation)
+  - [Pre-requisites](#pre-requisites)
+  - [1. Get your own copy of this repository](#1-get-your-own-copy-of-this-repository)
+  - [1. Replace `<TAGS>` across the template](#1-replace-tags-across-the-template)
+    - [1.1. Replace tags `<USER_NAME>` and `<REPO_NAME>` by your (GituHub) _UserName_ and _RepositoryName_ in](#11-replace-tags-user_name-and-repo_name-by-your-gituhub-_username_-and-_repositoryname_-in)
+    - [1.2 In README.md, further provide](#12-in-readmemdreadmemd-further-provide)
+    - [1.3. In package.json, specify](#13-in-packagejsonpackagejson-specify)
+    - [1.4. Finally, in CODE_OF_CONDUCT.md,  provide](#14-finally-in-code_of_conductmdcode_of_conductmd--provide)
+  - [2. Activate Github's features](#2-activate-githubs-features)
+  - [3. License your project](#3-license-your-project)
+  - [4. Install Conventional Commits Support & all other dependencies](#4-install-conventional-commits-support--all-other-dependencies)
+- [Usage](#usage)
+- [Support](#support)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [Authors and acknowledgment](#authors-and-acknowledgment)
+- [License](#license)
+
+<!-- /code_chunk_output -->
+
+</detail>
+
+## Description
+
+@@POJECT_DESCRIPTION@@
 
 ## Why use a template ... even for small projects
 
@@ -98,7 +156,7 @@ Though not a mandatory directive, we recommend installing the following (widely 
 
 ### 1. Get your own copy of this repository
 
-To initialize the template, [generate](https://github.com/e2d2ipi/tmpl-gas-ts-project/generate) a new repository from the current template or clone this repository in your development environment. Then, replace its (whole) content with this of the folder [src](./src/) that best suits your needs and follow the instructions below:
+To initialize the template, [generate](https://github.com/@@USER@@/tmpl-gas-ts-project/generate) a new repository from the current template or clone this repository in your development environment. Then, replace its (whole) content with this of the folder [src](./src/) that best suits your needs and follow the instructions below:
 
 > **Note.** _Hopefully, this quick and dirty initializtion process will be replaced by a sceipted  `install` procedure in the future. In the meanwhile, we suggest that you somehow hide this ugly step by [Amending your lastest commit](https://www.atlassian.com/git/tutorials/rewriting-history#:~:text=The%20git%20commit%20%2D%2Damend,message%20without%20changing%20its%20snapshot) (which should be "Initial Commit")immediately._
 
@@ -134,14 +192,14 @@ The first step in customizing this template consists in replacing `<TAGS>` with 
 
 - [ ] Activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/)
 
-- [ ] Enhance code production and, also, [protecting tags](https://github.com/e2d2ipi/github-templates/settings/tag_protection/new)
+- [ ] Enhance code production and, also, [protecting tags](https://github.com/@@USER@@/@@REPO@@/settings/tag_protection/new)
 
 - [ ] [Protect](https://help.github.com/en/articles/configuring-protected-branches) branches to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
   > **Note.** _All of `main`, `master`, `dev` and `develop` brnches can be protectected in one go using the following pattern: `[dm][ea](vis)*`_
 
 - [ ] Activate [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages): select `master` (or `main`) branch and `docs` folder as source
 
-- [ ] Create [Environments](https://github.com/e2d2ipi/github-templates/settings/environments):
+- [ ] Create [Environments](https://github.com/@@USER@@/@@REPO@@/settings/environments):
 `production`  is intended to protect actions related to deployments
 `development` applies to non-production branches (`main` or `master`, usually)
 
@@ -182,9 +240,9 @@ This project is maintained by [@<USER_NAME>](https://github.com/<USER_NAME>). Pl
 
 | Type                                  | Platforms                                                   |
 | ------------------------------------- | ----------------------------------------------------------- |
-| 🚨 **Bug Reports**                    | [GitHub Issue Tracker](https://github.com/e2d2ipi/github-templates/issues) |
-| 🎁 **Feature Requests**               | [GitHub Issue Tracker](https://github.com/e2d2ipi/github-templates/issues) |
-| 🛡 **Report a security vulnerability** | [GitHub Issue Tracker](https://github.com/e2d2ipi/github-templates/issues) |
+| 🚨 **Bug Reports**                    | [GitHub Issue Tracker](https://github.com/@@USER@@/@@REPO@@/issues) |
+| 🎁 **Feature Requests**               | [GitHub Issue Tracker](https://github.com/@@USER@@/@@REPO@@/issues) |
+| 🛡 **Report a security vulnerability** | [GitHub Issue Tracker](https://github.com/@@USER@@/@@REPO@@/issues) |
 
 ## Roadmap
 
@@ -196,13 +254,13 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/e2d2ipi/github-templates/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/@@USER@@/@@REPO@@/tags).
 
 ## Authors and acknowledgment
 
 - **FULL_NAME** - _Initial work_ - [<USER_NAME>](https://github.com/<USER_NAME>)
 
-See also the list of [contributors](https://github.com/e2d2ipi/github-templates/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/@@USER@@/@@REPO@@/graphs/contributors) who participated in this project.
 
 ## License
 
