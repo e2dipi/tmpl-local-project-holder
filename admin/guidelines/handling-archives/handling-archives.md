@@ -59,7 +59,8 @@ present case, and due to its ubiquity, the format of choice is the `.zip` format
 The name of the archive should tell about its content, its nature, and the point in time it was created.
  Finally, the scheme should be both speechful enough to be easily understood and simple enough to
   be easily implemented and remembered without having to refer to a manual every time one needs
-  to create an archive. The shceme below statisfies each of these requirements. Please note that its pieces are meant to concatenate **without any space in-between them**:
+  to create an archive. The shceme below statisfies each of these requirements. Please note that its
+  pieces are meant to concatenate **without any space in-between them**:
 
 <div style="
     width: 45em;
@@ -86,7 +87,8 @@ In addition. but *optionally*:
 
 - **`< suffixes >`** break eventual ties using the archive's ***specificities***.
 
-The following sections describe in more details each of these elements and, when it is possible, list the typical values that they may take on in a given context.
+The following sections describe in more details each of these elements and, when it is possible, list
+the typical values that they may take on in a given context.
 
 ## Prefixes and contents
 
@@ -109,7 +111,9 @@ associated to that prefix</i>.
 
 ## Tags, Dates and Versions
 
-The `< vers|date|tag >` element is used to locate the archive on the timeline. Whether an archive takes a *date*, a *version* or a *tag* depends on its nature. The following table lists the typical values that these elements may take on in a given context:
+The `< vers|date|tag >` element is used to locate the archive on the timeline. Whether an archive
+takes a *date*, a *version* or a *tag* depends on its nature. The following table lists the typical
+values that these elements may take on in a given context:
 
 |  Token  | syntax| Typical use cases |
 | :------- | :----------: | :---------- |
@@ -119,7 +123,9 @@ The `< vers|date|tag >` element is used to locate the archive on the timeline. W
 
 ### Formatting Version Numbers
 
-Version numbers are formatted according to the conventions of  [Semantic Versioning](https://semver.org/). In this scheme, each version number is composed of three integers separated by a dot (`.`) and prefixed by a lower-case `v`.
+Version numbers are formatted according to the conventions of
+[Semantic Versioning](https://semver.org/). In this scheme, each version number is composed of
+three integers separated by a dot (`.`) and prefixed by a lower-case `v`.
 
 <div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
 
@@ -129,7 +135,11 @@ Version numbers are formatted according to the conventions of  [Semantic Version
 
 </div>
 
-The first integer is the *major* version, the second is the *minor* version, and the third is the *patch* version. Incrementing one of them leaves the ones to its left unchanged and resets those to its right to zero. For example, incrementing the *minor* version of `v2.7.18` yields `v2.8.0` while incrementing the *major* version of `v2.7.18` yields `v3.0.0`. Patching it, on the other hand, yields `v2.7.19`.
+The first integer is the *major* version, the second is the *minor* version, and the third is the *patch*
+version. Incrementing one of them leaves the ones to its left unchanged and resets those to its right
+to zero. For example, incrementing the *minor* version of `v2.7.18` yields `v2.8.0` while
+incrementing the *major* version of `v2.7.18` yields `v3.0.0`. Patching it, on the other hand, yields
+`v2.7.19`.
 
 |  Version  | Type of change |
 | :-------: | :---------- |
@@ -137,51 +147,82 @@ The first integer is the *major* version, the second is the *minor* version, and
 | **`<minor>`** | A change that does not break backward compatibility. |
 | **`<major>`** | A change that breaks backward compatibility like, typically, deprecating features. |
 
-The  table above shows the types of changes that an increment of the `<major>` verion, the `<minor>` and the `<patch>` version correspond to. Note that `patches` are also calle `hot fixes` and that they profoundly differ from `minor` and `major` versions in that they are usually immediately reflected in the production environment, without waiting for the next release.
+The  table above shows the types of changes that an increment of the `<major>` verion, the
+`<minor>` and the `<patch>` version correspond to. Note that `patches` are also calle `hot fixes` and
+that they profoundly differ from `minor` and `major` versions in that they are usually immediately
+reflected in the production environment, without waiting for the next release.
 
 @import "./assets/images/git-branching-model.png" {height="500px" title="Git Model" alt="Git Model" style="display: inline; position: absolute; right: 25pt; "}
 
 <div style="display: inline-block;  width:500px; text-align: justify">
-<p>These conventions apply far beyond the scope of naming archives and are the standard for versionning software. The underlying scheme is known as the *Semantic Versioning* model. A detailed description of this model is available on the official website, at <a href="https://semver.org/">https://semver.org/</a>.
+<p>These conventions apply far beyond the scope of naming archives and are the standard for
+versionning software. The underlying scheme is known as the *Semantic Versioning* model. A
+detailed description of this model is available on the official
+<a href="https://semver.org/"><i>Semver</i> website</a>.
 </p>
 <p>
-Semantic versionning is also at the core of most <i>Git Models"</i> A typical example is the <b><i>Branching Model</i></b> illustrated in the figure on the right and which is presented in great details on <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="blank">this website</a>. A  PDF version of the image on the right  can be dowloaded by cliking <a href="./assets/images/git-model.pdf" target="blank">here.</a>.
+Semantic versionning is also at the core of most <i>Git Models"</i> A typical example is the
+<b><i>Branching Model</i></b> illustrated in the figure on the right and which is presented in great
+details on
+<a href="https://nvie.com/posts/a-successful-git-branching-model/" target="blank">this website</a>.
+A  PDF version of the image on the right  can be dowloaded by cliking
+<a href="./assets/images/git-model.pdf" target="blank">here.</a>.
 </p>
 <p>
-Note that it is considered a good practice to let every release be tagged with a version number formatted as described above directly in the commit tree. This is illustrated on right-most branch of <i>Branching Model Figure</i>. Extending this practice beyond just releases to reference important backups and archives such as *rollback points* is what yields the <code>tag</code> marker discussed in the  next section.
+Note that it is considered a good practice to let every release be tagged with a version number
+formatted as described above directly in the commit tree. This is illustrated on right-most branch of
+<i>Branching Model Figure</i>. Extending this practice beyond just releases to reference important
+backups and archives such as *rollback points* is what yields the <code>tag</code> marker
+discussed in the  next section.
 <p>
 
 ### Formatting Tags
 
-As mentioned above, the practice of tagging releases is extended to reference important backups and archives, such as <i>rollback points</i>.
+As mentioned above, the practice of tagging releases is extended to reference important backups
+and archives, such as <i>rollback points</i>.
 </div>
 
-The syntax to be used for such tags is similar to the one used for version numbers, except that the leading `v` is replaced by an `r` standing for "*rollback*" and that a suffix is added to the version number to avoid collisions in the case where several archives are tagged with the same version number.
+The syntax to be used for such tags is similar to the one used for version numbers, except that the
+leading `v` is replaced by an `r` standing for "*rollback*" and that a suffix is added to the version
+number to avoid collisions in the case where several archives are tagged with the same version
+number.
 
 <div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
 
 !!!Tip Formatting Rollback Tags
-    Rollback tags are of formatted using the version number, prefixed by an `r` and followed by a counter in the form of a lower-case letter. In other words, they are of the form `rX.Y.Z<a-z>`. The following example corresponds to the 2nd rollback point of version `v2.7.18`:
-    <div style="text-align: center; margin-bottom:1.5ex;font-weight: bold; font-size: larger"><code>r2.7.18b</code></div>
+    Rollback tags are of formatted using the version number, prefixed by an `r` and followed by a
+    counter in the form of a lower-case letter. In other words, they are of the form `rX.Y.Z<a-z>`. The
+    following example corresponds to the 2nd rollback point of version `v2.7.18`:
+    <div style="text-align: center; margin-bottom:1.5ex;font-weight: bold; font-size: larger"><code>r2.7.18b</code>
+    </div>
 
 </div>
 
 ### Formatting Dates
 
-The last possible temporal maker for in an archive's name is to use the date at which the backup was made. It is used when the archive does not correspond to a release or a rollback point, but rather to a partial backup or a backup of a specific
-component of the project such as the documentation, the resources, or the administrative information.
+The last possible temporal maker for in an archive's name is to use the date at which the backup
+was made. It is used when the archive does not correspond to a release or a rollback point, but
+rather to a partial backup or a backup of a specific component of the project such as the
+documentation, the resources, or the administrative information.
 
 <div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
 
 !!!Tip Formatting Dates
-    The date format to be used is `yymmdd`, where `yy` is the year, `mm` the month, and `dd` the day of the month, each represented by two digits. For example, the following date corresponds to the *18th of July 2023*:
-    <div style="text-align: center; margin-bottom:1.5ex;font-weight: bold; font-size: larger"><code>230718</code></div>
+    The date format to be used is `yymmdd`, where `yy` is the year, `mm` the month, and `dd` the day
+    of the month, each represented by two digits. For example, the following date corresponds to the
+    *18th of July 2023*:
+    <div style="text-align: center; margin-bottom:1.5ex;font-weight: bold; font-size: larger"><code>230718</code>
+    </div>
 
 </div>
 
 ## Suffixes (optional)
 
-The  *suffixes* specify a characteristic of the archive. Typical use cases are to distinguish an *optimized* archive from one containing unpackaged source, to clearly identify archives meant to be  *private*  in a context where the default is to share all archives or, at the contrary, to mark a *public* one when restricting access to archives is the norm. These cases and the associated suffixes are described in the following table:
+The  *suffixes* specify a characteristic of the archive. Typical use cases are to distinguish an
+*optimized* archive from one containing unpackaged source, to clearly identify archives meant to be
+*private*  in a context where the default is to share all archives or, at the contrary, to mark a *public*
+one when restricting access to archives is the norm. These cases and the associated suffixes are
+described in the following table:
 
 | Suffix | Meaning |
 | :----: | :------ |
