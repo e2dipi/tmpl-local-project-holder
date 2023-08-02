@@ -33,3 +33,23 @@ The changelog template is a markdown file that contains the skeleton structure o
 </div>
 
 As is, the templatee already contains a section for the `v0.0.0` version, which is meant to refer to the initial commit, and a newer section labeled `Unreleased` ready to be fed with the changes to be included in the next release. The latter section is meant to be updated as the project evolves, and the former is meant to be updated only once, when the project is first released.
+
+## Code of conduct template
+
+The code of conduct template is a markdown file that contains standard code of conduct guidelines. It is based on the [Contributor Covenant](https://www.contributor-covenant.org/). This template is meant to be used in conjunction with the `CONTRIBUTING.md` template, which links to this file assuming it is found at the root of the repository.
+
+**!!! Note that template is ready to be used and needs no further editing.**
+
+
+## CONTRIBUTING template
+
+The contributing template is a markdown file that contains standard information aout how to contribute to the project. It is based on the [Contributor Covenant](https://www.contributor-covenant.org/). This template is ready to be used and needs no further editing.
+
+**!!! Note that this file refers to the file `CODE_OF_CONDUCT.md` which it links to assuming it is found at the root of the repository. If this is not the case, the link must be updated accordingly.**
+
+## Security policy template
+
+The security policy template is a markdown file that contains standard information about how to report security issues. It contains a section for telling users which versions of the project are currently being supported, and a section for telling them how to report security issues. The following fields need to be updated:
+
+- @@USER@@: the `username` part of the repository's URL, e.g. `e2d2ipi`
+- @@REPO@@: the `repository` part of the repository's URL, e.g. `tmpl-local-project-holder`
