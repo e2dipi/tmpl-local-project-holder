@@ -4,8 +4,10 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder contains templates for the files commonly found in
-    <b><code>repositories</code></b>, namely <code>SECURITY.md</code>,
-    <code>CODE_OF_CONDUCT.md</code> and <code>CHANGELOG.md</code>. The needed replacements, if any, are indicated by placeholders as all-capitals words surrounded by a pair of double `@` symbols, like`@@PLACEHOLDER@@`.
+    *This folder contains templates for the files commonly found in
+    **`repositories`**, namely `SECURITY.md`, `CODE_OF_CONDUCT.md` and `CHANGELOG.md`.
+    The needed replacements, if any, are indicated by placeholders as all-capitals words surrounded
+    by a pair of double `@` symbols, like`@@PLACEHOLDER@@`.*
+
 </div>
 </div>
