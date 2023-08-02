@@ -235,7 +235,7 @@
       "production@host": "Environment",
       "readme-templates": "Template",
       "repo-std-files": "Template",
-      "repos-common-files": "Template",
+      "repos-standard-files": "Template",
       "resources": "Resource",
       "seeding-files-templates": "Template",
       "templates": "Template",
