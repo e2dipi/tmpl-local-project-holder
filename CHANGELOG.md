@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD024 -->
-
+<!-- this allows the file to contain multiply define headings -->
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -33,7 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Minimalist seed
-
+<!-- markdownlint-disable MD024 -->
 <!--
 CHANGELOG TEMPLATE
 
