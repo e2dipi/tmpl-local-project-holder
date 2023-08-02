@@ -4,10 +4,9 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder hosts the assets that are not meant to be displayed, but rather to be <b>
-    <code>downloaded</code>. Typical examples of such documents are <b><code>ZIPs</code>
-    </b>, <b><code>DOCs</code></b>, <b><code>XLS</code></b>, etc... Formats like
-    <b><code>PDF</code></b> that may be displayed using an appropriate plugin. but usually aren't
-    are also included in this category.</i>
+    *This folder hosts the assets that are not meant to be displayed, but rather to be
+    `downloaded`. Typical examples of such documents are `ZIPs`, `DOCs`, `XLS`, etc... Formats like
+    **`PDFs`** that the project doesn't display, but only provides as a link to download, should also be
+    placed here.*
 
 </div></div>

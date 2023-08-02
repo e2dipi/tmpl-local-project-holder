@@ -4,12 +4,11 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder hosts the <b><code>images assets</code></b>, which are the illustrative
-    (non ui-related) graphical elements to be embedded in the project. Typical examples include
-    <code>pictures</code>, <code>diagrams</code>, <code>charts</code>, <code>maps</code>
-    and,of course, images of any type, including animated <a href="https://en.wikipedia.org/wiki/GIF">
-    <code>GIFs</code></a>. <a href="https://en.wikipedia.org/wiki/PDF"><code>PDFs</code>
-    </a> documents that are not only for download also belong here.
-</i>
+    *This folder hosts the **`images assets`**, which are the non ui-related graphical elements to be
+    embedded in the project and that need neither a specific plugin to be diplayed nor further
+    processing at build time. Typical examples include  `pictures`, `diagrams`, `charts`, `maps` and,of
+    course, images of any type, including animated [`GIFs`](https://en.wikipedia.org/wiki/GIF). It is
+    worth mentioning that [`PDFs`](https://en.wikipedia.org/wiki/PDF) that are not strictly reserved to
+    be downloaded.*
 
 </div></div>

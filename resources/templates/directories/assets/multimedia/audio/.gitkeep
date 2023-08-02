@@ -4,12 +4,10 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder hosts the <b><code>audio</code></b> assets, which typical formats are
-    <a href="https://en.wikipedia.org/wiki/WAV"><code>.wav</code></a>,
-    <a href="https://en.wikipedia.org/wiki/MP3"><code>.mp3</code></a>, and
-    <a href="https://en.wikipedia.org/wiki/FLAC"><code>.flac</code></a>.
-
-</i>
+    *This folder hosts the **`audio`** assets, which typical formats include
+    [`.wav`](https://en.wikipedia.org/wiki/WAV),
+    [`.mp3`](https://en.wikipedia.org/wiki/MP3), and
+    [`.flac`](https://en.wikipedia.org/wiki/FLAC).*
 
 </div>
 </div>

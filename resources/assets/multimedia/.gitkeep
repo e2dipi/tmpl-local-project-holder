@@ -4,22 +4,19 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder hosts the <b><code>multimedia</code></b> assets, which include the multimedia
-    files that are neither <code>images</code> nor elements related to the
-    <code>user-interface</code>. Such files typically consist of non-static contents meant to be
-    embedded in the project and played using a reader that depends on the specific type of format of
-    the multimedia file at hand. This folder partitions its contentes into two subfolder named
-    <code>audio</code> and <code>videos</code>. The standard formats of the files to be found in
-    the latter are
-    <a href="https://en.wikipedia.org/wiki/MPEG-4_Part_14"><code>.mp4</code></a>,
-    <a href="https://en.wikipedia.org/wiki/Flash_Video"><code>.flv</code></a>,
-    <a href="https://en.wikipedia.org/wiki/Matroska"><code>.mkv</code></a>, and
-    <a href="https://en.wikipedia.org/wiki/QuickTime_File_Format"><code>.mov</code></a>.
-    The former, on the other hand, typically contains files with formats such as
-    <a href="https://en.wikipedia.org/wiki/WAV"><code>.wav</code></a>,
-    <a href="https://en.wikipedia.org/wiki/MP3"><code>.mp3</code></a>, and
-    <a href="https://en.wikipedia.org/wiki/FLAC"><code>.flac</code></a>.
-</i>
-
+    *This folder hosts the **`multimedia`** assets, which can be assets per se or any other file that
+    can be used to generate such assets. Multimedia assets consist of the multimedia files that are
+    neither `images` nor elements related to the `user-interface`. Such files typically consist of
+    non-static contents meant to be embedded in the project and played using a reader that depends
+    on the specific type of format of the multimedia file at hand. This folder partitions its contentes into
+    two subfolder named `audio` and `videos`.Standard audio formats include
+    [`.mp4`](https://en.wikipedia.org/wiki/MPEG-4_Part_14)
+    [`.flv`](https://en.wikipedia.org/wiki/Flash_Video),
+    [`.mkv`](https://en.wikipedia.org/wiki/Matroska), and
+    [`.mov`](https://en.wikipedia.org/wiki/QuickTime_File_Format).
+    On the other hand, typical audio formats include
+    [`.wav`](https://en.wikipedia.org/wiki/WAV),
+    [`.mp3`](https://en.wikipedia.org/wiki/MP3), and
+    [`.flac`](https://en.wikipedia.org/wiki/FLAC).*
 </div>
 </div>

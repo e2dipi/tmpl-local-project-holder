@@ -4,13 +4,12 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder hosts the <b><code>vieo</code></b> assets, which typical formats are
-     <a href="https://en.wikipedia.org/wiki/MPEG-4_Part_14"><code>mp4</code></a>,
-     <a href="https://en.wikipedia.org/wiki/Flash_Video"><code>flv</code></a>,
-     <a href="https://en.wikipedia.org/wiki/Matroska"><code>mkv</code></a> and
-     <a href="https://en.wikipedia.org/wiki/QuickTime_File_Format"><code>mov</code></a>
-     files.
-</i>
+    *This folder hosts the **`vieo`** assets, which can be assets per se or any other file that
+    can be used to generate such assets. Their typical formats include
+    [`.mp4`](https://en.wikipedia.org/wiki/MPEG-4_Part_14)
+    [`.flv`](https://en.wikipedia.org/wiki/Flash_Video),
+    [`.mkv`](https://en.wikipedia.org/wiki/Matroska), and
+    [`.mov`](https://en.wikipedia.org/wiki/QuickTime_File_Format) files.*
 
 </div>
 </div>

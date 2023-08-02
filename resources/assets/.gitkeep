@@ -4,11 +4,9 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder contains <b><code>assets</code></b> that may be valuable for the project's
-    development but are not, per se, part of the project deliverables. Its content may include elements
-    that team members share and others that belong to a single member who shares them across
-    projects.
-</i>
+    *This folder contains the user's **`assets`** (library), which can be assets per se or any other file
+    that can be used to generate such assets. The files to be found here provide assets that may be
+    valuable for the project's development but are not, per se, part of the project deliverables.*
 
 </div>
 </div>
@@ -34,6 +32,8 @@ development or that may serve to generate one.
 
 The assets folder is organized in subfolders that group assets by their nature. The tree below shows the assets folder's structure and broefly describes each subfolder's content. For more details on each type of asset, please refer to the `.gitkeep` file of the corresponding subfolder.
 
+<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+
 ```tree
 
 
@@ -50,3 +50,5 @@ The assets folder is organized in subfolders that group assets by their nature. 
   └── user-interface        # UI-related assets like icons, logos and wallpapers
 
 ```
+
+</div>

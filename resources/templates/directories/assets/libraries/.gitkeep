@@ -4,10 +4,8 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder hoststhe <b><code>libraries</code></b> assets, which include the reusable codes
-     like, typically, <code>frameworks</code>, <code>packages</code> and, of course,
-      <code>libraries</code> that rprovide functionalities to the executable codes like the scrips to be
-      found in the <code>exec</code> folder.
-</i>
+    *This folder hosts the **`libraries`** assets, which  typically consist of collections of classe or
+    functions meant to be invoked by other programs. Typical examples include  `frameworks`,
+    `packages` and, of course, `libraries`..*
 
 </div></div>

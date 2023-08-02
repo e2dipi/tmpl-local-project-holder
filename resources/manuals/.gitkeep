@@ -4,7 +4,7 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder holds so-called <b><code>manuals</b></code>, which we define as any document
+    <i>This folder holds so-called **`manuals`**, which we define as any document
     providing useful information to the exception of  the project's documentation and the development
     guidelines, which belong to the <code>workspace(s)</code> and the <code>admin</code>
     environments, respecitvely. Apart from theses two exceptions, this folder contains all the

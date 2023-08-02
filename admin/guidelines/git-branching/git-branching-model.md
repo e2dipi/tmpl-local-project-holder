@@ -4,7 +4,10 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This document sketches the <b><code>Git Branching Strategy</code></b> to be followe when working on a project. A more detailed description is available on <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="blank">this website</a>.
+    *This document sketches the **`Git Branching Strategy`** to be followe when working on a
+    project. A more detailed description is available on
+    [this website](https://nvie.com/posts/a-successful-git-branching-model/)*.
+
 </div></div>
 
 ## Overview

@@ -4,11 +4,10 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder hosts <b><code>administrative</code></b> information about the held projects.
+    *This folder hosts **`administrative`** information about the held projects.
     In the case when the projects consists of multiple subprojects, the internal structures of Its
     subfolders are likely to be partionned in a way that reflects the relationships between those
-    subprojects.
-</i>
+    subprojects.*
 
 </div>
 </div>

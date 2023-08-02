@@ -4,10 +4,9 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    *This folder holds standard **`Git`** configuration files, namely
-    `.gitignore`, `.gitattributes`, and `.gitignore`. Note that only  `.gitignore`
-    which comes with only instructions in its comments is expected to need
-    to be updated on a per-project basis.*
+    *This folder holds standard **`Git`** configuration files, namely `.gitignore`, `.gitattributes`, and
+    `.gitignore`. Note that only  `.gitignore` which comes with only instructions in its comments is
+    expected to need to be updated on a per-project basis.*
 
 </div></div>
 

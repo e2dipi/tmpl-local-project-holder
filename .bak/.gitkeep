@@ -8,15 +8,11 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This directory hosts the project's <b><code>archives</code></b> and
-    <b><code>backups</code></b>, which range from the near-realtime backups to the project's
-    releases' arhives. Temporary backups made by users should also be stored here, directly at the
-    root of the folder. Note that this folder's content is subject to the archives' naming scheme
-    described in
-    <a href="/admin/guidelines/handling-archives/handling-archives.md">
-        "Handling Archive"
-    </a>.
-</i>
+    *This directory hosts the project's **`archives`** and **`backups`**, which range from the
+    near-realtime backups to the project's releases' arhives. Temporary backups made by users
+    should also be stored here, directly at the root of the folder. Note that this folder's content is
+    subject to the archives' naming scheme described in
+    ["Handling Archive"](/admin/guidelines/handling-archives/handling-archives.md).*
 
 </div>
 </div>

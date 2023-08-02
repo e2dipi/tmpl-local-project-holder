@@ -4,11 +4,12 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This document describes a set of rules and naming conventions that apply to the
-    <b><code>archives</code></b> of a project to ensure efficiency and consistency. These
-    conventions apply to a wide range of projects and require little maintenance. The proposed
-    scheme makes it easy to identify the content of each archive, bundles them together based on
-    their nature, and induces a natural order from newest to oldest.</i>
+    *This document describes a set of rules and naming conventions that apply to the **`archives`** of
+    a project to ensure efficiency and consistency. These conventions apply to a wide range of
+    projects and require little maintenance. The proposed scheme makes it easy to identify the
+    content of each archive, bundles them together based on their nature, and induces a natural order
+    from newest to oldest.*
+
 </div></div>
 
 <details open style="margin: 14pt 0pt 24pt 10pt">

@@ -4,10 +4,9 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder holds all sorts of code fragments that are <b><code>worth keeping</code></b>, at
-    least for a while. Such code pieces can be a staged development, a depracated feature, an
-    experiment, an example taken from a turotial or third-party code.
-</i>
+    *This folder holds all sorts of code fragments that are **`worth keeping`**, at least for a while.
+    Such code pieces can be a staged development, a depracated feature, an experiment, an
+    example taken from a turotial or third-party code.*
 
 </div>
 </div>
