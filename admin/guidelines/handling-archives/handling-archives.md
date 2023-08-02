@@ -94,15 +94,15 @@ The following table lists the typical *prefixes* and their associated *contents*
 
 |  Prefix  | Contents <sup>1</sup>  | Description |
 | :-------: | :---------- |:----------- |
-| **`all`** | The project's or sub-project's name | Identifies archives containing the full project |
-| **`src`** | The project's or sub-project's name | Identifies archives containing only source-files |
-| **`rel`** | The project's or sub-project's name | Identifies archives corresponding to a release |
-| **`rss`** | A description of the resources' nature | Identifies archives containing only resources |
-| **`adm`** | A description of the information's nature |Identifies archives containing administrative information |
-| **`dpl`** | The project's or sub-project's name |  Identifies archives corresponding to a deployment |
-| **`doc`** | A description of the documentation's nature | Identifies archives containing only documentation  |
-| **`bck`** | A description of the contents' nature | A generic identifier for contents matching none of the above  |
-| **`tag`** | The project's or sub-project's name | Typically a rollback point: such file is linked to the *tag in the commit tree* that corresponds to `<tag>` |
+| **`all`** | The project's or sub-project's name | Identifies archives containing the full project. |
+| **`src`** | The project's or sub-project's name | Identifies archives containing only source-files. |
+| **`rel`** | The project's or sub-project's name | Identifies archives corresponding to a release. |
+| **`rss`** | A description of the resources' nature | Identifies archives containing only resources. |
+| **`adm`** | A description of the information's nature |Identifies archives containing administrative information. |
+| **`dpl`** | The project's or sub-project's name |  Identifies archives corresponding to a deployment. |
+| **`doc`** | A description of the documentation's nature | Identifies archives containing only documentation.  |
+| **`bck`** | A description of the contents' nature | A generic identifier for contents matching none of the above.  |
+| **`tag`** | The project's or sub-project's name | Typically a rollback point: such file is linked to the *tag in the commit tree* that corresponds to `<tag>`. |
 
 <i><sup>1</sup> The typical &lt;contents&gt; information
 associated to that prefix</i>.
@@ -111,11 +111,11 @@ associated to that prefix</i>.
 
 The `< vers|date|tag >` element is used to locate the archive on the timeline. Whether an archive takes a *date*, a *version* or a *tag* depends on its nature. The following table lists the typical values that these elements may take on in a given context:
 
-|  Token  | Typical use cases |
-| :------- | :---------- |
-| **`tag`** | Archives or backups referred to by a *tag* in the commit tree |
-| **`vers`** | Archives containing the full project and corresponding to a release |
-| **`date`** | Archives matching none of the above like, typically, partial archives or backups containing only resources or administrative information |
+|  Token  | syntax| Typical use cases |
+| :------- | :----------: | :---------- |
+| **`tag`** | `_X.Y.Z` | Archives or backups referred to by a *tag* in the commit tree. |
+| **`vers`** | `vX.Y.Z` |  Archives containing the full project and corresponding to a release. |
+| **`date`** | `YYMMDD` |  Archives matching none of the above like, typically, partial archives or backups. |
 
 ### Formatting Version Numbers
 
@@ -133,9 +133,9 @@ The first integer is the *major* version, the second is the *minor* version, and
 
 |  Version  | Type of change |
 | :-------: | :---------- |
-| **`<patch>`** | A change that fixes a bug |
-| **`<minor>`** | A change that does not break backward compatibility |
-| **`<major>`** | A change that breaks backward compatibility like, typically, deprecating features |
+| **`<patch>`** | A change that fixes a bug. |
+| **`<minor>`** | A change that does not break backward compatibility. |
+| **`<major>`** | A change that breaks backward compatibility like, typically, deprecating features. |
 
 The  table above shows the types of changes that an increment of the `<major>` verion, the `<minor>` and the `<patch>` version correspond to. Note that `patches` are also calle `hot fixes` and that they profoundly differ from `minor` and `major` versions in that they are usually immediately reflected in the production environment, without waiting for the next release.
 
@@ -185,7 +185,7 @@ The  *suffixes* specify a characteristic of the archive. Typical use cases are t
 
 | Suffix | Meaning |
 | :----: | :------ |
-| **`opt`** | Optimized version of the project |
-| **`dev`** | Development version of the project |
-| **`pub`** | Public version of the project |
-| **`prv`** | Private version of the project |
+| **`opt`** | Optimized version of the project. |
+| **`dev`** | Development version of the project. |
+| **`pub`** | Public version of the project. |
+| **`prv`** | Private version of the project. |
