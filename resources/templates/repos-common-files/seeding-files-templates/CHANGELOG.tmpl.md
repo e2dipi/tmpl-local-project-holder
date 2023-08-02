@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD024 -->
+<!-- this allows the file to contain multiply define headings -->
 # Changelog
 
 <!--
@@ -86,3 +88,5 @@ ___ CHANGELOG   _______________________________________________________________
 ### Added
 
 - Seeding files
+
+<!-- markdownlint-disable MD024 -->
