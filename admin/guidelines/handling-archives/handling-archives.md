@@ -124,7 +124,7 @@ values that these elements may take on in a given context:
 ### Formatting Version Numbers
 
 Version numbers are formatted according to the conventions of
-[Semantic Versioning](https://semver.org/). In this scheme, each version number is composed of
+[Semantic Versioning](https://semver.org/spec/v2.0.0.html). In this scheme, each version number is composed of
 three integers separated by a dot (`.`) and prefixed by a lower-case `v`.
 
 <div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
@@ -161,7 +161,7 @@ reflected in the production environment, without waiting for the next release.
 <p>These conventions apply far beyond the scope of naming archives and are the standard for
 versionning software. The underlying scheme is known as the *Semantic Versioning* model. A
 detailed description of this model is available on the official
-<a href="https://semver.org/"><i>Semver</i> website</a>.
+<a href="https://semver.org/spec/v2.0.0.html"><i>Semver</i> website</a>.
 </p>
 <p>
 Semantic versionning is also at the core of most <i>Git Models"</i> A typical example is the
