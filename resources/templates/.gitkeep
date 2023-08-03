@@ -17,10 +17,13 @@
 <!-- code_chunk_output -->
 
 - [Overview](#overview)
-- [Directories: assets folder](#directories-assets-folder)
+- [Assets folder](#assets-folder)
+- [LaTeX Templates](#latex-templates)
 - [Open Source Licenses](#open-source-licenses)
-- [Readme files](#readme-files)
-- [Repositories' Seeding Files](#repositories-seeding-files)
+- [Repos &nbsp;-&nbsp; *Git configuration*](#repos-nbsp-nbsp-git-configuration)
+- [Repos &nbsp;-&nbsp; *Github templates*](#repos-nbsp-nbsp-github-templates)
+- [Repos &nbsp;-&nbsp; *Readme files templates*](#repos-nbsp-nbsp-readme-files-templates)
+- [Repos &nbsp;-&nbsp; *Typical seeding documents*](#repos-nbsp-nbsp-typical-seeding-documents)
 
 <!-- /code_chunk_output -->
 
@@ -40,7 +43,36 @@ In order to keep the' `.gitkeep` files clean from any comment on the changes men
 on how the templates should be used, theses informations are provided in the present document
 which therefore needs to be updated every time a template is added, removed, or modified.
 
-## Directories: assets folder
+The following tree shows the content of the present directory and briefly describes the purpose of each folder. Further details are provided in the following sections.
+
+```tree
+
+  .                                      ASSETS FOLDER
+  |                                      ´´´´´´´´´´´´´
+  ├── directoires                         # Folder hierarchies
+  |   └── assets                            # Standardized assets folder
+  |
+  ├── latex-templates                     # LaTeX documents *
+  ├── open-src-licenses                   # Major open source licenses
+  |   ├── apache-v2                         # Apache License 2.0
+  |   ├── boostsoft-v1                      # Boost Software License 1.0
+  |   ├── gnu-agpl-v3                       # GNU Affero General Public License v3.0
+  |   ├── gnu-gpl-v3                        # GNU General Public License v3.0
+  |   ├── mit                               # The MIT License
+  |   ├── mozilla-public-v2                 # Mozilla Public License 2.0
+  |   └── the-unlicensed-v1                 # The Unlicense 1.0
+  |
+  └── repos-standard-files                # Standard files for repositories
+        ├── git-config                      # Git configuration files
+        ├── github-templates                # GitHub specific templates
+        ├── readme-templates                # README files
+        └── seedings-files-templates        # Typical seeding files
+
+
+   * Nothing but placeholders for now.
+```
+
+## Assets folder
 
 The `assets` folder is a template folder that contains a generic folder hierarchy for holding assets. It
 was designed to be adapted to a wide range of projects without having to add any folder to its root.
@@ -64,14 +96,52 @@ assets' folders in another context. The shortcut consisting in copying both the 
 container at the same time from the `resources` folder should therefore be avoided even if it is
 tempting to do so.
 
+## LaTeX Templates
+
+`Noting but placeholders for now`
+
+
 ## Open Source Licenses
 
 This folder contains templates of open source `LICENSES` in plain text. The needed replacements
 are indicated by placeholders as all-capitals words surrounded by a pair of double `@` symbols,
-like`@@PLACEHOLDER@@`. For detailed information about open source licenses including how
+like`@@PLACEHOLDER@@`. The different templates were split into separate subfolders in order to name all the files `LICENSE` without causing any conflict. The provided templates are the following:
+
+- `mit`: The MIT License
+- `apache-v2`: Apache License 2.0
+- `boostsoft-v1t`: Boost Software License 1.0
+- `gnu-gpl-v3`: GNU General Public License + lgpl v3.0
+- `gnu-agpl-v3`: GNU Affero General Public License v3.0
+- `mozilla-public-v2`: Mozilla Public License 2.0
+- `the-unlicensed-v1t`: The Unlicense 1.0
+
+
+
+For detailed information about open source licenses including how
 to choose one, or for additional [Choose a License](https://choosealicense.com/) website.
 
-## Readme files
+## Repos &nbsp;-&nbsp; *Git configuration*
+
+This directory contains templates for the standard `Git` configuration files, namely: `.gitattributes`,
+`.gitignore` and `.gitignore`. These files are meant to be copied to the repository's root folder. Note
+that only  `.gitignore` which comes with only instructions in its comments is expected to need to be
+updated on a per-project basis.
+
+More information about the purpose and content of each template is provided in the folfer's
+[.gitkeep file](/resources/templates/repos-standard-files/git-config/.gitkeep/).
+
+## Repos &nbsp;-&nbsp; *Github templates*
+
+This folder holds templates that are written specifically for *GitHub*. Besides the
+[GitHub Action](https://docs.github.com/en/actions)  to be used by the maintainers to automatically
+execute certain tasks, it also holds a few templates that *GitHzub* can use to generate interfaces
+allowing users to *request a pull*, to *point out at issues* such as a bug, a vunerability or a missing
+feature, or to simply *get information* about the repository in a website-like format.
+
+More information about the purpose and content of each template is provided in the folfer's
+[.gitkeep file](/resources/templates/repos-standard-files/github-templates/.gitkeep/).
+
+## Repos &nbsp;-&nbsp; *Readme files templates*
 
 This folder contains templates of `README` files in makdown format. Different templates match
 different use cases are provided. Placeholders as all-capitals words surrounded by a pair of double
@@ -80,9 +150,15 @@ template in order to match the project's context. In addition, a comment designe
 VSCode's Todo-Tree extension as an `EDIT` entry is placed at the end of the file, in order to remind
 the user to edit the template.
 
-## Repositories' Seeding Files
+More information about the purpose and content of each template is provided in the folfer's
+[.gitkeep file](/resources/templates/repos-standard-files/readme-templates/.gitkeep/).
+
+## Repos &nbsp;-&nbsp; *Typical seeding documents*
 
 This folder contains templates for the files commonly found in `repositories`, namely
 `SECURITY.md`, `CHANGELOG.md`,  `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md`.
 The needed replacements, if any, are indicated by placeholders as all-capitals words surrounded by
 a pair of double `@` symbols, like`@@PLACEHOLDER@@`.
+
+More information about the purpose and content of each template is provided in the folfer's
+[.gitkeep file](/resources/templates/repos-standard-files/seedings-files-templates/.gitkeep/).
