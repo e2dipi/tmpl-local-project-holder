@@ -38,7 +38,7 @@
       "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[markdown]": {
-      "editor.wordWrap": "bounded"
+      "editor.wordWrap": "bounded",
     },
     "breadcrumbs.filePath": "on",
     "breadcrumbs.icons": false,
@@ -46,6 +46,18 @@
     "breadcrumbs.symbolPath": "on",
     "breadcrumbs.symbolSortOrder": "position",
     "conventionalCommits.editor.keepAfterSave": false,
+    "conventionalCommits.scopes": [
+      "fs",
+      "dpl",
+      "rss",
+      "dev",
+      "wss",
+      "repo",
+      "adm",
+      "@rel",
+      "vscode",
+      "tmpl"
+    ],
     "diffEditor.codeLens": true,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.cursorBlinking": "smooth",
@@ -152,9 +164,44 @@
     "local-history.path": "${workspaceFolder: 0}/.bak/",
     "local-history.saveDelay": 30,
     "local-history.treeLocation": "explorer",
-    "markdownlint.ignore": [
-      "MD033"
+    "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
+    "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-preview-enhanced.breakOnSingleNewLine": false,
+    "markdown-preview-enhanced.codeBlockTheme": "auto.css",
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+    "markdown-preview-enhanced.enableHTML5Embed": true,
+    "markdown-preview-enhanced.enableScriptExecution": true,
+    "markdown-preview-enhanced.enableTypographer": true,
+    "markdown-preview-enhanced.imageFolderPath": "./assets/images/",
+    "markdown-preview-enhanced.mathBlockDelimiters": [
+      [
+        "$$",
+        "$$"
+      ],
+      [
+        "\\[",
+        "\\]"
+      ]
     ],
+    "markdown-preview-enhanced.mathInlineDelimiters": [
+      [
+        "$",
+        "$"
+      ],
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "markdown-preview-enhanced.mermaidTheme": "default",
+    "markdown-preview-enhanced.previewTheme": "monokai.css",
+    "markdown-preview-enhanced.printBackground": true,
+    "markdown-preview-enhanced.revealjsTheme": "black.css",
+    "markdownlint.run": "onType",
+    "markdownlint.config": {
+      "MD033": false,
+    },
     "markdownlint.lintWorkspaceGlobs": [
       "!**/bower_components",
       "!**/external_modules",
@@ -163,12 +210,11 @@
       "!**/.history",
       "!**/vendor",
       "!**/.bak",
-      "!**/.git",
+      "!**/.git"
     ],
     "material-icon-theme.activeIconPack": "none",
     "material-icon-theme.files.associations": {
       "*.code-workspace": "VScode",
-      ".gitkeep": "Tree",
       "*.tmpl": "Template",
       "*.tmpl.cls": "Template",
       "*.tmpl.css": "Template",
@@ -179,6 +225,7 @@
       "*.tmpl.tex": "Template",
       "*.tmpl.webmanifest": "Template",
       "*.tmpl.yml": "Template",
+      ".gitkeep": "Tree"
     },
     "material-icon-theme.folders.associations": {
       ".arc": "Archive",
@@ -191,12 +238,13 @@
       ".source": "Dist",
       ".sources": "Dist",
       "@rel": "Dist",
+      "ISSUE_TEMPLATE": "Template",
       "a-subproject": "Project",
       "about-gitignore": "Docs",
       "adm": "Log",
       "admonition": "Docs",
-      "apache-v2": "Template",
       "another-subproject": "Git",
+      "apache-v2": "Template",
       "assets": "Graphql",
       "audits": "Test",
       "boostsoft-v1": "Template",
@@ -218,9 +266,8 @@
       "guidelines": "Rules",
       "handling-archives": "Rules",
       "images": "Images",
-      "ISSUE_TEMPLATE": "Template",
-      "libraries": "Lib",
       "latex-templates": "Template",
+      "libraries": "Lib",
       "local-project-holder": "Template",
       "local-template-repo": "Template",
       "manuals": "Docs",
@@ -238,6 +285,7 @@
       "repos-standard-files": "Template",
       "resources": "Resource",
       "seeding-files-templates": "Template",
+      "targ-env$": "Shared",
       "templates": "Template",
       "the-unlicensed-v1": "Template",
       "to-download": "Download",
@@ -246,17 +294,16 @@
       "tutorials&refs": "Docs",
       "useful-tools": "Utils",
       "user-interface": "Interface",
-      "vscode-custom-features": "Docs",
       "vsc01-editor": "Docs",
       "vsc02-admonition": "Docs",
       "vsc03-todo-tree": "Docs",
+      "vscode-custom-features": "Docs",
       "vscode-editor": "Docs",
       "workflows": "Template",
       "workspace": "Project",
       "workspace(s)": "Project",
       "workspaces": "Project",
-      "worth-keeping": "Custom",
-      "targ-env$": "Shared"
+      "worth-keeping": "Custom"
     },
     "material-icon-theme.folders.theme": "specific",
     "material-icon-theme.hidesExplorerArrows": true,
@@ -314,6 +361,7 @@
       "**/COPYING.LESSER*",
       "README_template.md"
     ],
+    "todo-tree.filtering.ignoreGitSubmodules": false,
     "todo-tree.filtering.includeHiddenFiles": true,
     "todo-tree.filtering.passGlobsToRipgrep": true,
     "todo-tree.filtering.scopes": [
@@ -330,8 +378,10 @@
         "name": "source-files"
       }
     ],
+    "todo-tree.general.automaticGitRefreshInterval": 300,
     "todo-tree.general.debug": false,
     "todo-tree.general.exportPath": "${workspaceFolder}/admin/todo&notes/todo-tree-%Y%m%d-%H%M.txt",
+    "todo-tree.general.periodicRefreshInterval": 5,
     "todo-tree.general.showActivityBarBadge": true,
     "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
     "todo-tree.general.statusBar": "tags",
@@ -407,16 +457,16 @@
         "opacity": 1,
         "type": "whole-line"
       },
-      "CHAPTER": {
-        "icon": "book",
-        "iconColour": "#808000",
-        "opacity": 1,
-        "type": "line"
-      },
       "CAUTION": {
         "icon": "alert",
         "iconColour": "#87CEFA",
         "opacity": 0,
+        "type": "line"
+      },
+      "CHAPTER": {
+        "icon": "book",
+        "iconColour": "#808000",
+        "opacity": 1,
         "type": "line"
       },
       "CHECK": {
@@ -632,55 +682,6 @@
     "workbench.settings.openDefaultSettings": false,
     "workbench.startupEditor": "readme",
     "workbench.tree.indent": 20,
-    "workbench.tree.renderIndentGuides": "onHover",
-    "markdown-preview-enhanced.breakOnSingleNewLine": false,
-    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
-    "markdown-preview-enhanced.enableHTML5Embed": true,
-    "markdown-preview-enhanced.enableTypographer": true,
-    "markdown-preview-enhanced.mermaidTheme": "default",
-    "markdown-preview-enhanced.previewTheme": "monokai.css",
-    "markdown-preview-enhanced.revealjsTheme": "black.css",
-    "markdown-preview-enhanced.codeBlockTheme": "auto.css",
-    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
-    "markdown-preview-enhanced.enableScriptExecution": true,
-    "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
-    "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
-    "markdown-preview-enhanced.printBackground": true,
-    "markdown-preview-enhanced.mathBlockDelimiters": [
-      [
-        "$$",
-        "$$"
-      ],
-      [
-        "\\[",
-        "\\]"
-      ]
-    ],
-    "markdown-preview-enhanced.mathInlineDelimiters": [
-      [
-        "$",
-        "$"
-      ],
-      [
-        "\\(",
-        "\\)"
-      ]
-    ],
-    "markdown-preview-enhanced.imageFolderPath": "./assets/images/",
-    "todo-tree.filtering.ignoreGitSubmodules": false,
-    "todo-tree.general.automaticGitRefreshInterval": 300,
-    "todo-tree.general.periodicRefreshInterval": 5,
-    "conventionalCommits.scopes": [
-      "fs",
-      "dpl",
-      "rss",
-      "dev",
-      "wss",
-      "repo",
-      "adm",
-      "@rel",
-      "vscode",
-      "tmpl"
-    ]
+    "workbench.tree.renderIndentGuides": "onHover"
   }
 }
