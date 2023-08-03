@@ -67,8 +67,7 @@
     "editor.defaultFormatter": "vscode.typescript-language-features",
     "editor.detectIndentation": true,
     "editor.find.autoFindInSelection": "never",
-    "editor.fontFamily": "Comfortaa, 'Noto Sans Modi', Roboto, Arial, 'Gil Sans', Verdana",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -76,7 +75,6 @@
     "editor.guides.highlightActiveIndentation": true,
     "editor.hover.sticky": true,
     "editor.indentSize": "tabSize",
-    "editor.inlayHints.fontSize": 0,
     "editor.inlayHints.padding": true,
     "editor.inlineSuggest.enabled": true,
     "editor.linkedEditing": true,
@@ -346,7 +344,7 @@
       "sortJSONValues": false,
       "sortJSONValuesReverse": false
     },
-    "terminal.integrated.fontFamily": "Consolas, Monospace, Inconsolata",
+    "terminal.integrated.fontFamily": "",
     "terminal.integrated.tabStopWidth": 2,
     "todo-tree.filtering.excludeGlobs": [
       "**/*.{lock,log,aux,bbl,min.js}",
@@ -682,6 +680,6 @@
     "workbench.settings.openDefaultSettings": false,
     "workbench.startupEditor": "readme",
     "workbench.tree.indent": 20,
-    "workbench.tree.renderIndentGuides": "onHover"
+    "workbench.tree.renderIndentGuides": "onHover",
   }
 }
