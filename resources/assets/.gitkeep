@@ -46,6 +46,7 @@ The assets folder is organized in subfolders that group assets by their nature. 
   ├── multimedia            # Multimedia assets that are neither img nor UI
   |   ├── audio               # Audio and sound-like assets
   |   └── videos              # Video and animation-like assets
+  |
   ├── to-download           # Files that are provided as downloadable content
   └── user-interface        # UI-related assets like icons, logos and wallpapers
 
