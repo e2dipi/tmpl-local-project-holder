@@ -5,16 +5,37 @@
 
 !!!Abstract
     *This folder holds standard **`Git`** configuration files, namely `.gitignore`, `.gitattributes`, and
-    `.gitignore`. Note that only  `.gitignore` which comes with only instructions in its comments is
-    expected to need to be updated on a per-project basis.*
+    `.gitignore`.*
 
 </div></div>
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
+<details open style="margin: 14pt 0pt 24pt 10pt">
+<summary style="margin-left: -8pt; font-weight: bold; font-size: larger; font-variant: small-caps">
+<span style="margin-left: 3pt">Table of contents<span></summary>
+
+<!-- code_chunk_output -->
+
+- [Overview](#overview)
+- [The *.gitattributes* file](#the-gitattributes-file)
+- [The *.gitignore* file](#the-gitignore-file)
+- [The  *.gitconfig* file](#the--gitconfig-file)
+
+<!-- /code_chunk_output -->
+
+</details>
+
 ## Overview
 
-This directory contains templates for the standard `Git` configuration files, namely: `.gitattributes`, `.gitignore` and `.gitignore`.
+This directory contains templates for the standard `Git` configuration files, namely: `.gitattributes`,
+`.gitignore` and `.gitignore`. These files are meant to be copied to the repository's root folder. Note
+that only  `.gitignore` which comes with only instructions in its comments is expected to need to be
+updated on a per-project basis.
 
-## File *.gitattributes*
+More information about the purpose and content of each template is provided in the following
+sections.
+
+## The *.gitattributes* file
 
 This file is used to associate attributes with pathnames. It is used by `Git`
 to match files and directories to attributes that tell `Git` how to manage
@@ -23,7 +44,7 @@ them.
 **The provided template is expected to cover most situations and, thus,**
 **to need little to no modification**.
 
-## File *.gitignore*
+## The *.gitignore* file
 
 This file is used to specify intentionally untracked files that `Git` should
 ignore. The provided template is empty and is meant to be updated using
@@ -32,7 +53,7 @@ then to be completed with any additional file or folder specific to the project
 at hand. More information about the generator and custom entries is
 available in the template's comments.
 
-## File *.config*
+## The  *.gitconfig* file
 
 This file is used to specify the configuration of the `Git` command-line
 interface and of the `Git` tools. The provided template sets up configuration
