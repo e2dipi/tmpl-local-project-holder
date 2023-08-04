@@ -2,25 +2,6 @@
 # Changelog
 <!--
 -------------------------------------------------------------------------------------------------------------------------------------
-___  [  ]  INSTALLATION  CHECKLIST     ___________________________________________
-----------------------------------------------------------------------------------------------------------------------------
-
-[ x ]  COPY/MOVE the template to `/CHANGELOG.md` (at repo's root-level)
-
-[ x ]  REPLACE https://github.com/e2d2ipi/tmpl-local-project-holder to the actual repository's URL. There are 5 instances of it:
-      [ x ]  3x in the TEMPLATE section
-      [ x ]  1x in the [0.0.0] vesion
-      [ x ]  1x in the [Unreleasd] vesion
-
-[  ]  UPDATE version [0.0.0] with the project's data
-      [  ]  Set the <yyy-mm-dd> to TODAY's date
-      [  ]  ADD / REMOVE / MODIFY  the version's description (e.g. specify the use license)
-
-[  ]  DONE! Move this checklist at the bottom of this file (or deleting it)
-
--->
-<!--
--------------------------------------------------------------------------------------------------------------------------------------
 ___  HEADER     _______________________________________________________________
 ---------------------------------------------------------------------------------------------------------------------------->
 
@@ -100,20 +81,25 @@ branch before the final merge happens.
 
 ### Added
 
-- VSCode [workspace file](/vscode-index.code-workspace)
-- Global backup/archives [folder](/.bak/.gitkeep)
-- Deployment environment' [directory](/deploy/.gitkeep)
-- Admininistrative environment [directory](/admin/.gitkeep)
-- User's environment and resources [directory](/resources/.gitkeep)
-  - Various templates: [Assets' folder and standard repo files](/resources/templates/.gitkeep)
-  - User's shared assets: [full octicons set and all e2d2lipi logos](/resources/assets/user-interface/.gitkeep)
-  - Mini-guide on exploiting VSCode's features in [markdown format](/resources/manuals/vscode-custom-features/vscode-custom-features.md)
-- Workspace(s) environment to hold the project and subprojects [directories](/workspaces/.gitkeep)
-- Set of root files:[CHANGELOG.md](/CHANGELOG.md), [favicon.ico](/favicon.ico), [vscode-index.code-workspace](/vscode-index.code-workspace)
+- VSCode [workspace settings](/vscode-index.code-workspace).
+- A folder to hold the project's [ backups and archives](/.bak/.gitkeep).
+- A folder to host the project's [deployment environments](/deploy/.gitkeep).
+- A folder to host the project's [admininistrative environment ](/admin/.gitkeep):
+  - Guidelines on how to handle the project's [archives](/admin/guidelines/handling-archives/handling-archives.md).
+  - Guidelines on the recommended [Git branching model](/admin/guidelines/git-branching/git-branching-model.md).
+- A folder to hold the user's personal [development resources](/resources/.gitkeep):
+  - Various templates: [Assets' folder and standard repo files](/resources/templates/.gitkeep).
+  - User's shared assets: [full octicons set and all e2d2lipi logos](/resources/assets/user-interface/.gitkeep).
+  - Mini-guide on exploiting VSCode's features in [markdown format](/resources/manuals/vscode-custom-features/vscode-custom-features.md).
+- Workspace(s) environment to hold the project and subprojects [directories](/workspaces/.gitkeep).
+- Additional dev-related files: [CHANGELOG.md](/CHANGELOG.md), [vscode-index.code-workspace](/vscode-index.code-workspace).
 
 ### Changed
 
-- The seeding files were: [.gitignore](/.gitignore), [LICENCE](/LICENSE), [README.md](/README.md)
+- The seeding files were updated:
+  - The [.gitignore](/.gitignore) file was rfined.
+  - The [LICENCE](/LICENSE) was updated with the needed informatio.
+  - The [README](/README.md) file was updated to a detailed description of the project.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -127,3 +113,22 @@ branch before the final merge happens.
   - A brief description of the project in a [README file](/README.md).
 
 <!-- markdownlint-disable MD024 -->
+<!--
+-------------------------------------------------------------------------------------------------------------------------------------
+___  [ x ]  INSTALLATION  CHECKLIST     __________________________________________
+----------------------------------------------------------------------------------------------------------------------------
+
+[ x ]  COPY/MOVE the template to `/CHANGELOG.md` (at repo's root-level)
+
+[ x ]  REPLACE https://github.com/e2d2ipi/tmpl-local-project-holder to the actual repository's URL. There are 5 instances of it:
+      [ x ]  3x in the TEMPLATE section
+      [ x ]  1x in the [0.0.0] vesion
+      [ x ]  1x in the [Unreleasd] vesion
+
+[ x ]  UPDATE version [0.0.0] with the project's data
+      [ x ]  Set the <yyy-mm-dd> to TODAY's date
+      [ x ]  ADD / REMOVE / MODIFY  the version's description (e.g. specify the use license)
+
+[ x ]  DONE! Move this checklist at the bottom of this file (or deleting it)
+
+-->
