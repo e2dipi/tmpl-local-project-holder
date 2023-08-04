@@ -42,8 +42,8 @@ ___  TEMPLATE     _____________________________________________________________
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## [Unreleased](<repo-url>/compare/...HEAD)
-## [<vers>](<repo-url>/releases/tag/<the-tag>) - <yyy-mm-dd>
-## [<vers>](<repo-url>/compare/<to-that>...<this>) - <yyy-mm-dd>
+## [<vers>](<repo-url>/releases/tag/<the-tag>) &nbsp;-&nbsp; <yyy-mm-dd>
+## [<vers>](<repo-url>/compare/<to-that>...<this>) &nbsp;-&nbsp; <yyy-mm-dd>
 
 ### Added
 
@@ -85,8 +85,7 @@ will occur when the `release` branch is merged back to the `develop` branch).
 
     [   ]  MODIFY the comparison settings from `...HEAD` to `<last-vers-tag>...<new-vers-tag>`
 
-    [   ]  REPLACE <yyy-mm-dd> by today's date
-          (this update should be the /release / vX.Y.Z' branch's last commit)
+    [   ]  ADD today's date in the format YYYY-MM-DD
 
     [   ]  REPLACE [Unrelease] by the last release's next version
 
@@ -97,7 +96,7 @@ branch before the final merge happens.
 
 -->
 
-## [Unreleased](<repo-url>/compare/...HEAD) - <yyy-mm-dd>
+## [Unreleased](<repo-url>/compare/...HEAD)
 
 ### Fixed
 
@@ -125,7 +124,7 @@ branch before the final merge happens.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-## [0.0.0](<repo-url>/releases/tag/v0.0.0) - <yyy-mm-dd>
+## [Seed](<repo-url>/releases/tag/v0.0.0) &nbsp;-&nbsp; <yyy-mm-dd>
 
 ### Added
 
