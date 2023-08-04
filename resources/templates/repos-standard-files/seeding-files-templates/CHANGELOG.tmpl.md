@@ -78,7 +78,7 @@ NEW  VERSION  CHECKLIST  (!!! Release Brsnch !!!)
 The first 3 steps below should be taken eright on the `develop` branch, right before  the `telease`
 branch is created. If done on the `release` branch, then the changes should be merged back to
 the `develop` branch asap (before  its changelog is updated with new entries, otherwise tconflicts
-will occur when the `release` branch is merged back to the `develop` branch.
+will occur when the `release` branch is merged back to the `develop` branch).
 
     [  ]  REPLACE [Unrelease] by the last release's next version
 
