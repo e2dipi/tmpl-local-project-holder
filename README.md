@@ -1,4 +1,4 @@
-# README - Local Projects' Holder
+# README - *Local Project Template*
 
 ---
 
