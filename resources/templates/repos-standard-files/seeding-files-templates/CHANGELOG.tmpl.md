@@ -5,18 +5,19 @@
 ___  [   ]  INSTALLATION  CHECKLIST     __________________________________________
 ----------------------------------------------------------------------------------------------------------------------------
 
-[  ]  COPY/MOVE the template to `/CHANGELOG.md` (at repo's root-level)
+[   ]  COPY / MOVE the template to `/CHANGELOG.md` (at repo's root-level)
 
-[  ]  REPLACE <repo-url> to the actual repository's URL. There are 5 instances of it:
-      [  ]  3x in the TEMPLATE section
-      [  ]  1x in the [0.0.0] vesion
-      [  ]  1x in the [Unreleasd] vesion
+[   ]  REPLACE https://github.com/e2d2ipi/tmpl-local-project-holder to the actual repository's URL.
+       There are 5 instances of it:
+        [   ]  3x in the TEMPLATE section
+        [   ]  1x in the [0.0.0] vesion
+        [   ]  1x in the [Unreleasd] vesion
 
-[  ]  UPDATE version [0.0.0] with the project's data
-      [  ]  Set the <yyy-mm-dd> to TODAY's date
-      [  ]  ADD / REMOVE / MODIFY  the version's description (e.g. specify the use license)
+[   ]  UPDATE version [0.0.0] with the project's data
+        [   ]  Set the <yyy-mm-dd> to TODAY's date
+        [   ]  ADD / REMOVE / MODIFY  the version's description (e.g. specify the use license)
 
-[  ]  DONE! Move this checklist at the bottom of this file (or deleting it)
+[   ]  DONE! Move this checklist at the bottom of this file (or deleting it)
 
 -->
 <!--
@@ -80,19 +81,19 @@ branch is created. If done on the `release` branch, then the changes should be m
 the `develop` branch asap (before  its changelog is updated with new entries, otherwise tconflicts
 will occur when the `release` branch is merged back to the `develop` branch).
 
-    [  ]  REPLACE [Unrelease] by the last release's next version
+    [   ]  REPLACE [Unrelease] by the last release's next version
 
-    [  ]  MODIFY the comparison settings from `...HEAD` to `<last-vers-tag>...<new-vers-tag>`
+    [   ]  MODIFY the comparison settings from `...HEAD` to `<last-vers-tag>...<new-vers-tag>`
 
-    [  ]  REPLACE <yyy-mm-dd> by today's date
+    [   ]  REPLACE <yyy-mm-dd> by today's date
           (this update should be the /release / vX.Y.Z' branch's last commit)
 
-    [  ]  REPLACE [Unrelease] by the last release's next version
+    [   ]  REPLACE [Unrelease] by the last release's next version
 
 The step below finalizes the release's changelog. It should be the last commit on the `release`
 branch before the final merge happens.
 
-    [  ]  MODIFY the comparison settings from `...HEAD` to `<last-vers-tag>...<new-vers-zag>`
+    [   ]  MODIFY the comparison settings from `...HEAD` to `<last-vers-tag>...<new-vers-zag>`
 
 -->
 
