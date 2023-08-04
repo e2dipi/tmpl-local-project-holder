@@ -128,9 +128,9 @@ branch before the final merge happens.
 
 ### Added
 
-- Project's seedings:
-  - [.gitignore](/.gitignore),
-  - [LICENCE](/LICENSE),
-  - [README.md](/README.md)
+- The standard seeding files:
+  - A basic [.gitignore config](/.gitignore).
+  - A copy of an [Open Source LICENCE](/LICENSE).
+  - A brief description of the project in a [README file](/README.md).
 
 <!-- markdownlint-disable MD024 -->
