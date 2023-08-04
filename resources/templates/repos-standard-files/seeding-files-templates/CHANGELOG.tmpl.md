@@ -1,9 +1,9 @@
 <!-- markdownlint-disable MD024 -->
 # Changelog
 <!--
------------------------------------------------------------------------------------------------------------------
-___  [  ]  INSTALLATION  CHECKLIST     _________________________________________________________________
-----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
+___  [  ]  INSTALLATION  CHECKLIST     ___________________________________________
+----------------------------------------------------------------------------------------------------------------------------
 
 [  ]  COPY/MOVE the template to `/CHANGELOG.md` (at repo's root-level)
 
@@ -20,19 +20,25 @@ ___  [  ]  INSTALLATION  CHECKLIST     _________________________________________
 
 -->
 <!--
------------------------------------------------------------------------------------------------------------------
-___  HEADER     _________________________________________________________________________________________
---------------------------------------------------------------------------------------------------------->
+-------------------------------------------------------------------------------------------------------------------------------------
+___  HEADER     _______________________________________________________________
+---------------------------------------------------------------------------------------------------------------------------->
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htmlspec/v2.0.0.html).
+<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="font-size: 95%; text-align: justify;">
+
+!!!Hint Conventions
+    This document's format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
+    and [Semantic Versionning](https://semver.org/spec/v2.0.0.htmlspec/v2.0.0.html) .
+
+</div></div>
 
 <!--
------------------------------------------------------------------------------------------------------------------
-___  TEMPLATE     _______________________________________________________________________________________
-----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
+___  TEMPLATE     _____________________________________________________________
+-----------------------------------------------------------------------------------------------------------------------------
 
 ## [Unreleased](<repo-url>/compare/...HEAD)
 ## [<vers>](<repo-url>/releases/tag/<the-tag>) - <yyy-mm-dd>
@@ -62,22 +68,31 @@ ___  TEMPLATE     ______________________________________________________________
 
 - ...
 
-<!- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
+-->
 <!--
------------------------------------------------------------------------------------------------------------------
-___ CHANGELOG   ______________________________________________________________________________________
------------------------------------------------------------------------------------------------------------
-NEW  VERSION  CHECKLIST
-´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´
-[  ]  DOUBLE CHECK last release: verify each step and uncheck its box once confirmed ok.
+-------------------------------------------------------------------------------------------------------------------------------------
+___ CHANGELOG   ____________________________________________________________
+-----------------------------------------------------------------------------------------------------------------------------
+NEW  VERSION  CHECKLIST  (!!! Release Brsnch !!!)
+´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´
+The first 3 steps below should be taken eright on the `develop` branch, right before  the `telease`
+branch is created. If done on the `release` branch, then the changes should be merged back to
+the `develop` branch asap (before  its changelog is updated with new entries, otherwise tconflicts
+will occur when the `release` branch is merged back to the `develop` branch.
 
-[  ]  REPLACE [Unrelease] by the last release's next version
+    [  ]  REPLACE [Unrelease] by the last release's next version
 
-[  ]  MODIFY the comparison settings from `...HEAD` to `<last-vers-tag>...<new-vers-zag>`
+    [  ]  MODIFY the comparison settings from `...HEAD` to `<last-vers-tag>...<new-vers-tag>`
 
-[  ]  REPLACE <yyy-mm-dd> by today's date
-      (this update should be the /elease / vX.Y.Z' branch's last commit)
+    [  ]  REPLACE <yyy-mm-dd> by today's date
+          (this update should be the /release / vX.Y.Z' branch's last commit)
+
+    [  ]  REPLACE [Unrelease] by the last release's next version
+
+The step below finalizes the release's changelog. It should be the last commit on the `release`
+branch before the final merge happens.
+
+    [  ]  MODIFY the comparison settings from `...HEAD` to `<last-vers-tag>...<new-vers-zag>`
 
 -->
 
@@ -107,7 +122,7 @@ NEW  VERSION  CHECKLIST
 
 - ...
 
-<!- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+-------------------------------------------------------------------------------------------------------------------------------------
 
 ## [0.0.0](<repo-url>/releases/tag/v0.0.0) - <yyy-mm-dd>
 
