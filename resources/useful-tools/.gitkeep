@@ -7,7 +7,7 @@
     *This folder holds the user's
     **`utilities`** and **`scripts`**. This folder's content and structure and contents are meant to evolve
     constantly and to be, at least partially, copied from one project to the other or shared among
-    them.*
+    them. It may also share part of its contents with the [/admin/audit](/admin/audits/.gitkeep) folder.*
 
 </div>
 </div>
