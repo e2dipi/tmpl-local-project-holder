@@ -1,13 +1,14 @@
 ################################################################################
-###   CUSTOM  ENTRIES       #######################################################
+###   CUSTOM  ENTRIES       ####################################################
 ################################################################################
-#   Note that entries are processed in order. As a consequence, to make sure that
-#   custom entries are taken into account, they should be placed at the end of the file
-#   such that they are processed last.
-#   Regarding this particular repo, we need to exclude the 'backup' contents of the `.bak`
-#   folder, which is everything but its `.bak/archives` subfolder (and the `.gitkeep` files).
+#   Note that entries are processed in order. As a consequence, to make sure
+#   that custom entries are taken into account, they should be placed at the
+#   end of the file such that they are processed last.
+#   Regarding this particular repo, we need to exclude the 'backup' contents
+#   of the `.bak` folder, which is everything but its `.bak/archives` subfolder
+#   (and the `.gitkeep` files).
 #   Note that the `.gitkeep` files are explicitly enabled at the end.
-# -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+# -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 ##
 # Excluded the `.bak` folder's contents
 .bak/*
@@ -15,11 +16,12 @@
 !.bak/archives
 #_______________________________________________________________________________
 ################################################################################
-###   AUTO-GENERATED       #######################################################
+###   AUTO-GENERATED       #####################################################
 ################################################################################
 #  Created by https://www.toptal.com/developers/gitignore/
-#  Edit at https://www.toptal.com/developers/gitignore?templates=git,linux,macos,windows,vscode
-# -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+#  Edit at https://www.toptal.com/developers/gitignore?
+#             templates=git,linux,macos,windows,vscode
+# -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
@@ -130,16 +132,16 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/git,linux,macos,windows
 #_______________________________________________________________________________
 ################################################################################
-###   CUSTOM  ENTRIES       #######################################################
+###   CUSTOM  ENTRIES       ####################################################
 ################################################################################
-#   Note that entries are processed in order. As a consequence, to make sure that
-#   custom entries are taken into account, they should be placed at the end of the file
-#   such that they are processed last.
-#   Regarding this particular repo, we want to exclude the content of the `.bak` folder
-#   and this of the `@rel` folder, except for their `.gitkeep` files meant to preserve the
-#   template's folder structure.
-# -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+#   Note that entries are processed in order. As a consequence, to make sure
+#   that custom entries are taken into account, they should be placed at the
+#   end of the file such that they are processed last.
+#   Regarding this particular repo, we want to exclude the content of the
+#   `.bak` folder and this of the `@rel` folder, except for their `.gitkeep`
+#   files meant to preserve the template's folder structure.
+# -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 ##
-# Explicitly enable all all `.gitkeep` files to ensure that the template's folder structure is preserved
+# Explicitly enable all all `.gitkeep` files to prserve the structur
 !.gitkeep
-#_______________________________________________________________________________
+#____________________________________________________________________________

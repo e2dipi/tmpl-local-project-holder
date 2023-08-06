@@ -161,17 +161,8 @@ converted to another format. At the time of writing, two guidelines are provided
 ## Roadmap
 
 Planned features and improvements as well as known issues and other topics of interest concerning
-this template's development status and roadmap are embedded in its `.gitkeep` files in the form of
-[Todo Tree](https://tinyurl.com/fy452sjj) comments. They can be viewed in the *Todo Tree* panel of
-[Visual Studio Code](https://code.visualstudio.com/) by installing the *Todo Tree* extension and
-opening the template's root folder in *Visual Studio Code*'s
-[index workspace.](vscode-index.code-workspace)
-
-Note that, due to the custom tags that were used and that are defined in that latter file, opening this
-template exactly as just described is mandatory to get an exhaustive view of all the *Todo Tree* tags
-that this project contains.
-
-For the record, let's list here the most important entries anyway:
+this template's development status are embedded in its `.gitkeep` files in the form of
+[Todo Tree comments](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree). The most important ones are also listed here for convenience:
 
 - [ ]  Implement the deployments' scripts.
 - [ ]  Create type-specific (*JavaScript*, *TypeScript*, *NodeJS*, *GAS*, *LaTex*, etc ...)  templates
