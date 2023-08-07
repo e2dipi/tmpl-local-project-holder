@@ -1,7 +1,7 @@
 
 # The Admonitions Extension
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad00-abstract.inc.md"
+@import "./vscad00-abstract.inc.md"
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 <details open style="margin: 14pt 0pt 24pt 10pt">
@@ -24,28 +24,28 @@
 
 ## Admonitions Overview
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad01-overview.inc.md"
+@import "./vscad01-overview.inc.md"
 
 ## Creating Admonitions
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad02-syntax.inc.md"
+@import "./vscad02-syntax.inc.md"
 
 ## Default Types Of Admonitions
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad03-types.inc.md"
+@import "./vscad03-types.inc.md"
 
 ## Customizing Admonitions
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad04-customize-intro.inc.md"
+@import "./vscad04-customize-intro.inc.md"
 
 ### Transpiled HTML
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad05-customize-html.inc.md"
+@import "./vscad05-customize-html.inc.md"
 
 ### Custom Types Of Admonitions
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad06-customize-type.inc.md"
+@import "./vscad06-customize-type.inc.md"
 
 ### Customizing Admonitions' Styles
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad07-customize-css.inc.md"
+@import "./vscad07-customize-css.inc.md"

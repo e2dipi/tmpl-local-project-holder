@@ -1,6 +1,6 @@
 # The Todo-Tree Extension
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt00-abstract.inc.md"
+@import "./vsctdt00-abstract.inc.md"
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 <details open style="margin: 14pt 0pt 24pt 10pt">
@@ -25,36 +25,36 @@
 
 ## Todo-Tree Overview
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt01-overview.inc.md"
+@import "./vsctdt01-overview.inc.md"
 
 ## Todo-Tree's Tag Categories
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt02-categories.inc.md"
+@import "./vsctdt02-categories.inc.md"
 
 ## Issues Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt03-issues.inc.md"
+@import "./vsctdt03-issues.inc.md"
 
 ## Alerts Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt04-alerts.inc.md"
+@import "./vsctdt04-alerts.inc.md"
 
 ## Records Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt05-records.inc.md"
+@import "./vsctdt05-records.inc.md"
 
 ## Hunches Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt06-hunches.inc.md"
+@import "./vsctdt06-hunches.inc.md"
 
 ## Markers Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt07-markers.inc.md"
+@import "./vsctdt07-markers.inc.md"
 
 ## Helpers Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt08-helpers.inc.md"
+@import "./vsctdt08-helpers.inc.md"
 
 ## Dividers Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt09-dividers.inc.md"
+@import "./vsctdt09-dividers.inc.md"

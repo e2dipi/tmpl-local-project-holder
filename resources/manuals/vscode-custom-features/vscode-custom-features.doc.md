@@ -1,6 +1,6 @@
 # Using The Template With Visual Studio Code
 
-@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce00-abstract.inc.md"
+@import "./vsc01-editor/vsce00-abstract.inc.md"
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 <details open style="margin: 14pt 0pt 24pt 10pt" >
@@ -42,96 +42,96 @@
 
 ## About This Documentation
 
-@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce01-overview.inc.md"
+@import "./vsc01-editor/vsce01-overview.inc.md"
 
 ## VSCode's Editor Overview
 
 ### VSCode's Workspaces
 
-@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce02-ws-intro.inc.md"
+@import "./vsc01-editor/vsce02-ws-intro.inc.md"
 
-@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce03-ws-create.inc.md"
+@import "./vsc01-editor/vsce03-ws-create.inc.md"
 
 ### VSCode Configuration
 
-@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce04-config-overview.inc.md"
+@import "./vsc01-editor/vsce04-config-overview.inc.md"
 
 ---
 
 ## The Admonitions Extension
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad00-abstract.inc.md"
+@import "./vsc02-admonition/vscad00-abstract.inc.md"
 
 ### Admonitions Overview
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad01-overview.inc.md"
+@import "./vsc02-admonition/vscad01-overview.inc.md"
 
 ### Admonitions' Usage
 
 #### Creating Admonitions
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad02-syntax.inc.md"
+@import "./vsc02-admonition/vscad02-syntax.inc.md"
 
 #### Default Types Of Admonitions
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad03-types.inc.md"
+@import "./vsc02-admonition/vscad03-types.inc.md"
 
 ### Customizing Admonitions
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad04-customize-intro.inc.md"
+@import "./vsc02-admonition/vscad04-customize-intro.inc.md"
 
 #### Transpiled HTML
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad05-customize-html.inc.md"
+@import "./vsc02-admonition/vscad05-customize-html.inc.md"
 
 #### Custom Types Of Admonitions
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad06-customize-type.inc.md"
+@import "./vsc02-admonition/vscad06-customize-type.inc.md"
 
 #### Customizing Admonitions' Styles
 
-@import "/resources/manuals/vscode-custom-features/vsc02-admonition/vscad07-customize-css.inc.md"
+@import "./vsc02-admonition/vscad07-customize-css.inc.md"
 
 ---
 
 ## The Todo-Tree Extension
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt00-abstract.inc.md"
+@import "./vsc03-todo-tree/vsctdt00-abstract.inc.md"
 
 ### Todo-Tree Overview
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt01-overview.inc.md"
+@import "./vsc03-todo-tree/vsctdt01-overview.inc.md"
 
 ### Todo-Tree's Tag Categories
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt02-categories.inc.md"
+@import "./vsc03-todo-tree/vsctdt02-categories.inc.md"
 
 ### Todo-Tree's Tags Description
 
 #### Issues Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt03-issues.inc.md"
+@import "./vsc03-todo-tree/vsctdt03-issues.inc.md"
 
 #### Alerts Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt04-alerts.inc.md"
+@import "./vsc03-todo-tree/vsctdt04-alerts.inc.md"
 
 #### Records Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt05-records.inc.md"
+@import "./vsc03-todo-tree/vsctdt05-records.inc.md"
 
 #### Hunches Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt06-hunches.inc.md"
+@import "./vsc03-todo-tree/vsctdt06-hunches.inc.md"
 
 #### Markers Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt07-markers.inc.md"
+@import "./vsc03-todo-tree/vsctdt07-markers.inc.md"
 
 #### Helpers Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt08-helpers.inc.md"
+@import "./vsc03-todo-tree/vsctdt08-helpers.inc.md"
 
 #### Dividers Tag Category
 
-@import "/resources/manuals/vscode-custom-features/vsc03-todo-tree/vsctdt09-dividers.inc.md"
+@import "./vsc03-todo-tree/vsctdt09-dividers.inc.md"

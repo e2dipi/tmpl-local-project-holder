@@ -1,6 +1,6 @@
 # VSCode's Editor
 
-@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce00-abstract.inc.md"
+@import "./vsce00-abstract.inc.md"
 
 <div id="toc_anchor"></div>
 
@@ -22,16 +22,16 @@
 
 ## About This Documentation
 
-@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce01-overview.inc.md"
+@import "./vsce01-overview.inc.md"
 
 ## VSCode's Editor Overview
 
 ### VSCode's Workspaces
 
-@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce02-ws-intro.inc.md"
+@import "./vsce02-ws-intro.inc.md"
 
-@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce03-ws-create.inc.md"
+@import "./vsce03-ws-create.inc.md"
 
 ### VSCode Configuration
 
-@import "/resources/manuals/vscode-custom-features/vsc01-editor/vsce04-config-overview.inc.md"
+@import "./vsce04-config-overview.inc.md"
