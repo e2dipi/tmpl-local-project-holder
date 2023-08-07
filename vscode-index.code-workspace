@@ -24,6 +24,14 @@
       "path": "."
     },
     {
+      "name": "BAK",
+      "path": "./.bak"
+    },
+    {
+      "name": "@REL",
+      "path": "./@rel"
+    },
+    {
       "name": "ADMIN",
       "path": "./admin"
     },
@@ -36,7 +44,7 @@
       "path": "./resources"
     },
     {
-      "name": "_____ WORKSPACE(S) _____",
+      "name": "--- WORKSPACE(S) ---------------",
       "path": "./workspace(s)"
     },
     {
