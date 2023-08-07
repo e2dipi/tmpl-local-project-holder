@@ -15,11 +15,11 @@ ___  [   ]  INSTALLATION  CHECKLIST     ________________________________________
         [   ]  1x in the [0.0.0] vesion
         [   ]  1x in the [Unreleasd] vesion
 
-[   ]  UPDATE version [0.0.0] with the project's data
-        [   ]  Set the <yyy-mm-dd> to TODAY's date
-        [   ]  ADD / REMOVE / MODIFY  the version's description (e.g. specify the use license)
+[   ]  SET the [Seed] version's date to the project's start date
 
-[   ]  DONE! Move this checklist at the bottom of this file (or deleting it)
+ [   ]  ADD the v0.0.0 tag to the commit tree
+
+[   ]  DONE. Move this checklist at the bottom of this file (or deleting it)
 
 -->
 <!--

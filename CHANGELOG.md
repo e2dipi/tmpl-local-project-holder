@@ -122,7 +122,7 @@ branch before the final merge happens.
 
 ### Added
 
-- A VSCode Workspace [configuration file](/vscode-index.code-workspace).
+- A VSCode Workspace [configuration file](vscode-index.code-workspace).
 - An `@rel` environment for exposing the [project's releases](/@rel/.gitkeep).
 - A `deploy` environment to host the project's [deployment tools](/deploy/.gitkeep).
 - A `.bak` environment to host the project's [backups and archives](/.bak/.gitkeep).
@@ -135,23 +135,11 @@ branch before the final merge happens.
   - Mini-guide about exploiting VSCode's features in [markdown format](/resources/manuals/vscode-custom-features/vscode-custom-features.md).
 - A `workspace(s)` environment to host the project and subprojects [directories](/workspaces/.gitkeep).
 
-### Changed
-
-- The [.gitignore](/.gitignore) file was rfined.
-- The [LICENCE](/LICENSE) was updated with the needed informatio.
-- The [README](/README.md) file was updated to a detailed project description.
-
 -------------------------------------------------------------------------------------------------------------------------------------
 
 <a class="toc" title="&uarr; Table Of Contents &uarr;" href="#toc">[&nbsp;Toc&nbsp;]</a>
 
 ## [Seed](https://github.com/e2d2ipi/tmpl-local-project-holder/releases/tag/v0.0.0) &nbsp;-&nbsp; 2023-07-22
-
-### Added
-
-- A basic [.gitignore config](/.gitignore) file.
-- A copy of the [MIT LICENCE](/LICENSE) file.
-- A brief description of the project in a [README file](/README.md) file.
 
 <!-- markdownlint-disable MD024 MD051 -->
 <!--
@@ -159,21 +147,21 @@ branch before the final merge happens.
 ___  [ x ]  INSTALLATION  CHECKLIST     __________________________________________
 ----------------------------------------------------------------------------------------------------------------------------
 
-[ x ]  COPY / MOVE the template to `/CHANGELOG.md` (at repo's root-level)
+[   ]  COPY / MOVE the template to `/CHANGELOG.md` (at repo's root-level)
 
-[ x ]  UPDATE the document's title (e.g. "Change Log - My Project")
+[   ]  UPDATE the document's title (e.g. "Change Log - My Project")
 
-[ x ]  REPLACE https://github.com/e2d2ipi/tmpl-local-project-holder to the actual repository's URL.
+[   ]  REPLACE https://github.com/e2d2ipi/tmpl-local-project-holder to the actual repository's URL.
        There are 5 instances of it:
-        [ x ]  3x in the TEMPLATE section
-        [ x ]  1x in the [0.0.0] vesion
-        [ x ]  1x in the [Unreleasd] vesion
+        [   ]  3x in the TEMPLATE section
+        [   ]  1x in the [0.0.0] vesion
+        [   ]  1x in the [Unreleasd] vesion
 
-[ x ]  UPDATE version [0.0.0] with the project's data
-        [ x ]  Set the <yyy-mm-dd> to TODAY's date
-        [ x ]  ADD / REMOVE / MODIFY  the version's description (e.g. specify the use license)
+[   ]  SET the [Seed] version's date to the project's start date
 
-[ x ]  DONE! Move this checklist at the bottom of this file (or deleting it)
+ [   ]  ADD the v0.0.0 tag to the commit tree
+
+[   ]  DONE. Move this checklist at the bottom of this file (or deleting it)
 
 -->
 
