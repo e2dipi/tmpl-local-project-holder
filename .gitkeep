@@ -91,6 +91,7 @@ folders have been removed, the following tree shows the structure of the templat
    .                             PROJECT'S CORE STRUCTURE
    |                             ´´´´´´´´´´´´´´´´´´´´´´´´
    ├─ .bak                        # Backups and archives
+   ├─ @rel                        # Exposes the releases
    ├─ admin                       # Admin. tools and docs
    ├─ deploy                      # Deployment environments
    ├─ resources                   # User's personal resources
