@@ -122,18 +122,33 @@ branch before the final merge happens.
 
 ### Added
 
-- A VSCode Workspace [configuration file](vscode-index.code-workspace).
-- An `@rel` environment for exposing the [project's releases](/@rel/.gitkeep).
-- A `deploy` environment to host the project's [deployment tools](/deploy/.gitkeep).
-- A `.bak` environment to host the project's [backups and archives](/.bak/.gitkeep).
-- An `admin` environment to host [administrative tools and documents](/admin/.gitkeep) :
-  - Guidelines concerning [archives](/admin/guidelines/handling-archives/handling-archives.md).
-  - Guidelines concerning [Git workflows](/admin/guidelines/git-branching/git-branching-model.md).
-- A `resources` environment for the user to hold its [personal tools and rss](/resources/.gitkeep) :
-  - Various templates: [Assets folder and standard repo files](/resources/templates/.gitkeep).
-  - User's shared assets: [full Octicons set and all e2d2lipi logos](/resources/assets/user-interface/.gitkeep).
-  - Mini-guide about exploiting VSCode's features in [markdown format](/resources/manuals/vscode-custom-features/vscode-custom-features.md).
-- A `workspace(s)` environment to host the project and subprojects [directories](/workspaces/.gitkeep).
+- A VSCode Workspace [configuration file](./vscode-index.code-workspace)
+- An `@rel` environment for exposing the [project's releases](./@rel/.gitkeep)
+  - An `archives` sufolder to hold the [project's releases](./@rel/archives/.gitkeep)
+- A `deploy` environment to host the project's [deployment tools](/deploy/.gitkeep)
+- A `.bak` environment to host the project's [backups and archives](/.bak/.gitkeep)
+  - An `archives` subfolder to hold the [project's archives](./.bak/archives/.gitkeep)
+  - A `.history` folder to hold the development's [continuous backups](./.bak/.history/.gitkeep)
+- An `admin` environment to host [administrative tools and documents](./admin/.gitkeep)
+  - An `audit` subfolder to hold the [project's audits](./admin/audits/.gitkeep)
+  - A `guidelines` subfolder to hold the [project's guidelines](./admin/guidelines/.gitkeep)
+    - Guidelines concerning [archives](./admin/guidelines/handling-archives/handling-archives.md)
+    - Guidelines concerning [Git workflows](./admin/guidelines/git-branching/git-branching-model.md)
+  - A `todo&notes` subfolder to hold the [project's todo lists and notes](./admin/todo&notes/.gitkeep)
+- A `resources` environment for the user to hold its [personal tools and rss](./resources/.gitkeep)
+  - Various templates: [Assets folder and standard repo files](./resources/templates/.gitkeep)
+  - An `assets` foder to hold the [user's shared assets](./resources/assets/.gitkeep)
+    - A `user-interface` subfolder to hold the [user's ui-related assets](./resources/assets/user-interface/.gitkeep)
+      - The full [octicons collection](https://primer.style/design/foundations/icons) in `.svg` format to be found in the user's ui-related assets, in the [octicons subfolder](./resources/assets/user-interface/octicons/.gitkeep).
+
+       in `.svg` format to be found in   [user's octicons](./resources/assets/user-interface/octicons/.gitkeep)
+  - A `manuals` foder to hold the [user's manuals and tutorials](./resources/manuals/.gitkeep)
+  - A `templates` foder to hold the [user's templates and models](./resources/templates/.gitkeep)
+  - A `tuseful-tools` foder to hold the [user's useful tools and utilities](./resources/useful-tools/.gitkeep)
+  - A `worth-keeping` foder to hold the [user's worth-keeping stuff](./resources/worth-keeping/.gitkeep)
+  - Mini-guide about exploiting VSCode's features in [markdown format](./resources/manuals/vscode-custom-features/vscode-custom-features.md)
+- A `workspace(s)` environment to host the project and subprojects [directories](./workspaces/.gitkeep)
+  - Two `.gitkeep` described subfolders mocking subprojects.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
