@@ -1,0 +1,14 @@
+# Audits & Reports
+
+<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="font-size: 95%; text-align: justify;">
+
+!!!Abstract
+    *This folder hosts **`general information`** about the project's development. The nores it contain
+    range from todo lists to administrative documents concerning the development process, the
+    project's structure, the tools used, etc. In the case when the projects consists of multiple
+    subprojects, this folder's internal structure is likely to be partionned into a part that is shared by all
+    subprojects and subfolders that are specific to each subproject.*
+
+</div>
+</div>

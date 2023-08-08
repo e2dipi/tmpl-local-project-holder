@@ -45,7 +45,7 @@ stored in subfolders. The folder's structure is as follows:
 ```text
   .                                                   .BAK FOLDER
   |                                                   ´´´´´´´´´´´
-  ├── .history                                         # Continous backups
+  ├── .history                                         # Continuous backups
   |   └── ...                                            # Hanled by Local-History
   |
   ├── archives                                         # Archives and backups  must comply
