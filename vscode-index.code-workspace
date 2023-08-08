@@ -105,11 +105,10 @@
     "local-history.path": "${workspaceFolder: 0}/.bak/",
     "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
     "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
-    "markdown-preview-enhanced.breakOnSingleNewLine": false,
+    "markdown-preview-enhanced.breakOnSingleNewLine": true,
     "markdown-preview-enhanced.enableExtendedTableSyntax": true,
     "markdown-preview-enhanced.enableHTML5Embed": true,
     "markdown-preview-enhanced.enableScriptExecution": true,
-    "markdown-preview-enhanced.imageFolderPath": "./assets/images/",
     "markdownlint.config": {
       "MD033": false,
       "MD039": false,
@@ -389,5 +388,6 @@
     "todo-tree.tree.labelFormat": "${subtag} - ${tag} ${after}",
     "todo-tree.tree.tagsOnly": false,
     "todo-tree.tree.tooltipFormat": "${filename}\t(line ${line})\n\r${filepath}\n\r---\n\r${tag} ${after}\n\rsubtag: ${subtag}",
+    "todo-tree.tree.scanMode": "workspace",
   }
 }
