@@ -1,6 +1,6 @@
 # Administrative Environment
 
-<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
@@ -22,7 +22,7 @@ according to the relationships between those subprojects and their natural group
 
 This folder's base tree structure is as follows:
 
-<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
 
 ```tree
 

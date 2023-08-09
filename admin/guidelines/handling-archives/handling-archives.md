@@ -1,6 +1,6 @@
 # Handling Archives
 
-<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
@@ -127,7 +127,7 @@ Version numbers are formatted according to the conventions of
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html). In this scheme, each version number is composed of
 three integers separated by a dot (`.`) and prefixed by a lower-case `v`.
 
-<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
 
 !!!Tip Semantic Versioning
     `vX.Y.Z` where `X`, `Y`, and `Z` are integers corresponding to the `<major>`, `<minor>` and
@@ -190,7 +190,7 @@ leading `v` is replaced by a `b` standing for "roll**b**ack" and that a suffix i
 number to avoid collisions in the case where several archives are tagged with the same version
 number.
 
-<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
 
 !!!Tip Formatting Rollback Tags
     Rollback tags are of formatted using the version number, prefixed by an `b` and followed by a
@@ -209,7 +209,7 @@ was made. It is used when the archive does not correspond to a release or a roll
 rather to a partial backup or a backup of a specific component of the project such as the
 documentation, the resources, or the administrative information.
 
-<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
 
 !!!Tip Formatting Dates
     The date format to be used is `yymmdd`, where `yy` is the year, `mm` the month, and `dd` the day

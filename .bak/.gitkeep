@@ -1,10 +1,6 @@
 # Project's backups
 
-<div style="
-    font-size: normal;
-    margin: 0 15% 5ex 10%;
-    min-width: 38em; max-width: 43em;"
->
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
@@ -39,7 +35,7 @@ This folder hosts the *project's backups*. At its root are the *temporary backup
 which should be deleted or moved wherever they belong on a regular basis. Structured backups are
 stored in subfolders. The folder's structure is as follows:
 
-<div style="min-width: 45em; font-size: normal;margin: 0 10% 5ex 5%;"
+<div style="min-width: 40em; font-size: normal;margin: 0 10% 5ex 5%;"
 >
 
 ```text
@@ -61,11 +57,7 @@ stored in subfolders. The folder's structure is as follows:
 As the above suggests, file names are subject to a naming scheme that one is strongly encouraged
 to follow. The conventions it is based on are discussed in details in a dedicated document.
 
-<div style="
-    font-size: normal;
-    margin: 0 15% 5ex 10%;
-    min-width: 38em; max-width: 43em;"
->
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Tip
@@ -88,11 +80,7 @@ the project if something goes wrong. Another typical use case is wanting to keep
 the project's code in order to reuse it in another project, or to keep a piece of code that is about to
 be deleted but that may be useful later on.
 
-<div style="
-    font-size: normal;
-    margin: 0 15% 5ex 10%;
-    min-width: 38em; max-width: 43em;"
->
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Tip Subprojects' archives

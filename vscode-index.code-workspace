@@ -105,7 +105,7 @@
     "local-history.path": "${workspaceFolder: 0}/.bak/",
     "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
     "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
-    "markdown-preview-enhanced.breakOnSingleNewLine": true,
+    "markdown-preview-enhanced.breakOnSingleNewLine": false,
     "markdown-preview-enhanced.enableExtendedTableSyntax": true,
     "markdown-preview-enhanced.enableHTML5Embed": true,
     "markdown-preview-enhanced.enableScriptExecution": true,

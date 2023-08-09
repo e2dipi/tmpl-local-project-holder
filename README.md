@@ -92,7 +92,7 @@ Each folder of the template contains a `.gitkeep` file containing a description 
 addition, the folder `resources/manuals` contain several documents describing in more detail certain
 aspects of the template and its usage, and suggesting some best practices and conventions.
 
-<div style="min-width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
 
 ``` tree
 
