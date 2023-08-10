@@ -1,12 +1,10 @@
-# Deployments' Scripts and Commands
+# Target Specific Scripts and Commands
 
-<div style="margin: 0 auto 5ex auto; max-width: 600px">
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
+<div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <h4 style='margin:12pt 0 5pt 0; text-align:center;'>Abstract</h4>
-    <i>This folder hosts the deployments' <b><code>commands</code></b>. As they mostly consist
-    of scripts that call the specialized ones found in the target environments' folders, they are agnostic
-    of the target environment and shouldn't need much, if any, modification from one project to the
-    next as long as the development environment is the same.<br/>&nbsp;</i>
+    *This directory holds the **``scripts``** and **``commands``** that are specific to this deployments'
+    target.*
 
-</div>
+ </div></div>

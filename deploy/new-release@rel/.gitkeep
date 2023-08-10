@@ -1,13 +1,12 @@
-<!-- CAUTION This file is shared among all specific deployment environment [hardlink] -->
 # Target Specific Deployment Environment
 
 <div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <i>This folder is a  <code>Dedicated Deployement Environment</code></b>. It contains all the
-    information and tools that are needed to deploy the project to a given <code>target</code> at a
-    given <code>location</code>.</i>
+    *This folder is a  **`Dedicated Deployement Environment`**. It contains all the
+    information and tools that are needed to deploy the project to a given `target` at a
+    given `location`.*
 
  </div></div>
 
@@ -21,7 +20,7 @@ of the *target folders* that it obviously won't contain, its internal structure 
 possibly customized, copy of the `deploy` folder's `.sources` folder.
 
 In order to simplify the deployment procedure, this folder may also contain a *junction*[^1] named
-`targ-env$`[^2] pointing to the folder in the targetted deployment environment that the project must
+`targ-env$$$`[^2] pointing to the folder in the targetted deployment environment that the project must
 be deployed to. As a good practice, this folder's structure should be preserved even in the case
 when the common utilities of `deploy`'s root need not be extended. The motivation for doing so is to
 keep a certain symetry between the different *deployment targets* and to make it easier to add a
@@ -38,4 +37,4 @@ installing the [Link Shell Extension](https://tinyurl.com/5n7md3yc) .
 folders *or mount points* that are transparent to the user and the applications -, except that they
 cannot reference files and that they can be created onlx on NTFS partitions.
 
-[^2]: The `$` suffix to indicate that the folder is a *junction* was used instead of the usual  `.lnk` extension to avoid our link-mimics to be ignored by Git when using a standard `.gitignore` file. The `$` suffix should be changed for an `.lnk` extension for real-world use where these folders are, indeed, *junctions*.
+[^2]: The `$$$` suffix indicates that the folder mocks a *Junction* or a *Symlink*. Such a folder is meant to be replaced by an actual virtual folder named the same but with  `.lnk` extension in place of the `$$$` suffix.

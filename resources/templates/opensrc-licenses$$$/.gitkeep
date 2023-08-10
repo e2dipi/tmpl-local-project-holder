@@ -1,0 +1,15 @@
+# Open Source Licenses
+
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
+<div style="font-size: 95%; text-align: justify;">
+
+!!!Abstract
+    *This folder holds templates of the main **`Open Source Licenses`** such as the MIT License or
+    the GNU GPL, to name two. The needed replacements are indicated by placeholders as
+    all-capitals words surrounded by a pair of double `@` symbols, like`@@PLACEHOLDER@@`.
+    For detailed information about open source licenses including how to choose one, or for additional
+    templates, please refer to [https://choosealicense.com](https://choosealicense.com).*
+
+</div></div>
+
+<!-- EDIT As its `$$$` suffix tells, this folder is meant be either replaced by a Symlink/Junction or deleted. In the former case, the link in question to point at the folder targetted by the deployment represented by the `target@location` folder this file's parent folder belongs to. -->

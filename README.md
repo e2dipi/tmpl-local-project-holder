@@ -154,9 +154,9 @@ information that is worth mentioning here:
 above, they are available in *Markdown* format and, thus, can be either read in *VSCode* or
 converted to another format. At the time of writing, two guidelines are provided:
 <br/>1. &nbsp;A detailed discussion on how archives should be named and organized.
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Click to open](/admin/guidelines/handling-archives/handling-archives.md)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Click to open](./admin/guidelines/handling-archives/handling-archives.md)
 <br/>2. &nbsp;A brief presentation of the recommended Git Branching Model to be used.
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Click to open](/admin/guidelines/git-branching/git-branching-model.md).
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Click to open](./admin/guidelines/git-branching/git-branching-model.md).
 
 ## Roadmap
 

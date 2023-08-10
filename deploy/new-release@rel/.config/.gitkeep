@@ -1,12 +1,10 @@
-<!-- CAUTION This file is shared among all specific deployment environment [hardlink] -->
-# Target Specific Configuration Parameters
+# Target Specific Configuration Files
 
-<div style="margin: 0 auto 5ex auto; max-width: 550px">
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
+<div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    <h4 style='margin:12pt 0 5pt 0; text-align:center;'>Abstract</h4>
-    <i>This folder is hosts the <b><code>configuration</code></b> parameters
-    that are specific to this deployment's target.<br/>&nbsp;</i>
-    <br/>&nbsp;</i>
+    *This directory holds the **``configuration``** files that are specific to this deployments'
+    target.*
 
-</div>
+ </div></div>
