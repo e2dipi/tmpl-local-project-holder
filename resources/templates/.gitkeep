@@ -17,13 +17,14 @@
 <!-- code_chunk_output -->
 
 - [Overview](#overview)
-- [Assets folder](#assets-folder)
+- [Assets Folder](#assets-folder)
 - [LaTeX Templates](#latex-templates)
 - [Open Source Licenses](#open-source-licenses)
-- [Repos &nbsp;-&nbsp; *Git configuration*](#repos-nbsp-nbsp-git-configuration)
-- [Repos &nbsp;-&nbsp; *Github templates*](#repos-nbsp-nbsp-github-templates)
-- [Repos &nbsp;-&nbsp; *Readme files templates*](#repos-nbsp-nbsp-readme-files-templates)
-- [Repos &nbsp;-&nbsp; *Typical seeding documents*](#repos-nbsp-nbsp-typical-seeding-documents)
+- [Repositories' Standard Files](#repositories-standard-files)
+  - [Git Config](#git-config)
+  - [Github Specific](#github-specific)
+  - [Readme Templates](#readme-templates)
+  - [Typical Seeding Files](#typical-seeding-files)
 
 <!-- /code_chunk_output -->
 
@@ -72,7 +73,7 @@ The following tree shows the content of the present directory and briefly descri
    * Nothing but placeholders for now.
 ```
 
-## Assets folder
+## Assets Folder
 
 The `assets` folder is a template folder that contains a generic folder hierarchy for holding assets. It
 was designed to be adapted to a wide range of projects without having to add any folder to its root.
@@ -100,7 +101,6 @@ tempting to do so.
 
 `Noting but placeholders for now`
 
-
 ## Open Source Licenses
 
 This folder contains templates of open source `LICENSES` in plain text. The needed replacements
@@ -115,12 +115,17 @@ like`@@PLACEHOLDER@@`. The different templates were split into separate subfolde
 - `mozilla-public-v2`: Mozilla Public License 2.0
 - `the-unlicensed-v1t`: The Unlicense 1.0
 
-
-
 For detailed information about open source licenses including how
-to choose one, or for additional [Choose a License](https://choosealicense.com/) website.
+to choose one, please refer to [https://choosealicense.com.](https://choosealicense.com/)
 
-## Repos &nbsp;-&nbsp; *Git configuration*
+## Repositories' Standard Files
+
+This folder contains templates for files that are commonly found in repositories. The corresponding
+files are split into subfolders according to the type of document they are meant to generate. The
+following sections briefly describe the content of each subfolder and, when needed, provide a link to
+additional information.
+
+### Git Config
 
 This directory contains templates for the standard `Git` configuration files, namely: `.gitattributes`,
 `.gitignore` and `.gitignore`. These files are meant to be copied to the repository's root folder. Note
@@ -130,7 +135,7 @@ updated on a per-project basis.
 More information about the purpose and content of each template is provided in the folfer's
 [.gitkeep file](/resources/templates/repos-standard-files/git-config/.gitkeep/).
 
-## Repos &nbsp;-&nbsp; *Github templates*
+### Github Specific
 
 This folder holds templates that are written specifically for *GitHub*. Besides the
 [GitHub Action](https://docs.github.com/en/actions)  to be used by the maintainers to automatically
@@ -141,7 +146,7 @@ feature, or to simply *get information* about the repository in a website-like f
 More information about the purpose and content of each template is provided in the folfer's
 [.gitkeep file](/resources/templates/repos-standard-files/github-templates/.gitkeep/).
 
-## Repos &nbsp;-&nbsp; *Readme files templates*
+### Readme Templates
 
 This folder contains templates of `README` files in makdown format. Different templates match
 different use cases are provided. Placeholders as all-capitals words surrounded by a pair of double
@@ -153,7 +158,7 @@ the user to edit the template.
 More information about the purpose and content of each template is provided in the folfer's
 [.gitkeep file](/resources/templates/repos-standard-files/readme-templates/.gitkeep/).
 
-## Repos &nbsp;-&nbsp; *Typical seeding documents*
+### Typical Seeding Files
 
 This folder contains templates for the files commonly found in `repositories`, namely
 `SECURITY.md`, `CHANGELOG.md`,  `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md`.

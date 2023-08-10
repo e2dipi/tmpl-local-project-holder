@@ -142,13 +142,15 @@ branch before the final merge happens.
     - A `images` subfolder to hold the [user's images assets](./resources/assets/images/.gitkeep)
     - A `libraries` subfolder to hold the [user's libraries assets](./resources/assets/libraries/.gitkeep)
     - A `multimedia` subfolder to hold the [user's multimedia assets](./resources/assets/multimedia/.gitkeep)
+      - An `audio` subfolder to hold the [user's audio media assets](./resources/assets/multimedia/audio/.gitkeep)
+      - A `videos` subfolder to hold the [user's video media assets](./resources/assets/multimedia/videos/.gitkeep)
     - A `to-download` subfolder to hold the [user's downloadable assets](./resources/assets/to-download/.gitkeep)
     - A `user-interface` subfolder to hold the [user's ui-related assets](./resources/assets/user-interface/.gitkeep)
       - A [subfolder](./resources/assets/user-interface/e2d2ipi/.gitkeep) holding the e2-logos as `.PNGs` and as [favicons](https://realfavicongenerator.net/)
       - A [subfolder](./resources/assets/user-interface/octicons/.gitkeep) holding the full collection of [octicons](https://primer.style/design/foundations/icons) in `.svg` format
 
   - A `manuals` foder to hold the [user's manuals and tutorials](./resources/manuals/.gitkeep)
-    - Two special subfolders, namely [vendors' documents](./resources/manuals/xternal-vendor-man-and-refs/.gitkeep) and a  [sources that generated them](./resources/manuals/.src/.gitkeep)
+    - A `.src` folder to hold the [user's manuals sources](./resources/manuals/.src/.gitkeep)
     - A [mini-guide](./resources/manuals/vscode-custom-features) on how to exploit certain VSCode editor extensions in the context of this template
 
     - A mini-guide on the VSCode Editor features in [markdown format](./resources/manuals/vscode-custom-features/vscode-custom-features.md)
