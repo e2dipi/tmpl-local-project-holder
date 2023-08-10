@@ -136,17 +136,24 @@ branch before the final merge happens.
     - Guidelines concerning [Git workflows](./admin/guidelines/git-branching/git-branching-model.md)
   - A `todo&notes` subfolder to hold the [project's todo lists and notes](./admin/todo&notes/.gitkeep)
 - A `resources` environment for the user to hold its [personal tools and rss](./resources/.gitkeep)
-  - Various templates: [Assets folder and standard repo files](./resources/templates/.gitkeep)
   - An `assets` foder to hold the [user's shared assets](./resources/assets/.gitkeep)
+    - A `css` subfolder to hold the [user's styling assets](./resources/assets/css/.gitkeep)
+    - An `execs` subfolder to hold the [user's executable assets](./resources/assets/execs/.gitkeep)
+    - A `images` subfolder to hold the [user's images assets](./resources/assets/images/.gitkeep)
+    - A `libraries` subfolder to hold the [user's libraries assets](./resources/assets/libraries/.gitkeep)
+    - A `multimedia` subfolder to hold the [user's multimedia assets](./resources/assets/multimedia/.gitkeep)
+    - A `to-download` subfolder to hold the [user's downloadable assets](./resources/assets/to-download/.gitkeep)
     - A `user-interface` subfolder to hold the [user's ui-related assets](./resources/assets/user-interface/.gitkeep)
-      - The full [octicons collection](https://primer.style/design/foundations/icons) in `.svg` format to be found in the user's ui-related assets, in the [octicons subfolder](./resources/assets/user-interface/octicons/.gitkeep).
+      - A [subfolder](./resources/assets/user-interface/e2d2ipi/.gitkeep) holding the e2-logos as `.PNGs` and as [favicons](https://realfavicongenerator.net/)
+      - A [subfolder](./resources/assets/user-interface/octicons/.gitkeep) holding the full collection of [octicons](https://primer.style/design/foundations/icons) in `.svg` format
 
-       in `.svg` format to be found in   [user's octicons](./resources/assets/user-interface/octicons/.gitkeep)
   - A `manuals` foder to hold the [user's manuals and tutorials](./resources/manuals/.gitkeep)
+    - A hierarchy separating the source files from the generated ones
+    - A mini-guide on the VSCode Editor features in [markdown format](./resources/manuals/vscode-custom-features/vscode-custom-features.md)
   - A `templates` foder to hold the [user's templates and models](./resources/templates/.gitkeep)
+    - Various templates: [Assets folder and standard repo files](./resources/templates/.gitkeep)
   - A `tuseful-tools` foder to hold the [user's useful tools and utilities](./resources/useful-tools/.gitkeep)
   - A `worth-keeping` foder to hold the [user's worth-keeping stuff](./resources/worth-keeping/.gitkeep)
-  - Mini-guide about exploiting VSCode's features in [markdown format](./resources/manuals/vscode-custom-features/vscode-custom-features.md)
 - A `workspace(s)` environment to host the project and subprojects [directories](./workspaces/.gitkeep)
   - Two `.gitkeep` described subfolders mocking subprojects.
 
@@ -202,6 +209,15 @@ ___  [ x ]  INSTALLATION  CHECKLIST     ________________________________________
     width: 96%;
     left: 1%;
     position: relative;
+  }
+
+  ul {
+    padding-bottom: 2pt;
+  }
+
+  ul li {
+    margin-left: -10pt;
+    padding-top: 2pt;
   }
 
   ol.note {
