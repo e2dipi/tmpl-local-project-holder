@@ -148,12 +148,15 @@ branch before the final merge happens.
       - A [subfolder](./resources/assets/user-interface/octicons/.gitkeep) holding the full collection of [octicons](https://primer.style/design/foundations/icons) in `.svg` format
 
   - A `manuals` foder to hold the [user's manuals and tutorials](./resources/manuals/.gitkeep)
-    - A hierarchy separating the source files from the generated ones
+    - Two special subfolders, namely [vendors' documents](./resources/manuals/xternal-vendor-man-and-refs/.gitkeep) and a  [sources that generated them](./resources/manuals/.src/.gitkeep)
+    - A [mini-guide](./resources/manuals/vscode-custom-features) on how to exploit certain VSCode editor extensions in the context of this template
+
     - A mini-guide on the VSCode Editor features in [markdown format](./resources/manuals/vscode-custom-features/vscode-custom-features.md)
   - A `templates` foder to hold the [user's templates and models](./resources/templates/.gitkeep)
     - Various templates: [Assets folder and standard repo files](./resources/templates/.gitkeep)
   - A `tuseful-tools` foder to hold the [user's useful tools and utilities](./resources/useful-tools/.gitkeep)
   - A `worth-keeping` foder to hold the [user's worth-keeping stuff](./resources/worth-keeping/.gitkeep)
+  - An `xternal-resources` folder to hold the user's resources that are [maintained by third parties](./resources/xternal-resources/.gitkeep)
 - A `workspace(s)` environment to host the project and subprojects [directories](./workspaces/.gitkeep)
   - Two `.gitkeep` described subfolders mocking subprojects.
 

@@ -1,0 +1,36 @@
+# External Resources
+
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
+<div style="font-size: 95%; text-align: justify;">
+
+!!!Abstract
+    *This folder holds the **`external`** resources, which are files and documents that are maintained
+    externally. Its contents are typically linked to from other subfolders of the `resources`
+    environment based on their type and purpose.*
+
+</div></div>
+
+## Overview
+
+This folder is intended to group in a single location all the *external resources*, which are the files
+and documents that are maintained externally.  The main motivations for doing so instead of
+keeping them in the subfolders of the `resources` environment they would belong to based on their
+type and purpose are the following:
+
+- This makes the external resourcees quickly identifiable.
+
+- This allows to keep to keep the vendor-specific materials up-to-date more efficiently.
+
+- This allows to exclude them  from operations such as linting or testing with minimal effort.
+
+This approach, however, has one major drawback which is that it makes these resources harder
+to find.  To mitigate this issue, the present folder mimics the structure of the `resources`
+environment.  This way:
+
+- Tthe external resources can be found in the same location where they would be if merged with the
+internal ones.
+
+- Its contents can be easily linked to from the other folders of the environment using
+  [folder junctions](https://en.wikipedia.org/wiki/NTFS_junction_point),
+  [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link) and/or
+  [hard links](https://en.wikipedia.org/wiki/Hard_link).
