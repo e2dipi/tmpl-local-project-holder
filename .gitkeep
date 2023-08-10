@@ -4,57 +4,10 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    *This template provides a folder hierarchy for holding one or more projects sharing common resources.  Its versatile structure is suitable for all sorts of projects, regardless of their size, complexity, or nature.*
-
-</div></div>
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [Description](#description)
-- [Folders Hierarchy](#folders-hierarchy)
-- [Project's Roadmap](#projects-roadmap)
-- [Project's Contributors](#projects-contributors)
-
-<!-- /code_chunk_output -->
-<details open style="margin: 14pt 0pt 24pt 10pt">
-<summary style="margin-left: -8pt; font-weight: bold; font-size: larger; font-variant: small-caps">
-<span style="margin-left: 3pt">Table of contents<span></summary>
-
-<!--
----
-
-<div style="
-    font-size: normal;
-    margin: 0 auto 5ex auto;
-    width: 40em;"
->
-<div style="font-size: 95%; text-align: justify;">
-<div style="
-  font-size:135%;
-  text-align: center;
-  font-weight: bold;
-  margin: 0 0 .75ex 0;
-  font-variant: small-caps;"
->Abstract</div>
-<div style="text-align: justify; font-style: italic">
-@@PROJECT_ABSTRACT@@
-
-This folder is not meant to be a versioned repository, but rather a local folder structure that will
-itself contain one or more repositories. Note that it is not to be confused with a mono-repo either
-since its root folders are not meant to be versioned. The contents of the `workspace(s)` folder,
-however, *may* be versioned by itself or contain multiple subfolders, each of which being a
-mono-repo, a multi-repo or a simple folder.
-</div></div></div>
-<div style="
-   width: 100%;
-   text-align: center;
-    margin-bottom: 5ex;"
->
-
+    <i>This template provides a folder hierarchy for holding one or more projects sharing common resources.  Its versatile structure is suitable for all sorts of projects, regardless of their size, complexity, or nature.</i>
+    </div>
 </div>
-
+</div>
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 <details open style="margin: 14pt 0pt 24pt 10pt">
 <summary style="margin-left: -8pt; font-weight: bold; font-size: larger; font-variant: small-caps">
@@ -62,30 +15,32 @@ mono-repo, a multi-repo or a simple folder.
 
 <!-- code_chunk_output -->
 
-- [Description](#description)
-- [Folders Hierarchy](#folders-hierarchy)
-- [Project's Roadmap](#projects-roadmap)
-- [Project's Contributors](#projects-contributors)
+- [Overview](#overview)
+- [The *.bak* folder](#the-bak-folder)
+- [The *admin* folder](#the-admin-folder)
+- [The *deploy* folder](#the-deploy-folder)
+- [The *resources* folder](#the-resources-folder)
+- [The *workspaces* folder](#the-workspaces-folder)
 
 <!-- /code_chunk_output -->
 
-</detail>
+</details>
 
-## Description
+## Overview
 
-@@POJECT_DESCRIPTION@@
+This template provides a folder hierarchy for holding one or more projects sharing common
+resources.  Its versatile structure is suitable for all sorts of projects, regardless of their size,
+complexity, or nature. It is not meant to be used as a repository template, but rather as a template
+for a local folder structure that will itself contain one or more repositories. Note that it is not to be
+confused with a mono-repo either since its root folders are not meant to be versioned. The
+contents of the `workspace(s)` folder, however, *may* be versioned by itself or contain multiple
+subfolders, each of which being a mono-repo, a multi-repo or a simple folder.
 
-## Folders Hierarchy
-
-Each folder of the template that was used to instantiate this project contains a `.gitkeep` file
-containing a description of its purpose. In addition, the folder `resources/manuals` contain several
-documents describing in more detail certain aspects of the template and its usage, and suggesting
-some best practices and conventions.
-
-As a quick overview, and a reference of the template's structure once the unnecessary files and
-folders have been removed, the following tree shows the structure of the template:
+The root folder splits the project into six main folders that cover the project's needs from conception
+to production. Its tree structure is as follows:
 
 <div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
+<div style="font-size: 95%; text-align: justify;">
 
 ``` tree
    .                             PROJECT'S CORE STRUCTURE
@@ -96,26 +51,63 @@ folders have been removed, the following tree shows the structure of the templat
    ├─ deploy                      # Deployment environments
    ├─ resources                   # User's personal resources
    └─ workspaces                  # Working env: project's sources
-      ├─ @@PROJECT_01_NAME@@        # @@PROJECT_01_DESCRIPTION@@
-      ├─ @@PROJECT_02_NAME@@        # @@PROJECT_02_DESCRIPTION@@
-      └─ ...
 ```
 
 </div>
 
-## Project's Roadmap
+## The *.bak* folder
 
-Planned features and improvements as well as known issues and other topics of interest concerning
-this template's development status are embedded in its `.gitkeep` files in the form of
-[Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-comments.The most important ones are also listed here for convenience:
+This folder hosts the project's archives and backups, which include the *continous backups*
+performed by a tool like *VSCode's Local History* extension, an archive containing copies of every
+release or deployment of the project, and any other, temporary or permanent, backup made by the
+user. For ease and efficiency of maintenance, the latter are stored directly at the folder's root-level.
 
-- [ ]  @@ROADMAP_ENTRY_1@@, if applies
-- [ ]  @@ROADMAP_ENTRY_2@@, if applies
-- [ ]  etc ...
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
+<div style="font-size: 95%; text-align: justify;">
 
-## Project's Contributors
+!!!Tip Subprojects' archives
+    For projects that contain subprojects, it is more practical to let each of them have its own
+    *backup folder* and, thus, its own `archives` folder as well. According to the above convention,
+    the content of the latter should then be copied here. A better alternative is to define the
+    subproject's `archives` folder as a symbolic link to this folder.
 
-- **@@AUTHOR_NAME@@** - *Initial work* - [@@USER@@](https://github.com/@@USER@@)
+</div>
+</div>
 
-<!-- EDIT Make sure that all @@TO-BE-REPLACED@@  were either replaced or deleted with their associated contents. Delete this comment only once this is done! [template]  -->
+*More info [here][bak-gitkeep].*
+
+## The *admin* folder
+
+The `admin` directory hosts the administrative environment. It contains information about the project
+and its development, which includes the guidelines to be followed by the contibutors, the user's todo
+lists, the reporting tools and their results' history and any information concerning the contributors or
+the development's agenda.<br/>
+*More info [here][admin-gitkeep].*
+
+## The *deploy* folder
+
+The `deploy` directory is the environment where deployments happen. Its content ranges from links
+to remote locations where to copy files and folders to workflows and scripts that automatically
+pack and deploy the code.<br/>
+*More info [here][deploy-gitkeep].*
+
+## The *resources* folder
+
+The `resources` folder contains all the resources developers need to work on the project. Besides
+"official" data, such as *development guidelines* that all contributors share, this folder may include
+*personal* data, like *notes*, *to-do lists*, or potentially valuable assets.<br/>
+*More info [here][resources-gitkeep].*
+
+## The *workspaces* folder
+
+The `workspaces` folder is the environment where development happens. It contains all the material
+needed to develop, test, and build the project. Depending on the project's nature, it may consist
+of one or more sub-folders, each containing a different workspace that may or may not be related to
+the others besides being part of the same project's folder hierarchy.<br/>
+*More info [here][workspaces-gitkeep].*
+
+[bak-gitkeep]: ./.bak/.gitkeep
+[admin-gitkeep]: ./admin/.gitkeep
+[deploy-gitkeep]: ./deploy/.gitkeep
+[resources-gitkeep]: ./resources/.gitkeep
+[workspaces-gitkeep]: ./workspace(s)/.gitkeep
