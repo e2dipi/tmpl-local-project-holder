@@ -1,21 +1,12 @@
 {
   "extensions": {
     "recommendations": [
-      "zainchen.json",
-      "znck.grammarly",
-      "pkief.material-icon-theme",
       "gruntfuggly.todo-tree",
       "xyz.local-history",
-      "mohsen1.prettify-json",
-      "eamodio.gitlens",
-      "davidanson.vscode-markdownlint",
-      "naumovs.color-highlight",
-      "anseki.vscode-color",
-      "zhuangtongfa.material-theme",
-      "ms-vscode.powershell",
-      "github.copilot",
-      "vivaxy.vscode-conventional-commits",
-      "shd101wyy.markdown-preview-enhanced"
+      "shd101wyy.markdown-preview-enhanced",
+      "george-alisson.html-preview-vscode",
+      "tomoki1207.pdf",
+      "visbydev.folder-path-color"
     ]
   },
   "folders": [
@@ -57,26 +48,6 @@
     }
   ],
   "settings": {
-    "[jsonc]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[markdown]": {
-      "editor.wordWrap": "bounded"
-    },
-    "conventionalCommits.editor.keepAfterSave": false,
-    "conventionalCommits.scopes": [
-      "fs",
-      "dpl",
-      "rss",
-      "dev",
-      "wss",
-      "glob",
-      "tmpl",
-      "adm",
-      "repo",
-      "@rel",
-      "vscode"
-    ],
     "files.associations": {
       "!!!___REPLACE-ME___!!!": "markdown",
       "*.gitkeep": "markdown"
@@ -84,32 +55,14 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "files.watcherExclude": {
-      "**!": true,
-      "**.archives**": true,
-      "**.bak**": true,
-      "**.history**": true,
-      "**.zip": true,
-      "**/archive/**": true,
-      "**/archives/**": true
-    },
-    "git.enableCommitSigning": true,
     "local-history.absolute": false,
     "local-history.dateLocale": "en-CH",
     "local-history.daysLimit": 30,
     "local-history.enabled": 2,
     "local-history.exclude": [
-      "**/.history",
+      "**/.bak/**",
       "**.lnk",
-      "**.zip"
     ],
-    "local-history.path": "${workspaceFolder: 0}/.bak/",
-    "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
-    "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
-    "markdown-preview-enhanced.breakOnSingleNewLine": false,
-    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
-    "markdown-preview-enhanced.enableHTML5Embed": true,
-    "markdown-preview-enhanced.enableScriptExecution": true,
     "markdownlint.config": {
       "MD033": false,
       "MD039": false
@@ -123,12 +76,146 @@
       "!**LICENSE*",
       "!**xternal-**"
     ],
-    "material-icon-theme.activeIconPack": "none",
-    "material-icon-theme.files.associations": {
-      "!!!___REPLACE-ME___!!!": "Storybook",
-    },
-    "material-icon-theme.opacity": 1,
-    "material-icon-theme.saturation": 1,
+    "local-history.path": "${workspaceFolder: 0}/.bak/",
+    "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
+    "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
+    "markdown-preview-enhanced.breakOnSingleNewLine": false,
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+    "markdown-preview-enhanced.enableHTML5Embed": true,
+    "markdown-preview-enhanced.enableScriptExecution": true,
+    "folder-path-color.folders": [
+      {
+        "path": "/deploy/new-release@rel/targ-env.$$$",
+        "color": "magenta",
+        "symbol": "$$",
+        "tooltip": "\n==========================================================\n  REPLACE `targ-env.$$$` BY A SYMBOLIC LINK TO THE TARGETTED DEPLOYMENT FOLDER \n==========================================================\n"
+      },
+      {
+        "path": "/deploy/new-release@rel/targ-env.lnk",
+        "color": "blue",
+        "tooltip": "\n===============================================\n  SYMBOLIC LINK POINTING TO THE TARGETTED DEPLOYMENT FOLDER \n===============================================\n"
+      },
+      {
+        "path": "/deploy/production@host/targ-env.$$$",
+        "color": "magenta",
+        "symbol": "$$",
+        "tooltip": "\n==========================================================\n  REPLACE `targ-env.$$$` BY A SYMBOLIC LINK TO THE TARGETTED DEPLOYMENT FOLDER \n==========================================================\n"
+      },
+      {
+        "path": "/deploy/production@host/targ-env.lnk",
+        "color": "blue",
+        "tooltip": "\n===============================================\n  SYMBOLIC LINK POINTING TO THE TARGETTED DEPLOYMENT FOLDER \n===============================================\n"
+      },
+      {
+        "path": "/resources/assets/user-interface/e2d2ipi.$$$",
+        "color": "magenta",
+        "symbol": "$$",
+        "tooltip": "\n========================================================================\n  REPLACE `e2d2ipi.$$$` BY A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/assets` SUBFOLDER \n========================================================================\n"
+      },
+      {
+        "path": "/resources/assets/user-interface/e2d2ipi.lnk",
+        "color": "blue",
+        "symbol": "$$",
+        "tooltip": "\n======================================================\n  SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/assets` SUBFOLDER \n======================================================\n"
+      },
+      {
+        "path": "/resources/assets/user-interface/octicons.$$$",
+        "color": "magenta",
+        "tooltip": "\n========================================================================\n  REPLACE `octicons.$$$` BY A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/assets` SUBFOLDER \n========================================================================\n"
+      },
+      {
+        "path": "/resources/assets/user-interface/octicons.lnk",
+        "color": "blue",
+        "tooltip": "\n======================================================\n  SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/assets` SUBFOLDER \n======================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/apache-v2.$$$",
+        "color": "magenta",
+        "symbol": "$$",
+        "tooltip": "\n========================================================================================\n  REPLACE `<license>.$$$` BY A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n========================================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/apache-v2.lnk",
+        "color": "blue",
+        "tooltip": "\n=====================================================================\n  A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n=====================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/boostsoft-v1.$$$",
+        "color": "magenta",
+        "symbol": "$$",
+        "tooltip": "\n========================================================================================\n  REPLACE `<license>.$$$` BY A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n========================================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/boostsoft-v1.lnk",
+        "color": "blue",
+        "tooltip": "\n=====================================================================\n  A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n=====================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/gnu-agpl-v3.$$$",
+        "color": "magenta",
+        "symbol": "$$",
+        "tooltip": "\n========================================================================================\n  REPLACE `<license>.$$$` BY A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n========================================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/gnu-agpl-v3.lnk",
+        "color": "blue",
+        "tooltip": "\n=====================================================================\n  A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n=====================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/gnu-gpl-v3.$$$",
+        "color": "magenta",
+        "symbol": "$$",
+        "tooltip": "\n========================================================================================\n  REPLACE `<license>.$$$` BY A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n========================================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/gnu-gpl-v3.lnk",
+        "color": "blue",
+        "tooltip": "\n=====================================================================\n  A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n=====================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/gnu-lgpl-v3.$$$",
+        "color": "magenta",
+        "symbol": "$$",
+        "tooltip": "\n========================================================================================\n  REPLACE `<license>.$$$` BY A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n========================================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/gnu-lgpl-v3.lnk",
+        "color": "blue",
+        "tooltip": "\n=====================================================================\n  A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n=====================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/mit.$$$",
+        "color": "magenta",
+        "tooltip": "\n========================================================================================\n  REPLACE `<license>.$$$` BY A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n========================================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/mit.lnk",
+        "color": "blue",
+        "tooltip": "\n=====================================================================\n  A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n=====================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/mozilla-public-v2.$$$",
+        "color": "magenta",
+        "symbol": "$$",
+        "tooltip": "\n========================================================================================\n  REPLACE `<license>.$$$` BY A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n========================================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/mozilla-public-v2.lnk",
+        "color": "blue",
+        "tooltip": "\n=====================================================================\n  A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n=====================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/the-unlicense-v1.$$$",
+        "color": "magenta",
+        "symbol": "$$",
+        "tooltip": "\n========================================================================================\n  REPLACE `<license>.$$$` BY A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n========================================================================================\n"
+      },
+      {
+        "path": "/resources/templates/open-src-licenses/the-unlicense-v1.lnk",
+        "color": "blue",
+        "tooltip": "\n=====================================================================\n  A SYMBOLIC LINK TO THE CORRESPONDING `xternal-resources/templates/open-src-license` SUBFOLDER \n=====================================================================\n"
+      },
+    ],
     "todo-tree.filtering.excludeGlobs": [
       "**.zip",
       "**.bak/**",
@@ -382,6 +469,8 @@
     "todo-tree.regex.enableMultiLine": false,
     "todo-tree.regex.regex": "((?:#|//|/\\*|- |<!--).*?|^)($TAGS)([aA-zZ\\[\\]0-9\\-_~]{3,}|.*?(?:-->|[^\\*]*?\\*/|$))",
     "todo-tree.regex.regexCaseSensitive": true,
-    "todo-tree.regex.subTagRegex": "(?:[- ])?(?:(?:^| )\\[)([aA-zZ0-9\\-\\._ :]*?)(?:\\]|\\..*?\\])(?:[- >\\t\\]]*)?"
+    "todo-tree.regex.subTagRegex": "(?:[- ])?(?:(?:^| )\\[)([aA-zZ0-9\\-\\._ :]*?)(?:\\]|\\..*?\\])(?:[- >\\t\\]]*)?",
+    "markdown-preview-enhanced.mathRenderingOption": "None",
+    "markdown.math.enabled": false
   }
 }
