@@ -1,6 +1,6 @@
 # The MIT License
 
-<!-- EDIT As its `$$$` suffix tells, this folder is meant be either replaced by a Symlink/Junction or deleted. In the former case, the link in question is expected to be pointing at the corresponding subfolder of the [`xternal-open-src-licenses` directory](../../../xternal-resources/xternal-templates/xternal-open-src-licenses) .   -->
+<!-- EDIT As its `$$$` suffix tells, this folder is meant be either replaced by a Symlink/Junction or deleted. In the former case, the link in question is expected to be pointing at the corresponding subfolder of the `xternal-resources` directory. [INSTALL] -->
 
 ## Source Folder's Parent
 
@@ -16,6 +16,6 @@ The folder to link from is the `mit` subfolder of the
 
 <div style="position: relative; padding:20pt; text-align: center; margin-top:20pt; border: 2px solid yellow; width: 60%; margin-left: auto; margin-right: auto; font-weight: bold;">
 
-[*xternal-open-src-licenses*<br/><span style="font-variant: small-caps">Directory<span>](../../../xternal-resources/xternal-templates/xternal-open-src-licenses)
+  [*xternal-open-src-licenses*<br/><span style="font-variant: small-caps">Directory<span>](../../../xternal-resources/xternal-templates/xternal-open-src-licenses)
 
 </div>

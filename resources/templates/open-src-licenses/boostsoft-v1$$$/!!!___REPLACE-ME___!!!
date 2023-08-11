@@ -1,6 +1,6 @@
 # The Boost Software License
 
-<!-- EDIT As its `$$$` suffix tells, this folder is meant be either replaced by a Symlink/Junction or deleted. In the former case, the link in question is expected to be pointing at the corresponding subfolder of the [`xternal-open-src-licenses` directory](../../../xternal-resources/xternal-templates/xternal-open-src-licenses) .   -->
+<!-- EDIT As its `$$$` suffix tells, this folder is meant be either replaced by a Symlink/Junction or deleted. In the former case, the link in question is expected to be pointing at the corresponding subfolder of the `xternal-resources` directory. [INSTALL] -->
 
 ## Source Folder's Parent
 

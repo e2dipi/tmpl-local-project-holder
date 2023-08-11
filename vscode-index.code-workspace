@@ -61,7 +61,7 @@
       "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[markdown]": {
-      "editor.wordWrap": "bounded",
+      "editor.wordWrap": "bounded"
     },
     "conventionalCommits.editor.keepAfterSave": false,
     "conventionalCommits.scopes": [
@@ -75,9 +75,10 @@
       "adm",
       "repo",
       "@rel",
-      "vscode",
+      "vscode"
     ],
     "files.associations": {
+      "!!!___REPLACE-ME___!!!": "markdown",
       "*.gitkeep": "markdown"
     },
     "files.insertFinalNewline": true,
@@ -90,7 +91,7 @@
       "**.history**": true,
       "**.zip": true,
       "**/archive/**": true,
-      "**/archives/**": true,
+      "**/archives/**": true
     },
     "git.enableCommitSigning": true,
     "local-history.absolute": false,
@@ -100,7 +101,7 @@
     "local-history.exclude": [
       "**/.history",
       "**.lnk",
-      "**.zip",
+      "**.zip"
     ],
     "local-history.path": "${workspaceFolder: 0}/.bak/",
     "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
@@ -111,7 +112,7 @@
     "markdown-preview-enhanced.enableScriptExecution": true,
     "markdownlint.config": {
       "MD033": false,
-      "MD039": false,
+      "MD039": false
     },
     "markdownlint.lintWorkspaceGlobs": [
       "**.md",
@@ -120,8 +121,14 @@
       "!**/.git",
       "!**/.history",
       "!**LICENSE*",
-      "!**xternal-vendor-**",
+      "!**xternal-**"
     ],
+    "material-icon-theme.activeIconPack": "none",
+    "material-icon-theme.files.associations": {
+      "!!!___REPLACE-ME___!!!": "Storybook",
+    },
+    "material-icon-theme.opacity": 1,
+    "material-icon-theme.saturation": 1,
     "todo-tree.filtering.excludeGlobs": [
       "**.zip",
       "**.bak/**",
@@ -130,19 +137,15 @@
       "**/@rel/**",
       "**/archive/**",
       "**/archives/**",
-      "**/templates/**",
-      "**xternal-vendor-**",
+      "**/vscode-mini-guide**",
+      "**/xternal-**",
+      "**/templates/directories/**",
+      "**/templates/latext-templates/**",
+      "**/templates/repos-standard-files/**"
     ],
-    "todo-tree.filtering.ignoreGitSubmodules": false,
     "todo-tree.filtering.includeHiddenFiles": true,
     "todo-tree.filtering.passGlobsToRipgrep": true,
-    "todo-tree.general.automaticGitRefreshInterval": 300,
-    "todo-tree.general.debug": false,
     "todo-tree.general.exportPath": "${workspaceFolder}/admin/todo&notes/todo-tree-%Y%m%d-%H%M.txt",
-    "todo-tree.general.periodicRefreshInterval": 5,
-    "todo-tree.general.showActivityBarBadge": true,
-    "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
-    "todo-tree.general.statusBar": "tags",
     "todo-tree.general.tags": [
       "BUG",
       "FIXME",
@@ -379,15 +382,6 @@
     "todo-tree.regex.enableMultiLine": false,
     "todo-tree.regex.regex": "((?:#|//|/\\*|- |<!--).*?|^)($TAGS)([aA-zZ\\[\\]0-9\\-_~]{3,}|.*?(?:-->|[^\\*]*?\\*/|$))",
     "todo-tree.regex.regexCaseSensitive": true,
-    "todo-tree.regex.subTagRegex": "(?:[- ])?(?:(?:^| )\\[)([aA-zZ0-9\\-\\._]*?)(?:\\]|\\..*?\\])(?:[- >\\t\\]]*)?",
-    "todo-tree.tree.expanded": true,
-    "todo-tree.tree.filterCaseSensitive": true,
-    "todo-tree.tree.flat": true,
-    "todo-tree.tree.groupedBySubTag": true,
-    "todo-tree.tree.groupedByTag": false,
-    "todo-tree.tree.labelFormat": "${subtag} - ${tag} ${after}",
-    "todo-tree.tree.tagsOnly": false,
-    "todo-tree.tree.tooltipFormat": "${filename}\t(line ${line})\n\r${filepath}\n\r---\n\r${tag} ${after}\n\rsubtag: ${subtag}",
-    "todo-tree.tree.scanMode": "workspace",
+    "todo-tree.regex.subTagRegex": "(?:[- ])?(?:(?:^| )\\[)([aA-zZ0-9\\-\\._ :]*?)(?:\\]|\\..*?\\])(?:[- >\\t\\]]*)?"
   }
 }
