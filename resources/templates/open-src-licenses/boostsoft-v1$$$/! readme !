@@ -1,0 +1,21 @@
+# The Boost Software License
+
+<!-- EDIT As its `$$$` suffix tells, this folder is meant be either replaced by a Symlink/Junction or deleted. In the former case, the link in question is expected to be pointing at the corresponding subfolder of the [`xternal-open-src-licenses` directory](../../../xternal-resources/xternal-templates/xternal-open-src-licenses) .   -->
+
+## Source Folder's Parent
+
+<div style="font-size: larger; font-weight: normal; margin-left:0pt; display: inline-block">
+<span style="font-weight: bold">&bullet;&nbsp; </span>
+This must be replaced by a
+<span style="font-variant: small-caps; font-style: italic; color: yellow">
+  Symlink / Junction
+</span>
+
+<span style="font-weight: bold">&bullet;&nbsp; </span>
+The folder to link from is the `boostsoft-v1` subfolder of the
+
+<div style="position: relative; padding:20pt; text-align: center; margin-top:20pt; border: 2px solid yellow; width: 60%; margin-left: auto; margin-right: auto; font-weight: bold;">
+
+[*xternal-open-src-licenses*<br/><span style="font-variant: small-caps">Directory<span>](../../../xternal-resources/xternal-templates/xternal-open-src-licenses)
+
+</div>
