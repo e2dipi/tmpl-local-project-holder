@@ -127,7 +127,7 @@ BEFORE  the `telease` branch is created.
 
   [   ]  REPLACE [Unreleased] by the last release's next version
 
-The next step should be done on the `develop` branch, but only
+The next steps should be done on the `develop` branch, but only
 AFTER the `release` branch is created (optional, but recommended).
 
   [   ]  CHECK OUT the `develop` branch
@@ -147,16 +147,6 @@ branch before the final merge happens.
 
 - ...
 
-### Changed
-
-- The [.gitignore](/.gitignore) file was rfined.
-- The [LICENCE](/LICENSE) was updated with the needed information.
-- The [README](/README.md) file was updated to a detailed project description.
-
-### Removed
-
-- ...
-
 ### Security
 
 - ...
@@ -166,12 +156,6 @@ branch before the final merge happens.
 <a class="toc" title="&uarr; Table Of Contents &uarr;" href="#toc">[&nbsp;Toc&nbsp;]</a>
 
 ## [Seed](<repo-url>/releases/tag/v0.0.0) &nbsp;-&nbsp; <yyy-mm-dd>
-
-### Added
-
-- A basic [.gitignore config](/.gitignore) file.
-- A copy of an [Open Source LICENCE](/LICENSE).
-- A brief description of the project in a @@[README file](/README.md) file.
 
 <!-- markdownlint-disable MD024 MD051 -->
 
@@ -197,6 +181,15 @@ branch before the final merge happens.
     width: 96%;
     left: 1%;
     position: relative;
+  }
+
+  ul {
+    padding-bottom: 5pt;
+  }
+
+  ul li {
+    margin-left: -12pt;
+    padding-top: 3pt;
   }
 
   ol.note {
@@ -230,5 +223,10 @@ branch before the final merge happens.
 
   #toc span {
     margin-left: 3pt;
+  }
+
+  #toc li {
+    margin-left: -3pt;
+    padding-top: 0pt;
   }
 </style>

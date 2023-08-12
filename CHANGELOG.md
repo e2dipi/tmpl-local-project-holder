@@ -104,7 +104,7 @@ BEFORE  the `telease` branch is created.
 
   [   ]  REPLACE [Unreleased] by the last release's next version
 
-The next step should be done on the `develop` branch, but only
+The next steps should be done on the `develop` branch, but only
 AFTER the `release` branch is created (optional, but recommended).
 
   [   ]  CHECK OUT the `develop` branch
@@ -217,12 +217,12 @@ ___  [ x ]  INSTALLATION  CHECKLIST     ________________________________________
   }
 
   ul {
-    padding-bottom: 2pt;
+    padding-bottom: 5pt;
   }
 
   ul li {
-    margin-left: -10pt;
-    padding-top: 2pt;
+    margin-left: -12pt;
+    padding-top: 3pt;
   }
 
   ol.note {
@@ -256,5 +256,10 @@ ___  [ x ]  INSTALLATION  CHECKLIST     ________________________________________
 
   #toc span {
     margin-left: 3pt;
+  }
+
+  #toc li {
+    margin-left: -3pt;
+    padding-top: 0pt;
   }
 </style>
