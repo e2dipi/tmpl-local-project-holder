@@ -27,10 +27,14 @@ This approach, however, has one major drawback which is that it makes these reso
 to find.  To mitigate this issue, the present folder mimics the structure of the `resources`
 environment.  This way:
 
-- Tthe external resources can be found in the same location where they would be if merged with the
-internal ones.
+This folder's contents, however, are not meant to be accessed directly, but rather to be linked to from the locations where they are meant to be based on their type and purpose.  This can be done using the following mechanisms:
 
-- Its contents can be easily linked to from the other folders of the environment using
-  [folder junctions](https://en.wikipedia.org/wiki/NTFS_junction_point),
-  [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link) and/or
-  [hard links](https://en.wikipedia.org/wiki/Hard_link).
+- [Hard links](https://en.wikipedia.org/wiki/Hard_link), which are pointers to the same file from
+  different locations in the file system.
+
+- [Symbolic links](https://en.wikipedia.org/wiki/Symbolic_link), which are pointers to a file from a
+  different location in the file system ^[Unlike Windows which does not support symbolic links that
+  point to folders, such pointers exist on Unix, Linux and MacOs].
+
+- [Folder junctions](https://en.wikipedia.org/wiki/NTFS_junction_point), which are the Windows
+  equivalent of symbolic links to folders.

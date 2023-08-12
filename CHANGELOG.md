@@ -123,18 +123,23 @@ branch before the final merge happens.
 ### Added
 
 - A VSCode Workspace [configuration file](./vscode-index.code-workspace)
+
 - An `@rel` environment for exposing the [project's releases](./@rel/.gitkeep)
   - An `archives` sufolder to hold the [project's releases](./@rel/archives/.gitkeep)
+
 - A `deploy` environment to host the project's [deployment tools](/deploy/.gitkeep)
+
 - A `.bak` environment to host the project's [backups and archives](/.bak/.gitkeep)
   - An `archives` subfolder to hold the [project's archives](./.bak/archives/.gitkeep)
   - A `.history` folder to hold the development's [continuous backups](./.bak/.history/.gitkeep)
+
 - An `admin` environment to host [administrative tools and documents](./admin/.gitkeep)
   - An `audit` subfolder to hold the [project's audits](./admin/audits/.gitkeep)
   - A `guidelines` subfolder to hold the [project's guidelines](./admin/guidelines/.gitkeep)
     - Guidelines concerning [archives](./admin/guidelines/handling-archives/handling-archives.md)
     - Guidelines concerning [Git workflows](./admin/guidelines/git-branching/git-branching-model.md)
   - A `todo&notes` subfolder to hold the [project's todo lists and notes](./admin/todo&notes/.gitkeep)
+
 - A `resources` environment for the user to hold its [personal tools and rss](./resources/.gitkeep)
   - An `assets` foder to hold the [user's shared assets](./resources/assets/.gitkeep)
     - A `css` subfolder to hold the [user's styling assets](./resources/assets/css/.gitkeep)
@@ -146,8 +151,8 @@ branch before the final merge happens.
       - A `videos` subfolder to hold the [user's video media assets](./resources/assets/multimedia/videos/.gitkeep)
     - A `to-download` subfolder to hold the [user's downloadable assets](./resources/assets/to-download/.gitkeep)
     - A `user-interface` subfolder to hold the [user's ui-related assets](./resources/assets/user-interface/.gitkeep)
-      - A [subfolder](./resources/assets/user-interface/e2d2ipi/.gitkeep) holding the e2-logos as `.PNGs` and as [favicons](https://realfavicongenerator.net/)
-      - A [subfolder](./resources/assets/user-interface/octicons/.gitkeep) holding the full collection of [octicons](https://primer.style/design/foundations/icons) in `.svg` format
+      - An [`e2d2ipi.$$$` placeholder](./resources/assets/user-interface/e2d2ipi.$$$/) to be replaced by a symlink pointing to the e2-logos as `.png` files and as [favicons packages](https://realfavicongenerator.net/)
+      - An [`octicons.$$$` placeholder](./resources/assets/user-interface/octicons.$$$/) to be replaced by a symlink pointing to the [octicons](https://primer.style/octicons/) collection in `.svg` format
 
   - A `manuals` foder to hold the [user's manuals and tutorials](./resources/manuals/.gitkeep)
     - A `.src` folder to hold the [user's manuals sources](./resources/manuals/.src/.gitkeep)
