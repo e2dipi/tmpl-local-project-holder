@@ -124,14 +124,22 @@ branch before the final merge happens.
 
 - A VSCode Workspace [configuration file](./vscode-index.code-workspace)
 
-- An `@rel` environment for exposing the [project's releases](./@rel/.gitkeep)
-  - An `archives` sufolder to hold the [project's releases](./@rel/archives/.gitkeep)
-
-- A `deploy` environment to host the project's [deployment tools](/deploy/.gitkeep)
+<!--!!! .BAK -->
 
 - A `.bak` environment to host the project's [backups and archives](/.bak/.gitkeep)
   - An `archives` subfolder to hold the [project's archives](./.bak/archives/.gitkeep)
   - A `.history` folder to hold the development's [continuous backups](./.bak/.history/.gitkeep)
+
+<!--!!! @REL -->
+
+- An `@rel` environment for exposing the [project's releases](./@rel/.gitkeep)
+  - An `archives` sufolder to hold the [project's releases](./@rel/archives/.gitkeep)
+
+<!--!!! DEPLOY -->
+
+- A `deploy` environment to host the project's [deployment tools](/deploy/.gitkeep)
+
+<!--!!! ADMIN -->
 
 - An `admin` environment to host [administrative tools and documents](./admin/.gitkeep)
   - An `audit` subfolder to hold the [project's audits](./admin/audits/.gitkeep)
@@ -140,7 +148,11 @@ branch before the final merge happens.
     - Guidelines concerning [Git workflows](./admin/guidelines/git-branching/git-branching-model.md)
   - A `todo&notes` subfolder to hold the [project's todo lists and notes](./admin/todo&notes/.gitkeep)
 
+<!--!!! RESOURCES -->
+
 - A `resources` environment for the user to hold its [personal tools and rss](./resources/.gitkeep)
+
+  <!--!! Assets  -->
   - An `assets` foder to hold the [user's shared assets](./resources/assets/.gitkeep)
     - A `css` subfolder to hold the [user's styling assets](./resources/assets/css/.gitkeep)
     - An `execs` subfolder to hold the [user's executable assets](./resources/assets/execs/.gitkeep)
@@ -154,16 +166,28 @@ branch before the final merge happens.
       - An [`e2d2ipi.$$$` placeholder](./resources/assets/user-interface/e2d2ipi.$$$/) to be replaced by a symlink pointing to the e2-logos as `.png` files and as [favicons packages](https://realfavicongenerator.net/)
       - An [`octicons.$$$` placeholder](./resources/assets/user-interface/octicons.$$$/) to be replaced by a symlink pointing to the [octicons](https://primer.style/octicons/) collection in `.svg` format
 
+  <!--!! Manuals -->
   - A `manuals` foder to hold the [user's manuals and tutorials](./resources/manuals/.gitkeep)
     - A `.src` folder to hold the [user's manuals sources](./resources/manuals/.src/.gitkeep)
     - A [mini-guide](./resources/manuals/vscode-custom-features) on how to exploit certain VSCode editor extensions in the context of this template
-
     - A mini-guide on the VSCode Editor features in [markdown format](./resources/manuals/vscode-custom-features/vscode-custom-features.md)
+
+  <!--!! Templates -->
   - A `templates` foder to hold the [user's templates and models](./resources/templates/.gitkeep)
     - Various templates: [Assets folder and standard repo files](./resources/templates/.gitkeep)
+
+  <!--!! Useful tools -->
   - A `tuseful-tools` foder to hold the [user's useful tools and utilities](./resources/useful-tools/.gitkeep)
+
+  <!--!! Worth keeping -->
   - A `worth-keeping` foder to hold the [user's worth-keeping stuff](./resources/worth-keeping/.gitkeep)
+
+  <!--!! External resources -->
   - An `xternal-resources` folder to hold the user's resources that are [maintained by third parties](./resources/xternal-resources/.gitkeep)
+    - An `xternal-assets` subfolder to hold the user's assets that are [maintained outside of the project](./resources/xternal-resources/xternal-assets/.gitkeep)
+
+<!--!!! WORKSPACES -->
+
 - A `workspace(s)` environment to host the project and subprojects [directories](./workspaces/.gitkeep)
   - Two `.gitkeep` described subfolders mocking subprojects.
 
