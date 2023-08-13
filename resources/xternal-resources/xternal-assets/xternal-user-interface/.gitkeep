@@ -11,3 +11,12 @@
 
 </div>
 </div>
+
+## Overview
+
+This folder contains two different sets of *ui-related assets*, each of which is stored in its own subfolder:
+
+- `e2d2ipi` which contains the *e2d2ipi logos* in different shapes, colors, sizes and formats, and
+- `octicons` which holds the full collection of [*GitHub Octicons*](https://primer.style/design/foundations/icons) in `.svg` format.
+
+More details on each of these sets of assets can be found in their respective `.gitkeep` files located at the root of their respective subfolders.
