@@ -193,7 +193,7 @@ branch before the final merge happens.
       - An `xternal-videos` subfolder to hold [external video media assets](./resources/xternal-resources/xternal-assets/xternal-multimedia/xternal-videos/.gitkeep)
     - An `xternal-to-download` subfolder to hold [external downloadable assets](./resources/xternal-resources/xternal-assets/xternal-to-download/.gitkeep)
     - An `xternal-user-interface` subfolder to hold [external ui-related assets](./resources/xternal-resources/xternal-assets/xternal-user-interface/.gitkeep)
-      - An `e2d2ipi` subfolder to hold the [e2d2ipi logos](./resources/xternal-resources/xternal-assets/xternal-user-interface/e2d2ipi/.gitkeep) in various shapes and colors, and as both `.png` files and [favicons packages](https://realfavicongenerator.net/)
+      - An `e2d2ipi` subfolder to hold the [e2d2ipi logos](./resources/xternal-resources/xternal-assets/xternal-user-interface/e2d2ipi/.gitkeep) in various shapes and colors
       - An `octicons` subfolder to hold the full [Octicons](./resources/xternal-resources/xternal-assets/xternal-user-interface/octicons/.gitkeep) collection ìn `.svg` format (the orignal sources are available [here](https://primer.style/octicons/))
 
     <!--!! External Manuals -->
