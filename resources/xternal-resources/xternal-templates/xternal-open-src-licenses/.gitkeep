@@ -4,11 +4,46 @@
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    *This folder contains templates of the main **`Open Source Licenses`**. The needed
-    replacements are indicated by placeholders as all-capitals words surrounded by a pair of double
-    `@` symbols, like`@@PLACEHOLDER@@`.  For detailed information about open source
-    licenses including how to choose one, or for additional templates, please refer to
+    *This folder contains templates of the main **`Open Source Licenses`** that are linked to from the
+    [open-source licenses folder](../../open-source-licenses) located at the root of the project's
+    [`resources` environment](../../.gitkeep). For detailed information about open source licenses,
+    including how to choose one, or for additional templates, please refer to
     [https://choosealicense.com](https://choosealicense.com).*
 
 </div>
 </div>
+
+## Overview
+
+This folder contains templated copies of the main **`Open Source Licenses`**. The files that need to
+be updated with the project's specific information before being included in a distribution indicate the
+required replacements by placeholders in the form of all-capitals words surrounded by a pair of
+double `@` symbols, like`@@PLACEHOLDER@@`.
+
+<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
+<div style="font-size: 95%; text-align: justify;">
+
+!!!Danger ""
+    Note that the present template stores the licenses in separate `.zip` archives that need to be expanded and linked to from the  [open-source licenses folder](../../open-source-licenses) located at the root of the project's [`resources` environment](../../.gitkeep) upon installation. ***More information aout the handling of external resources can be found in the [external resources folder's `.gitkeep` file](../../xternal-resources/.gitkeep).***
+
+</div>
+</div>
+
+For a detailed description of each license including help in choosing one, please refer to the
+ [Open Source Initiative](https://opensource.org/licenses) or
+ [Choose a License](https://choosealicense.com) websites.
+
+## Available Licenses
+
+The following table lists the available licenses snd provides a link to corresponding template. It also specifies whic licenses need an edit before being used in a distribution
+
+| License | Template | Edits |
+|:--------|:---------|:--------------------|
+| [GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/) | [gnu-agpl-v3](agpl-3.0.txt) | Yes |
+| [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) | [gnu-gpl-v3](gpl-3.0.txt) | Yes |
+| [GNU LGPLv3](https://choosealicense.com/licenses/lgpl-3.0/) | [lgnu-lgpl-v3](lgpl-3.0.txt) | Yes |
+| [MIT License](https://choosealicense.com/licenses/mit/) | [the-mit-license](mit) | Yes |
+| [The Unlicense](https://choosealicense.com/licenses/unlicense/) | [the-unlicense-v1](unlicense.txt) | Yes |
+| [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) | [apache-v22](apache-2.0.txt) | Yes |
+| [Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/) | [boostsoft-v1](bsl-1.0.txt) | No |
+| [Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/) | [mozilla-public-v2t](mpl-2.0.txt) | Yes |
