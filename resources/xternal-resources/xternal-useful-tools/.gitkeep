@@ -1,13 +1,12 @@
-# External Tools And Scripts
+# External Templates
 
 <div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
 <div style="font-size: 95%; text-align: justify;">
 
 !!!Abstract
-    *This folder holds the external **`utilities`** and **`scripts`**. This folder's content and structure
-    and contents are meant to evolve constantly and to be, at least partially, copied from one project
-    to the other or shared among them. It may also share part of its contents with the
-    [/admin/audit](/admin/audits/.gitkeep) folder.*
+    *This folder holds  **`external templates`**, which are linked to from the folder of the same name
+    located at the root of the project's `resources` environment. **For more details on this type of
+    resources, please refer to that folder's [`.gitkeep` file](../../useful-tools/.gitkeep).***
 
 </div>
 </div>

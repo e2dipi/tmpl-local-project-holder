@@ -184,17 +184,24 @@ branch before the final merge happens.
 
   <!--!! External resources -->
   - An `xternal-resources` folder to hold the user's resources that are [maintained by third parties](./resources/xternal-resources/.gitkeep)
-    - An `xternal-css` subfolder to hold the [external styling assets](./resources/xternal-resources/xternal-assets/xternal-execs/.gitkeep)
-    - An `xternal-execs` subfolder to hold the [external executable assets](./resources/xternal-resources/xternal-assets/xternal-execs/.gitkeep)
-    - An `xternal-images` subfolder to hold the [external images assets](./resources/xternal-resources/xternal-assets/xternal-images/.gitkeep)
-    - An `xternal-libraries` subfolder to hold the [external libraries assets](./resources/xternal-resources/xternal-assets/xternal-libraries/.gitkeep)
-    - An `xternal-multimedia` subfolder to hold the [external multimedia assets](./resources/xternal-resources/xternal-assets/xternal-multimedia/.gitkeep)
-      - An `xternal-audio` subfolder to hold the [external audio media assets](./resources/xternal-resources/xternal-assets/xternal-multimedia/xternal-audio/.gitkeep)
-      - An `xternal-videos` subfolder to hold the [external video media assets](./resources/xternal-resources/xternal-assets/xternal-multimedia/xternal-videos/.gitkeep)
-    - An `xternal-to-download` subfolder to hold the [external downloadable assets](./resources/xternal-resources/xternal-assets/xternal-to-download/.gitkeep)
-    - An `xternal-user-interface` subfolder to hold the [external ui-related assets](./resources/xternal-resources/xternal-assets/xternal-user-interface/.gitkeep)
+    - An `xternal-css` subfolder to hold [external styling assets](./resources/xternal-resources/xternal-assets/xternal-execs/.gitkeep)
+    - An `xternal-execs` subfolder to hold [external executable assets](./resources/xternal-resources/xternal-assets/xternal-execs/.gitkeep)
+    - An `xternal-images` subfolder to hold [external images assets](./resources/xternal-resources/xternal-assets/xternal-images/.gitkeep)
+    - An `xternal-libraries` subfolder to hold [external libraries assets](./resources/xternal-resources/xternal-assets/xternal-libraries/.gitkeep)
+    - An `xternal-multimedia` subfolder to hold [external multimedia assets](./resources/xternal-resources/xternal-assets/xternal-multimedia/.gitkeep)
+      - An `xternal-audio` subfolder to hold [external audio media assets](./resources/xternal-resources/xternal-assets/xternal-multimedia/xternal-audio/.gitkeep)
+      - An `xternal-videos` subfolder to hold [external video media assets](./resources/xternal-resources/xternal-assets/xternal-multimedia/xternal-videos/.gitkeep)
+    - An `xternal-to-download` subfolder to hold [external downloadable assets](./resources/xternal-resources/xternal-assets/xternal-to-download/.gitkeep)
+    - An `xternal-user-interface` subfolder to hold [external ui-related assets](./resources/xternal-resources/xternal-assets/xternal-user-interface/.gitkeep)
       - An `e2d2ipi` subfolder to hold the [e2d2ipi logos](./resources/xternal-resources/xternal-assets/xternal-user-interface/e2d2ipi/.gitkeep) in various shapes and colors, and as both `.png` files and [favicons packages](https://realfavicongenerator.net/)
       - An `octicons` subfolder to hold the full [Octicons](./resources/xternal-resources/xternal-assets/xternal-user-interface/octicons/.gitkeep) collection ìn `.svg` format (the orignal sources are available [here](https://primer.style/octicons/))
+
+    <!--!! External Manuals -->
+    - An `xternal-manuals` folder to hold [external manuals](./resources/xternal-resources/xternal-manuals/.gitkeep)
+    - An `xternal-templates` folder to hold [external templates](./resources/xternal-resources/xternal-manuals/.gitkeep)
+      - An `xternal-open-src-licenses` subfolder to hold templated copies of the main [open-source licenses](./resources/xternal-resources/xternal-templates/xternal-open-src-licenses/.gitkeep)
+    - An `xternal-useful-tools` folder to hold [external useful tools](./resources/xternal-resources/xternal-useful-tools/.gitkeep)
+    - An `xternal-worth-keeping` folder to hold [external worth keeping documents](./resources/xternal-resources/xternal-worth-keeping/.gitkeep)
 
 <!--!!! WORKSPACES -->
 
