@@ -1,10 +1,4 @@
 # Target Specific Backup Folder
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
 !!!Abstract
-    *This folder hosts an **`achive`** of this specific deployment's target. As it should be mergeable with any other archive, its content must comply with the template's guidelines detailed in the `guidelines`  folder of the `admin` environment. The naming scheme applying to archives is detailed in the
-        [Handling Archives Guideline](../../../admin/guidelines/handling-archives/handling-archives.md)
-
-</div>
+    *This folder hosts an **`achive`** of this specific deployment's target. As it should be mergeable with any other archive, its content must comply with the template's guidelines detailed in the `guidelines`  folder of the `admin` environment. The naming scheme applying to archives is detailed in the [Handling Archives Guideline](../../../admin/guidelines/handling-archives/handling-archives.md).

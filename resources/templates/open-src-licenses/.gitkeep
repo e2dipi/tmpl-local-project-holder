@@ -1,12 +1,4 @@
 # Open Source Licenses
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
 !!!Abstract
-    *This folder contains templates of the main **`Open Source Licenses`**. Each subfolder is a
-    symbolic link to the corresponding license template template to be found in the
-    [xternal-open-source licenses folder](../../open-source-licenses). For a detailed description of this
-    folder's content, please refer to [that folder's `.gitkeep` file](../../xternal-resources/xternal-templates/xternal-open-src-licenses/.gitkeep).*
-</div>
-</div>
+    This folder contains templates of the main **`Open Source Licenses`**. Each subfolder is a symbolic link to the corresponding license template template to be found in the  [xternal-open-source licenses folder](../../open-source-licenses). For a detailed description of this folder's content, please refer to [that folder's `.gitkeep` file](../../xternal-resources/xternal-templates/xternal-open-src-licenses/.gitkeep).

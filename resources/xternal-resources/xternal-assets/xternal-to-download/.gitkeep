@@ -1,13 +1,4 @@
 # External Downloadable Assets
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!!Abstract
-    *This folder contains external **`dowloadable assets`**, which are linked to from the
-    folder of the same name located in the `assets` folder at the root of the project's
-    `resources` environment. **For more  details on this type of assets, please refer to
-    that folder's [`.gitkeep` file](../../../assets/to-download/.gitkeep).***
-
-</div>
-</div>
+!!!abstract
+    This folder contains external **`dowloadable assets`**, which are linked to from the folder of the same name located in the `assets` folder at the root of the project's `resources` environment. **For more  details on this type of assets, please refer to that folder's [`.gitkeep` file](../../../assets/to-download/.gitkeep).**

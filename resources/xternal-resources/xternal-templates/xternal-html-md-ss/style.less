@@ -1,0 +1,197 @@
+
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+.markdown-preview.markdown-preview {
+  // modify your style here
+
+  // PRINTING SPECIFIC STYLE
+  @media print {
+    color: black;
+    background-color: white;
+  }
+
+  // COMMON STYLES
+  text-align: justify;
+  line-height: 1.4;
+  font-family: Tahoma;
+
+  table {
+    margin: 1.5em auto 2rem 0;
+  }
+
+  code {
+    color: goldenrod;
+    font-family: Consolas, "Courier New", monospace;
+    background-color: rgba(125, 125, 125, 0.1);
+    border-radius: 2pt;
+  }
+
+  a code, table, th {
+    color: inherit;
+  }
+
+  pre code {
+    color: goldenrod;
+    background-color: transparent;
+    border-radius: 0;
+  }
+
+  pre {
+    max-width: 160mm;
+    margin: 1.5em auto 2rem 1.75rem;
+    border-radius: 3pt;
+    background-color: rgba(150, 150, 150, 0.2);
+  }
+
+  blockquote {
+    color: inherit;
+    font-weight: 400;
+    font-size: 90%;
+    margin: 1.5em auto 2rem 1.75rem;
+    font-family: Consolas, "Courier New", monospace;
+    background-color: rgba(150, 150, 150, 0.2);
+    border-radius: 3pt;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    padding-bottom: .2em;
+    margin-bottom: .3rem;
+    margin-top: 1.5em;
+    padding-top: 0;
+  }
+
+  h1 {
+    padding-bottom: .35em;
+    margin-bottom: .75em;
+    border-bottom: medium ridge rgba(128, 128, 128, .75);
+  }
+
+  p {
+    margin-bottom: .5em;
+  }
+
+  ul, ol, dl {
+    margin-left: 5mm;
+    padding-left: 0mm;
+    margin-bottom: .2em;
+  }
+
+  ul {
+    list-style-type: disc;
+    & > ul {
+      list-style-type: circle;
+      & > ul {
+        list-style-type: square;
+        & > ul {
+          list-style-type: "-  ";
+        }
+      }
+    }
+  }
+
+  ul > ul, ol > ul, ul > ol, ol > ol {
+    margin-left: 0;
+    padding-left: 1em;
+    margin-bottom: .2em;
+  }
+
+  strong {
+    color: inherit;
+  }
+
+  div.note {
+    font-size: 90%;
+  }
+
+  #toc-details {
+    font-size: 1.2rem;
+    margin-left: 3mm;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    & > summary {
+      margin-left: -2.5mm;
+      font-weight: bold;
+      font-variant: small-caps;
+      &  > span { margin-left: .2em; }
+    }
+    & > ul {
+        margin-left: 0;
+        padding-left: 0;
+        font-size: inherit;
+        padding-left: 1.8em;
+        list-style-type: disc;
+        & > li { font-size: 80%; }
+    }
+    & ul  ul {
+      margin-left: 0;
+      padding-left: 1.3em;
+      font-size: 95%;
+      margin-bottom: .2em;
+      list-style-type: circle;
+    }
+    & ul  ul  ul {  list-style-type: square }
+    & ul  ul ul ul { list-style-type: "-  " }
+  }
+
+  div.admonition {
+    max-width: 160mm;
+    font-size: .95em;
+    line-height: 1.3;
+    margin: 1.5em auto 2rem 1.75rem;
+    box-shadow: 4pt 3pt 5pt  rgba(100, 100, 100, .3);
+
+    & > p:not(:first-child) {
+      padding-top: .2em;
+      padding-right: .75em;
+      padding-bottom: .35em;
+    }
+
+    & > .admonition-title {
+      color: inherit;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.15em;
+      font-style: normal;
+      font-variant: small-caps;
+      letter-spacing: .1em;
+      font-variant: small-caps;
+      text-shadow: 1.5pt 1pt 1.5pt rgba(100, 100, 100, .75);
+        &:before {
+          top:.4em;
+          font-size: 1.25em;
+        }
+      }
+
+     .typecolor(@name: abstract, @c1, @c2, @c3) {
+        &.@{name} {
+          background-color:rgba(@c1, @c2, @c3, 0.05);// #colors(.05)[bug];
+          border: thin solid rgba(@c1, @c2, @c3, 0.5);
+          border-left: 2mm solid rgba(@c1, @c2, @c3, 1);//#colors(1)[bug];
+        }
+        &.@{name} .admonition-title {
+          background-color: rgba(@c1, @c2, @c3, 0.2);
+        }
+     }
+
+     // Default colors
+    .tipColor(@name:tip){ .typecolor(@name, 0, 191, 165) }
+    .failColor(@name:fail){ .typecolor(@name, 255, 82, 82) }
+    .tldrColor(@name:tldr){ .typecolor(@name, 0, 176, 255) }
+    .faqColor(@name:faq){ .typecolor(@name, 100, 221, 23) }
+    .infoColor(@name:info){ .typecolor(@name, 0, 184, 212) }
+    .bugColor(@name:bug){ .typecolor(@name, 255, 23, 68) }
+    .noteColor(@name:note){ .typecolor(@name, 68, 138, 255) }
+    .warnColor(@name:warn){ .typecolor(@name, 255, 145, 0 ) }
+    .checkColor(@name:check){ .typecolor(@name, 0, 200, 83) }
+    .quoteColor(@name:quote){ .typecolor(@name, 158, 158, 158) }
+
+    // Used admonitions
+    .tipColor(tip);
+    .bugColor(danger);
+    .tldrColor(abstract);
+    .checkColor(success);
+    &.abstract {  font-style: italic }
+  }
+}

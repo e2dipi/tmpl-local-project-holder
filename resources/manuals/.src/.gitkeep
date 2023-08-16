@@ -1,11 +1,5 @@
 # Manuals' Source Files
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!!Abstract
-    *This folder holds the **`source files`**, if any, that generated the dcouments to be found in the
-    `resources/manuals` folder.*
-
-</div>
-</div>
+!!!abstract
+    This folder holds the **`source files`**, if any, that generated the dcouments to be found in the
+    `resources/manuals` folder.

@@ -1,19 +1,11 @@
 <!-- markdownlint-disable MD041-->
 Accoedin to to the previous section, getting your own custom types is then as simple as invoking your own *type* and defining the corresponding CSS class according to the desired look. For example, creating the "foo" *type* simply amounts to using the following markdown code:
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
 ```markdown
-!!! foo The Foo Title
-    This is the **foo** admonition body
+!!!foo The Foo Title This is the **foo** admonition body
 ```
 
-</div></div>
-
 and defining the corresponding CSS class to take control over the following HTML code:
-
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
 
 ```html
 <div class="admonition foo">
@@ -21,8 +13,6 @@ and defining the corresponding CSS class to take control over the following HTML
 <p>This is the <strong>foo</strong> admonition body</p>
 </div>
 ```
-
-</div></div>
 
 The following CSS code snippet shows how to customize the look of the "foo" admonition:
 
@@ -35,6 +25,7 @@ The following CSS code snippet shows how to customize the look of the "foo" admo
     background-color: #f0f0f0;
     color: #000000;
 }
+
 .admonition.foo .admonition-title {
     font-weight: bold;
     text-transform: uppercase;
@@ -46,6 +37,5 @@ The following CSS code snippet shows how to customize the look of the "foo" admo
     color: #000000;
 }
 ```
-
 
 <!-- markdownlint-enable MD041-->

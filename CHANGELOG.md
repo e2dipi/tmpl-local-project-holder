@@ -7,13 +7,10 @@ ___  HEADER     _______________________________________________________________
 
 All notable changes to this project will be documented in this file.
 
-!!!hint ""
-    The format is based on
-    [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)<sup>&nbsp;1</sup>,
+!!!tip ""
+    The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)<sup>&nbsp;1</sup>,
     <br/>
-    and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-</div>
+    and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). </div>
 <ol class="note">
 <li> To the exception of the <span class="note"><code>Improved</code></span> type, which is not part of the original specification.</li>
 </li>
@@ -27,7 +24,7 @@ All notable changes to this project will be documented in this file.
 <!-- code_chunk_output -->
 
 - [1.0.0 &nbsp;-&nbsp; 2023-08-04](#100httpsgithubcome2d2ipitmpl-local-project-holdercomparev000v100-nbsp-nbsp-2023-08-04)
-- [Seed &nbsp;-&nbsp; 2023-07-22](#seedhttpsgithubcome2d2ipitmpl-local-project-holderreleasestagv000-nbsp-nbsp-2023-07-22)
+- [Seed &nbsp;-&nbsp; 2023-07-22 <!-- markdownlint-disable MD024 MD051 -->](#seedhttpsgithubcome2d2ipitmpl-local-project-holderreleasestagv000-nbsp-nbsp-2023-07-22---markdownlint-disable-md024-md051--)
 
 <!-- /code_chunk_output -->
 
@@ -37,11 +34,7 @@ All notable changes to this project will be documented in this file.
 -------------------------------------------------------------------------------------------------------------------------------------
 ___  TEMPLATES     ____________________________________________________________
 -----------------------------------------------------------------------------------------------------------------------------
-Note. The "Unreleased" template is NOT preceded by a [Toc] link (due to the fact that it is the
-first entry in the file ... and because its positioning would be different). Therefore, the link must
-be added when the version is released (see "Compared / Tag-only Versioned Header" below).
-
-UNRELEASED VERSION (includes the bottom separator line)
+Note. The "Unreleased" template is NOT preceded by a [Toc] link (due to the fact that it is the first entry in the file ... and because its positioning would be different). Therefore, the link must be added when the version is released (see "Compared / Tag-only Versioned Header" below). UNRELEASED VERSION (includes the bottom separator line)
 ´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´
 ## [Unreleased](https://github.com/e2d2ipi/tmpl-local-project-holder/compare/...HEAD)
 
@@ -96,25 +89,8 @@ ___ CHANGELOG   ____________________________________________________________
 NEW  VERSION  CHECKLIST  (!!! Release Brsnch !!!)
 ´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´
 The first 3 steps below should be taken  on the `develop` branch,
-BEFORE  the `telease` branch is created.
-
-  [   ]  COPY-PASTE the desired header  in place of the "[Unreleased](...)" one
-
-  [   ]  UPDATE the new header with the release's <version>, <tag(s)> and <date>.
-
-  [   ]  REPLACE [Unreleased] by the last release's next version
-
-The next steps should be done on the `develop` branch, but only
-AFTER the `release` branch is created (optional, but recommended).
-
-  [   ]  CHECK OUT the `develop` branch
-
-  [   ]  CREATE a new [Unreleased] entry on top
-
-The step below finalizes the release's changelog. It should be the last commit on the `release`
-branch before the final merge happens.
-
-  [   ]  MODIFY the comparison settings from `...HEAD` to `<last-vers-tag>...<new-vers-tag>`
+BEFORE  the `telease` branch is created. [   ]  COPY-PASTE the desired header  in place of the "[Unreleased](...)" one [   ]  UPDATE the new header with the release's <version>, <tag(s)> and <date>. [   ]  REPLACE [Unreleased] by the last release's next version The next steps should be done on the `develop` branch, but only AFTER the `release` branch is created (optional, but recommended). [   ]  CHECK OUT the `develop` branch [   ]  CREATE a new [Unreleased] entry on top The step below finalizes the release's changelog. It should be the last commit on the `release`
+branch before the final merge happens. [   ]  MODIFY the comparison settings from `...HEAD` to `<last-vers-tag>...<new-vers-tag>`
 
 -->
 
@@ -164,9 +140,7 @@ branch before the final merge happens.
     - A `to-download` subfolder to hold the [user's downloadable assets](./resources/assets/to-download/.gitkeep)
     - A `user-interface` subfolder to hold the [user's ui-related assets](./resources/assets/user-interface/.gitkeep)
       - An [`e2d2ipi.$$$` placeholder](./resources/assets/user-interface/e2d2ipi.$$$/) to be replaced by a symlink pointing to the e2-logos as `.png` files and as [favicons packages](https://realfavicongenerator.net/)
-      - An [`octicons.$$$` placeholder](./resources/assets/user-interface/octicons.$$$/) to be replaced by a symlink pointing to the [octicons](https://primer.style/octicons/) collection in `.svg` format
-
-  <!--!! Manuals -->
+      - An [`octicons.$$$` placeholder](./resources/assets/user-interface/octicons.$$$/) to be replaced by a symlink pointing to the [octicons](https://primer.style/octicons/) collection in `.svg` format <!--!! Manuals -->
   - A `manuals` foder to hold the [user's manuals and tutorials](./resources/manuals/.gitkeep)
     - A `.src` folder to hold the [user's manuals sources](./resources/manuals/.src/.gitkeep)
     - A [mini-guide](./resources/manuals/vscode-custom-features) on how to exploit certain VSCode editor extensions in the context of this template
@@ -212,9 +186,7 @@ branch before the final merge happens.
 
 <a class="toc" title="&uarr; Table Of Contents &uarr;" href="#toc">[&nbsp;Toc&nbsp;]</a>
 
-## [Seed](https://github.com/e2d2ipi/tmpl-local-project-holder/releases/tag/v0.0.0) &nbsp;-&nbsp; 2023-07-22
-
-<!-- markdownlint-disable MD024 MD051 -->
+## [Seed](https://github.com/e2d2ipi/tmpl-local-project-holder/releases/tag/v0.0.0) &nbsp;-&nbsp; 2023-07-22 <!-- markdownlint-disable MD024 MD051 -->
 <!--
 -------------------------------------------------------------------------------------------------------------------------------------
 ___  [ x ]  INSTALLATION  CHECKLIST     __________________________________________
@@ -224,17 +196,8 @@ ___  [ x ]  INSTALLATION  CHECKLIST     ________________________________________
 
 [   ]  UPDATE the document's title (e.g. "Change Log - My Project")
 
-[   ]  REPLACE https://github.com/e2d2ipi/tmpl-local-project-holder to the actual repository's URL.
-       There are 5 instances of it:
-        [   ]  3x in the TEMPLATE section
-        [   ]  1x in the [0.0.0] vesion
-        [   ]  1x in the [Unreleasd] vesion
-
-[   ]  SET the [Seed] version's date to the project's start date
-
- [   ]  ADD the v0.0.0 tag to the commit tree
-
-[   ]  DONE. Move this checklist at the bottom of this file (or deleting it)
+[   ]  REPLACE https://github.com/e2d2ipi/tmpl-local-project-holder to the actual repository's URL. There are 5 instances of it:
+        [   ]  3x in the TEMPLATE section [   ]  1x in the [0.0.0] vesion [   ]  1x in the [Unreleasd] vesion [   ]  SET the [Seed] version's date to the project's start date [   ]  ADD the v0.0.0 tag to the commit tree [   ]  DONE. Move this checklist at the bottom of this file (or deleting it)
 
 -->
 

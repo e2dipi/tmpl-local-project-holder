@@ -5,12 +5,7 @@ Last but not least, a custom CSS must be defined to take control over the HTML c
 
 - `Tilte paragraph` are the `p` elements with the `admonition-title` class **that are within the above `div` container**.
 
-- `Body paragraphs` are the `p` elements that are within the above `div` container but that **do not have the `admonition-title` class**. That last condition is not easy to implement using CSS, since there are no such selectors as "not" or "except". The easiest way to do it is to make sure that `body paragraphs` are styled **above** the `title paragraph` and that the latter override every style that is not desired.
-
-Here is an example of a working CSS code snippet that implements the above rules:
-
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
+- `Body paragraphs` are the `p` elements that are within the above `div` container but that **do not have the `admonition-title` class**. That last condition is not easy to implement using CSS, since there are no such selectors as "not" or "except". The easiest way to do it is to make sure that `body paragraphs` are styled **above** the `title paragraph` and that the latter override every style that is not desired. Here is an example of a working CSS code snippet that implements the above rules:
 
 ```css
 .admonition.foo {
@@ -18,27 +13,26 @@ Here is an example of a working CSS code snippet that implements the above rules
     border-radius: 0.5em;
     padding: 0.5em;
     margin: 1em 0;
-    color: #323232;
+    color: darkGray;
 }
+
 div.admonition.foo p {
     margin: 0;
     padding: 0;
     border: 0;
     background-color: transparent;
-    color: #lightyellow;
+    color: yellow;
 }
 .admonition.foo .admonition-title {
     font-weight: bold;
-    text-variant: small-caps;
+    font-variant: small-caps;
     font-size: 90%;
     margin: 0;
     padding: 0;
     border: 0;
     background-color: transparent;
-    color: #white;
+    color: red;
 }
 ```
-
-</div></div>
 
 <!-- markdownlint-enable MD041-->

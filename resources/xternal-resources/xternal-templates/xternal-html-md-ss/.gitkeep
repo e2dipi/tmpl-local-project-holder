@@ -1,0 +1,24 @@
+# External Html/Markdown/Stylesheet Templates
+
+!!!Abstract
+    This folder holds external **`Html / Markdown / Stylesheet`**  templates, which are templates that not maintained by the project's team, but externally, whether by a third party or by the user himself but in a different project. The files in this folder are meant to be linked to from the [`html-md-ss folder/`](../../html-md-ss) located at the root of the project's [`resources` environment](../../.gitkeep). For detailed information about this type of resources, please refer to that folder's  [`.gitkeep` file](../../../templates/html-md-ss/.gitkeep).
+
+## Overview
+
+This folder contains templates of *Html*, *Markdown* and *Stylesheet* documents that are not maintained by the project's team, but externally, whether by a third party or by the user himself but in a different project. The files in this folder are meant to be linked to from other locations in the project's [`resources` environment](../../.gitkeep) based on their type and purpose.
+
+## The *style.less* file
+
+The [`./style.less` file](./stle.less) file is the *stylesheet* that is  used globally by the VSCode's [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) extension when rendering Markdown documents. This makes it particular in two ways:
+
+- It is itself a *hardlink* pointing to the [`~/.mume/style.less`](~/.mume/style.less) file, which is the one that is actually used by the extension.
+
+- It is linked to from several distinct locations in the project's [`resources` environment](../../.gitkeep) and plays different roles depending on the context in which it is used.
+
+The table below summarizes the file's name and location, role and context of use of each copy of the  [`~/.mume/style.less`](~/.mume/style.less) stylesheet to be found in the project's [`resources` environment](../../../.gitkeep).
+
+Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Location | Role | Context |
+|:---|:---|:---|:---|
+md-preview.less  | `assets/css/`  | *User's&nbsp;Asset* | The stylesheet as one of the assets available in the user's personal assets' library for use, or not, in the project. |
+ base-styles.less | `templates/html-md-ss/`<br/>`<tmplname>/assets/css`  | *Dependency* | A Stylesheet that is imported as a styling asset by other `Html / Markdown` templates. |
+ md-preview.less |  `templates/html-md-ss/`  | *LESS&nbsp;Template* | A Stylesheet template to be used as is. Typically the one to copy to [~/.mume/](~/.mume/) when installing the project in an environment that does not contain the original file. |

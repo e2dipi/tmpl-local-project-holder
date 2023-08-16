@@ -1,13 +1,4 @@
 # Target Specific Deployment's Sources
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!!Abstract
-    *This folder's holds the **`sources`** that need to be deployed to the
-    `production@host`. These files are brought here from the `deploy/.sources` the deployment
-    scripts specific to the `production@local` environment. Depending on the deployment's target's
-    nature, this operation may not consist of a a simple copy, but involve certain customization of
-    the sources to have them fit the exact format that is expected by the development environment.*
-
-</div>
+!!!abstract
+    This folder's holds the **`sources`** that need to be deployed to the `production@host`. These files are brought here from the `deploy/.sources` the deployment scripts specific to the `production@local` environment. Depending on the deployment's target's nature, this operation may not consist of a a simple copy, but involve certain customization of the sources to have them fit the exact format that is expected by the development environment.

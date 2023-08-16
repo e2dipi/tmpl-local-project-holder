@@ -1,11 +1,5 @@
 <!-- markdownlint-disable MD041-->
-Tags identifying editable parts of the project, either by delimiting customizable areas or by being
-themselves placeholders meant to be replaced. Tags from this category typically call for actions on a
-template that are meant to happen at a pre-determined point in the project's life cycle. Depending on
-its nature, each of these tags may be repeatedly needed and, thus, persist throughout all project's
-life cycles, or serve only once and then be removed. As a result, whether or not their presence
-impacts the project's release readiness must be evaluated on a case-by-case basis. It is however
-very unlikely that any of them should be part of the project's final distribution.
+Tags identifying editable parts of the project, either by delimiting customizable areas or by being themselves placeholders meant to be replaced. Tags from this category typically call for actions on a template that are meant to happen at a pre-determined point in the project's life cycle. Depending on its nature, each of these tags may be repeatedly needed and, thus, persist throughout all project's life cycles, or serve only once and then be removed. As a result, whether or not their presence impacts the project's release readiness must be evaluated on a case-by-case basis. It is however very unlikely that any of them should be part of the project's final distribution.
 
 <div class="tag-table markers">
 

@@ -18,4 +18,5 @@ Category     | Description                                                     |
 [hunches-section]: #issues-tag-category
 [markers-section]: #markers-tag-category
 [dividers-section]: #dividers-tag-category
+
 <!-- markdownlint-enable MD041 MD051 -->

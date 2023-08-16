@@ -1,41 +1,20 @@
 # Open Source Licenses
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!!Abstract
-    *This folder contains templates of the main **`Open Source Licenses`** that are linked to from the
-    [open-source licenses folder](../../open-source-licenses) located at the root of the project's
-    [`resources` environment](../../.gitkeep). For detailed information about open source licenses,
-    including how to choose one, or for additional templates, please refer to
-    [https://choosealicense.com](https://choosealicense.com).*
-
-</div>
-</div>
+!!!abstract
+    This folder contains templates of the main **`Open Source Licenses`** that are linked to from the [open-source licenses folder](../../open-source-licenses) located at the root of the project's [`resources` environment](../../.gitkeep). For detailed information about open source licenses, including how to choose one, or for additional templates, please refer to [https://choosealicense.com](https://choosealicense.com).
 
 ## Overview
 
-This folder contains templated copies of the main **`Open Source Licenses`**. The files that need to
-be updated with the project's specific information before being included in a distribution indicate the
-required replacements by placeholders in the form of all-capitals words surrounded by a pair of
-double `@` symbols, like`@@PLACEHOLDER@@`.
+This folder contains templated copies of the main **`Open Source Licenses`**. The files that need to be updated with the project's specific information before being included in a distribution indicate the required replacements by placeholders in the form of all-capitals words surrounded by a pair of double `@` symbols, like`@@PLACEHOLDER@@`.
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!!Danger ""
+!!!danger ""
     Note that the present template stores the licenses in separate `.zip` archives that need to be expanded and linked to from the  [open-source licenses folder](../../open-source-licenses) located at the root of the project's [`resources` environment](../../.gitkeep) upon installation. ***More information aout the handling of external resources can be found in the [external resources folder's `.gitkeep` file](../../xternal-resources/.gitkeep).***
 
-</div>
-</div>
-
-For a detailed description of each license including help in choosing one, please refer to the
- [Open Source Initiative](https://opensource.org/licenses) or
- [Choose a License](https://choosealicense.com) websites.
+For a detailed description of each license including help in choosing one, please refer to the [Open Source Initiative](https://opensource.org/licenses) or [Choose a License](https://choosealicense.com) websites.
 
 ## Available Licenses
 
-The following table lists the available licenses snd provides a link to corresponding template. It also specifies whic licenses need an edit before being used in a distribution
+The following table lists the available licenses snd provides a link to corresponding template. It also specifies whic licenses need an edit before being used in a distribution.
 
 | License | Template | Edits |
 |:--------|:---------|:--------------------|

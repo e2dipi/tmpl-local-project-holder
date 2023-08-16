@@ -1,9 +1,4 @@
 # Octicons Collection
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!!Abstract
-    *This folder holds the **`octicons collection`**, a set of icons designed by GitHub and used in GitHub.com, GitHub Desktop, and GitHub for Windows. The icons are licensed under the [SIL Open Font License](http://scripts.sil.org/OFL) and their source files are available in the [octicons repository](https://primer.style/octicons/).
-</div>
-</div>
+!!!abstract
+    This folder holds the **`octicons collection`**, a set of icons designed by GitHub and used in GitHub.com, GitHub Desktop, and GitHub for Windows. The icons are licensed under the [SIL Open Font License](http://scripts.sil.org/OFL) and their source files are available in the [octicons repository](https://primer.style/octicons/).

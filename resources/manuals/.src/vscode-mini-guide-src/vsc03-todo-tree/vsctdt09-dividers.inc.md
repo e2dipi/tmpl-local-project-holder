@@ -1,11 +1,5 @@
 <!-- markdownlint-disable MD041-->
-Tags that are used to visually segment the project's file. The extension is configured to provide 6
-levels of sectioning, starting with *parts* and *chapters* and ending with *sub-sub-sub-sections*.
-Obviously, tags from this category call for no action at all and are intrinsically meant to never be
-deleted; their number even has a vocation to increase with the size of the project and, thus, over
-time. It is worth noting that the case of *dividers* is in complete contrast to this of *helpers*. Indeed,
-unlike *helpers*, *dividers* have no interest at all in the listing ability of the extension. Instead, they
-benefit from the fact that tags can be highlighted within the project's source files.
+Tags that are used to visually segment the project's file. The extension is configured to provide 6 levels of sectioning, starting with *parts* and *chapters* and ending with *sub-sub-sub-sections*. Obviously, tags from this category call for no action at all and are intrinsically meant to never be deleted; their number even has a vocation to increase with the size of the project and, thus, over time. It is worth noting that the case of *dividers* is in complete contrast to this of *helpers*. Indeed, unlike *helpers*, *dividers* have no interest at all in the listing ability of the extension. Instead, they benefit from the fact that tags can be highlighted within the project's source files.
 
 <div class="tag-table dividers">
 

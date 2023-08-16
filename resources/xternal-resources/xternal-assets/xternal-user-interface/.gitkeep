@@ -1,22 +1,11 @@
 # External UI Assets
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!!Abstract
-    *This folder contains external **`ui-related assets`**, which are linked to from the folder
-     of the same name located in the `assets` folder at the root of the project's `resources`
-     environment. **For more details on this type of assets, please refer to
-    that folder's [`.gitkeep` file](../../../assets/user-interface/.gitkeep).***
-
-</div>
-</div>
+!!!abstract
+    This folder contains external **`ui-related assets`**, which are linked to from the folder of the same name located in the `assets` folder at the root of the project's `resources` environment. **For more details on this type of assets, please refer to that folder's [`.gitkeep` file](../../../assets/user-interface/.gitkeep).**
 
 ## Overview
 
 This folder contains two different sets of *ui-related assets*, each of which is stored in its own subfolder:
 
 - `e2d2ipi` which contains the *e2d2ipi logos* in different shapes, colors, sizes and formats, and
-- `octicons` which holds the full collection of [*GitHub Octicons*](https://primer.style/design/foundations/icons) in `.svg` format.
-
-More details on each of these sets of assets can be found in their respective `.gitkeep` files located at the root of their respective subfolders.
+- `octicons` which holds the full collection of [*GitHub Octicons*](https://primer.style/design/foundations/icons) in `.svg` format. More details on each of these sets of assets can be found in their respective `.gitkeep` files located at the root of their respective subfolders.

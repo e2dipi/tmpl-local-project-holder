@@ -1,8 +1,4 @@
 # Continous Backups
 
-<div style="width: 45em; font-size: normal; margin: 0 10% 5ex 5%;">
-<div style="font-size: 95%; text-align: justify;">
-
 !!!Abstract
-    *This folder hosts the development's `history`,  which typically consist of continous backups performed by a third-party tool, such as [VSCode's Local History extension.](https://marketplace.visualstudio.com/items?itemName=xyz.local-history).*
-</div></div>
+    This folder hosts the development's `history`,  which typically consist of continous backups performed by a third-party tool, such as [VSCode's Local History extension.](https://marketplace.visualstudio.com/items?itemName=xyz.local-history).

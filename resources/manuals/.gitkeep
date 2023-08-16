@@ -1,11 +1,4 @@
 # Project's Useful Manuals
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!!Abstract
-    *This folder holds the user's personal **`manuals`**, which consist of all the informational
-    documents like tutorials, manuals, references, etc. to the exception of the project's documentation itself and the development's guidelines. The former is to be found in the `workspace(s)` environment, typically in a `docs` folder, while guidelines are located in the folder of the same name in the `admin` environment.*
-
-</div>
-</div>
+!!!abstract
+    This folder holds the user's personal **`manuals`**, which consist of all the informational documents like tutorials, manuals, references, etc. to the exception of the project's documentation itself and the development's guidelines. The former is to be found in the `workspace(s)` environment, typically in a `docs` folder, while guidelines are located in the folder of the same name in the `admin` environment.

@@ -1,10 +1,4 @@
 # Local Documentation's Assets
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!!Abstract
-    *This folder holds the assets used in the [documentation of the `e2d2ipi` folder](./../.gitkeep). Its
-    content is not meant to be shared with any other folder of the project.*
-</div>
-</div>
+!!!abstract
+    This folder holds the assets used in the [documentation of the `e2d2ipi` folder](./../.gitkeep). Its content is not meant to be shared with any other folder of the project.

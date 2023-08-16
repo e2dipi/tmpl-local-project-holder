@@ -1,28 +1,11 @@
 # E2d2ipi Logos
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!!Abstract
-    *This folder contains the **`e2d2ipi logos` as 512x512 pixels `.png` images and as
-    [favicons packages](https://realfavicongenerator.net/) covering the requirements and needs of the
-    most common browsers and devices*
-
-</div>
-</div>
+!!!abstract
+    This folder contains the **`e2d2ipi logos` as 512x512 pixels `.png` images and as [favicons packages](https://realfavicongenerator.net/) covering the requirements and needs of the most common browsers and devices
 
 ## Overview
 
-This folder contains the **`e2d2ipi logos`** in two shapes and six different colors. Each one is then
-available both as a  512x512 pixels `.png` images and as a
-[packaged set of favicons](https://realfavicongenerator.net/). Th latter is designed to cover the needs
-and requirements of the most common browsers and devices.
-
-Each logo is available in two different shapes, namely *square* and *circle*, and in six
-different colors: *black*, *red*, *gold*, *violet*, *white* and *dark blue*. Unlike shapes have no
-particular meaning nor purpose and, thus, can be used interchangeably, each color is associated to
-a specific context. The mapping between logos, colors and contexts is summarized in the following
-table:
+This folder contains the **`e2d2ipi logos`** in two shapes and six different colors. Each one is then available both as a  512x512 pixels `.png` images and as a [packaged set of favicons](https://realfavicongenerator.net/). Th latter is designed to cover the needs and requirements of the most common browsers and devices. Each logo is available in two different shapes, namely *square* and *circle*, and in six different colors: *black*, *red*, *gold*, *violet*, *white* and *dark blue*. Unlike shapes have no particular meaning nor purpose and, thus, can be used interchangeably, each color is associated to a specific context. The mapping between logos, colors and contexts is summarized in the following table:
 
 | Logo | Name | Context description |
 |:-----:|:-----|:-------|:--------|
@@ -33,6 +16,4 @@ table:
 | <img src="./.assets/images/e2d2ipi-512-square-white.png" width="100px"> | e2d2ipi | This logo is used in general [public and/or collaborative contexts](https://github.com/e2d2ipi) |
 | <img src="./.assets/images/e2d2ipi-512-square-blue-dark.png" width="100px"> | spicozzi | This logo is used for everything that is [stricly personal](https://github.com/spicozzi) ^[This logo also exists in <span style="color: lightBlue">*azure color*</span> for when a lighter tone is needed] |
 
-Note that the logos folders holding the logos were compressed as `.zip` files to reduce the size of
-the repository. The images used for the present documentation are stored in the `.assets/images`
-subfolder and are not meant to be shared with any other directory.
+Note that the logos folders holding the logos were compressed as `.zip` files to reduce the size of the repository. The images used for the present documentation are stored in the `.assets/images` subfolder and are not meant to be shared with any other directory.

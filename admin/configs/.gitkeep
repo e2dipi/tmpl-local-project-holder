@@ -1,0 +1,4 @@
+# Configuration Files
+
+!!!abstract
+    This folder contains the project's **`configuration files`**, which consist of all the documents that contain parameters and/or settings that configure the project's aspect, its behavior or its performances. An additional condition for a file to belong to this folder is that no location in the project's structure is more legitimate than the present one to host it, as it would be the case for a stylesheet that is an asset dedicated to pages sharing the same locarion in folder hierarchy. The configuration files that would naturally belong to the root folder should also be placed in here, as adding documents at the root level is highly discouraged. Finally, a typical example of a file that would not belong to this folder is any stylesheet to be found in the `assets` folder of a speciic pagee or group of pages.

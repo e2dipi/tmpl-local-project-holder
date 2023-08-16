@@ -1,40 +1,22 @@
 # External Resources
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!!Abstract
-    *This folder holds the **`external`** resources, which are files and documents that are maintained
-    externally. Its contents are typically linked to from other subfolders of the `resources`
-    environment based on their type and purpose.*
-
-</div></div>
+!!!abstract
+    This folder holds the **`external`** resources, which are files and documents that are maintained externally, whether it is by a third party or by the user himself but in a different project. Its contents are typically linked to from other subfolders of the `resources` environment based on their type and purpose.
 
 ## Overview
 
-This folder is intended to group in a single location all the *external resources*, which are the files
-and documents that are maintained externally.  The main motivations for doing so instead of
-keeping them in the subfolders of the `resources` environment they would belong to based on their
-type and purpose are the following:
+This folder is intended to group in a single location all the *external resources*, which are the files and documents that are maintained externally.  The main motivations for doing so instead of keeping them in the subfolders of the `resources` environment they would belong to based on their type and purpose are the following:
 
 - This makes the external resourcees quickly identifiable.
 
 - This allows to keep to keep the vendor-specific materials up-to-date more efficiently.
 
-- This allows to exclude them  from operations such as linting or testing with minimal effort.
-
-This approach, however, has one major drawback which is that it makes these resources harder
-to find.  To mitigate this issue, the present folder mimics the structure of the `resources`
-environment.  This way:
+- This allows to exclude them  from operations such as linting or testing with minimal effort. This approach, however, has one major drawback which is that it makes these resources harder to find.  To mitigate this issue, the present folder mimics the structure of the `resources` environment.  This way:
 
 This folder's contents, however, are not meant to be accessed directly, but rather to be linked to from the locations where they are meant to be based on their type and purpose.  This can be done using the following mechanisms:
 
-- [Hard links](https://en.wikipedia.org/wiki/Hard_link), which are pointers to the same file from
-  different locations in the file system.
+- [Hard links](https://en.wikipedia.org/wiki/Hard_link), which are pointers to the same file from different locations in the file system.
 
-- [Symbolic links](https://en.wikipedia.org/wiki/Symbolic_link), which are pointers to a file from a
-  different location in the file system ^[Unlike Windows which does not support symbolic links that
-  point to folders, such pointers exist on Unix, Linux and MacOs].
+- [Symbolic links](https://en.wikipedia.org/wiki/Symbolic_link), which are pointers to a file from a different location in the file system ^[Unlike Windows which does not support symbolic links that point to folders, such pointers exist on Unix, Linux and MacOs].
 
-- [Folder junctions](https://en.wikipedia.org/wiki/NTFS_junction_point), which are the Windows
-  equivalent of symbolic links to folders.
+- [Folder junctions](https://en.wikipedia.org/wiki/NTFS_junction_point), which are the Windows equivalent of symbolic links to folders.

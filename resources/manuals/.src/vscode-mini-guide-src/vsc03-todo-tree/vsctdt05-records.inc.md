@@ -1,10 +1,5 @@
 <!-- markdownlint-disable MD041-->
-Tags that are used to produce to-do lists of different natures. Tags from this category are mostly
-used to keep track of the project's progress and to make sure that none of the features expected to
-be part of the next release  is forgotten. For the project to be considered as ready for release, all
-tags from this category should be either addressed or moved to the *hunches* category.  As a result,
-while this category is expected to be the most densely populated one among the generated tree at
-the heart of every development phase, it should vanish completely when approaching a release.
+Tags that are used to produce to-do lists of different natures. Tags from this category are mostly used to keep track of the project's progress and to make sure that none of the features expected to be part of the next release  is forgotten. For the project to be considered as ready for release, all tags from this category should be either addressed or moved to the *hunches* category.  As a result, while this category is expected to be the most densely populated one among the generated tree at the heart of every development phase, it should vanish completely when approaching a release.
 
 <div class="tag-table records">
 

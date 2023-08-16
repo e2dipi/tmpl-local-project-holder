@@ -1,11 +1,5 @@
 <!-- markdownlint-disable MD041-->
-Low-priority tags refer to modifications that are not meant to be part of the next release, whether
-because they are considered to be non-essential, or because the underlying features are not
-advanced enough to qualify for inclusion. This category also includes all the tags referencing
-changes that have been planned (independently of their status) as well as the eventual mentions of
-ideas or proposals that have not yet been evaluated. Tags from this category have no impact on the
-project's readiness for release, the reason why the extension may be safely configured to hide them
-whenever the tree is generated from outside the development environment.
+Low-priority tags refer to modifications that are not meant to be part of the next release, whether because they are considered to be non-essential, or because the underlying features are not advanced enough to qualify for inclusion. This category also includes all the tags referencing changes that have been planned (independently of their status) as well as the eventual mentions of ideas or proposals that have not yet been evaluated. Tags from this category have no impact on the project's readiness for release, the reason why the extension may be safely configured to hide them whenever the tree is generated from outside the development environment.
 
 <div class="tag-table hunches">
 

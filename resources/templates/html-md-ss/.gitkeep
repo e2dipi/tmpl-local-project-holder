@@ -1,0 +1,4 @@
+# Styling Templates
+
+!!!Abstract
+    This folder hold **`HTML-related`** etc. templates, which, besides  `html` and `markdown` documents, include all templates of any style commonly associated to these formats, like `css` or `less`.

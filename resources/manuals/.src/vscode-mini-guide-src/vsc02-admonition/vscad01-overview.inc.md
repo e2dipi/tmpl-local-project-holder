@@ -1,25 +1,13 @@
 <!-- markdownlint-disable MD041-->
-The typical use case for *admonitions* is to draw the reader's attention to a p articular point. They can appear anywhere in an ordinary HTML `body` element, including another *admonition*.
+The typical use case for *admonitions* is to draw the reader's attention to a p articular point. They can appear anywhere in an ordinary HTML `body` element, including another *admonition*. Admonitions consisit of a colored box with an optional header and a body. The header is composed of an icon and a title, both of which can be customized. The body is a normal paragraph of text. Below is a quick example of multiple nested admonitions of different types:
 
-Admonitions consisit of a colored box with an optional header and a body. The header is composed of an icon and a title, both of which can be customized. The body is a normal paragraph of text.
-
-Below is a quick example of multiple nested admonitions of different types:
-
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!! note
-
+!!!note
     This is the **note** admonition body
 
-    !!! danger Danger Title
-        This is the **danger** admonition body
+    !!!danger
+        Danger Title This is the **danger** admonition body
 
-        !!! success ""
-            This is the **success** admonition body, with stripped out title and icons
+        !!!success ""
+            This is the **success** admonition body, with stripped out title and icons As shown below, there are plenty of other types to choose from !
 
-            As shown below, there are plenty of other types to choose from !
-
-</div>
-</div>
 <!-- markdownlint-enable MD041-->

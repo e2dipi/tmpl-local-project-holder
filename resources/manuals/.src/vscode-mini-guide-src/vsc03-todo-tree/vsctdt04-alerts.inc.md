@@ -1,10 +1,5 @@
 <!-- markdownlint-disable MD041-->
-Tags pointing to issues whose severity is still to be established, but that are potentially damaging
-enough to be considered as a threat. The tags from this category are typically transitional,
-meaning that addressing such a tag is expected to yield its requalification as either a *record* or an
-*issue* tag. Cleaning the project from all *alerts* should be every developer's 2nd highest priority,
-right after clearing all tags marked as *issues*. Again, no release should be considered as long as
-the todo-tree displays any of these tags.
+Tags pointing to issues whose severity is still to be established, but that are potentially damaging enough to be considered as a threat. The tags from this category are typically transitional, meaning that addressing such a tag is expected to yield its requalification as either a *record* or an *issue* tag. Cleaning the project from all *alerts* should be every developer's 2nd highest priority, right after clearing all tags marked as *issues*. Again, no release should be considered as long as the todo-tree displays any of these tags.
 
 <div class="tag-table alerts">
 

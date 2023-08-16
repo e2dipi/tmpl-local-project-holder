@@ -1,10 +1,4 @@
 # Target Specific Configuration Files
 
-<div style="width: 38em; font-size: normal; margin-left: 40pt; margin-bottom: 30pt">
-<div style="font-size: 95%; text-align: justify;">
-
-!!!Abstract
-    *This directory holds the **``configuration``** files that are specific to this deployments'
-    target.*
-
- </div></div>
+!!!abstract
+    This directory holds the **``configuration``** files that are specific to this deployments' target.

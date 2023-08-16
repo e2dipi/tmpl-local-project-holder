@@ -1,12 +1,5 @@
 <!-- markdownlint-disable MD041-->
-Tags which are used to hold information about the project that is central enough to its development
-that it is worth using the tree to keep track of them. In the same aim, tags from this category may
-also be used to bookmark locations in the project that are of particular interest and, thus, need to be
-accessed frequently and/or simply as a reminder for some easily forgettable action that is important
-to be taken. These tags' lifetime typically spans over the whole development and has no impact on
-whether the project can be released or not. As a consequence, the extension should be configured
-to hide this category's tags whenever generating the tree from the release or the deployment
-environment.
+Tags which are used to hold information about the project that is central enough to its development that it is worth using the tree to keep track of them. In the same aim, tags from this category may also be used to bookmark locations in the project that are of particular interest and, thus, need to be accessed frequently and/or simply as a reminder for some easily forgettable action that is important to be taken. These tags' lifetime typically spans over the whole development and has no impact on whether the project can be released or not. As a consequence, the extension should be configured to hide this category's tags whenever generating the tree from the release or the deployment environment.
 
 <div class="tag-table helpers">
 
